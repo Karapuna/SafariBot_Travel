@@ -1,0 +1,457 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: visit national parks path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: find_national_park
+  - action: utter_find_national_park
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_great
+
+- story: top destinations path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: top_destinations
+  - action: utter_top_destinations
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_great
+
+- story: rift_valley path 3
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_rift_valley
+    - action: utter_ask_rift_valley
+
+- story: Safari Destination
+  steps:
+    - intent : greet
+    - action: utter_greet
+    - intent: ask_safari_destination
+    - action: utter_ask_safari_destination
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_safari
+
+- story: Beach Destination
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_top_beach_destinations
+    - action: utter_top_beach_destinations
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_beach
+
+- story: Top Destination Nairobi
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_top_tourist_attractions_Nairobi
+    - action: utter_ask_top_tourist_attractions_Nairobi
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_Nairobi
+
+- story: Where can i Dine in Nairobi path 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: FindFoodNairobi
+  - action: utter_FindFoodNairobi
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - intent: FindSpecificFood
+  - action: utter_FindSpecificFood
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Recommend Restaurants in Mombasa path 5
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindFoodMombasa
+    - action: utter_FindFoodMombasa
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Where can i get Swahili Food in Mombasa path 6
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindFoodMombasa
+    - action: utter_FindFoodMombasa
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Where can i get Fish in Kisumu path 7
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindFoodKisumu
+    - action: utter_FindFoodKisumu
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Recommend restaurants that serve Indian dishes in Kenya path 8
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindIndianCuisine
+    - action: utter_FindIndianCuisine
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Recommend highly-ranked restaurants in Kenya path 9
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindHighlyRankedRestaurants
+    - action: utter_FindHighlyRankedRestaurants
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Find Dining options in Maasai Mara path 10
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: FindFoodMaasaiMara
+  - action: utter_FindFoodMaasaiMara
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Find Hidden Cafes in Nairobi path 11
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: FindHiddenGemDining
+  - action: utter_FindHiddenGemDining
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Discover Hidden Cafes in Mombasa path 12
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: FindHiddenGemDining
+  - action: utter_FindHiddenGemDining
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Find Cost at Carnivore Restaurant
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: FindCostCarnivoreRestaurant
+  - action: utter_FindCostCarnivoreRestaurant
+
+- story: Find Cost at Hero Restaurant
+  steps:
+    - intent: FindCostHeroRestaurant
+    - action: utter_FindCostHeroRestaurant
+
+- story: Find Cost at Talisman Restaurant
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindCostTalismanRestaurant
+    - action: utter_FindCostTalismanRestaurant
+
+- story: Find Cost at The Arbor
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindCostTheArbor
+    - action: utter_FindCostTheArbor
+
+- story: Find Cost at Harvest Restaurant
+  steps:
+  - intent: FindCostHarvestRestaurant
+  - action: utter_FindCostHarvestRestaurant
+
+- story: Find Cost at K'osewe Ranalo Foods
+  steps:
+  - intent: FindCostK'oseweRanaloFoods
+  - action: utter_FindCostK'oseweRanaloFoods
+
+- story: Find Cost at Nyama Mama
+  steps:
+  - intent: FindCostNyamaMama
+  - action: utter_FindCostNyamaMama
+
+- story: Find Cost at Impala Eco Lodge
+  steps:
+  - intent: FindCostImpalaEcoLodge
+  - action: utter_FindCostImpalaEcoLodge
+
+- story: Find Cost at Red Ginger
+  steps:
+  - intent: FindCostRedGinger
+  - action: utter_FindCostRedGinger
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Find Cost at Forodhani Restaurant
+  steps:
+  - intent: FindCostForodhaniRestaurant
+  - action: utter_FindCostForodhaniRestaurant
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Find Cost at Blue Room Restaurant
+  steps:
+  - intent: FindCostBlueRoomRestaurant
+  - action: utter_FindCostBlueRoomRestaurant
+
+- story: Find Cost at Dunga Restaurant
+  steps:
+  - intent: FindCostDungaRestaurant
+  - action: utter_FindCostDungaRestaurant
+
+- story: Find Cost at Tamarind Dhow Restaurant
+  steps:
+  - intent: FindCostTamarindDhowRestaurant
+  - action: utter_FindCostTamarindDhowRestaurant
+
+- story: Find Cost at Kiboko Restaurant
+  steps:
+  - intent: FindCostKibokoRestaurant
+  - action: utter_FindCostKibokoRestaurant
+
+- story: Typical Weather
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: typical_weather
+    - action: utter_typical_weather
+    - action: utter_did_that_help
+
+- story: weather concerns
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather_concerns
+  - action: utter_weather_concerns
+
+- story: pleasant weather
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pleasant_weather
+  - action: utter_pleasant_weather
+
+- story: weather variation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather_variation
+  - action: utter_weather_variation
+
+- story: ask destination activities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_destination_activities
+  - action: utter_ask_destination_activities
+
+- story: coastal activities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: coastal_activities
+  - action: utter_coastal_activities
+
+- story: relaxation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: relaxation
+  - action: utter_relaxation
+
+- story: history destination
+  steps:
+  - intent: ask_history_lamu_island
+  - action: utter_history_destination
+
+- story: history destination nnp
+  steps:
+  - intent: ask_history_nairobi_national_park
+  - action: utter_history_destination_nnp
+
+- story: history destination anp
+  steps:
+  - intent: ask_history_amboseli_national_park
+  - action: utter_history_destination_anp
+
+- story: history destination mmr
+  steps:
+  - intent: ask_history_maasai_mara_reserve
+  - action: utter_history_destination_mmr
+
+- story: Maasai Mara Directions
+  steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: ask_directions_maasaimara
+   - action: utter_maasaimara_directions
+   - action: utter_did_that_help
+   - intent: affirm
+   - action: utter_great
+
+- story: Carnivore Directions
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_directions_carnivore
+    - action: utter_carnivore_directions
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_great
+
+- story: Talisman Directions
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_directions_talisman
+    - action: utter_talisman_directions
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_great
+
+- story: Nyama Mama Directions
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_directions_nyamamama
+    - action: utter_nyamamama_directions
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_great
+
+- story: Kosewe Ranalo Directions
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_directions_Kosewe_Ranalo
+    - action: utter_Kosewe_ranalo_directions
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_great
+
+#- story: Transportation options
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: Airport_Transportation_Options
+#  - action: utter_Airport_Transportation_Options
+
+- story:  Hotel_Airport_Transfers
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Hotel_Airport_Transfers
+  - action: utter_Hotel_Airport_Transfers
+
+#- story:  Airport_Public_Transportation
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: Airport_Public_Transportation
+#  - action: utter_Airport_Public_Transportation
+
+- story:  Recommended_Airlines
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Recommended_Airlines
+  - action: utter_Recommended_Airlines
+
+- story:  Airport_Recommendations
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Airport_Recommendations
+  - action: utter_Airport_Recommendations
+
+- story:  Booking_Details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Booking_Details
+  - action: utter_Booking_Details
+
+- story:  Taxis_and_Ride-sharing
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Taxis_and_Ride-sharing
+  - action: utter_Taxis_and_Ride_sharing
+
+- story:  Long_distance_Travel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Long_distance_Travel
+  - action: utter_Long_distance_Travel
+
+- story:  Safari_Transportation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Safari_Transportation
+  - action: utter_Safari_Transportation
+
+- story:  Ferry_services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Ferry_services
+  - action: utter_Ferry_services
+
+
+

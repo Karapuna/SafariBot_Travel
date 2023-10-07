@@ -1,0 +1,533 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - find_national_park
+  - top_destinations
+  - ask_rift_valley
+  - ask_safari_destination
+  - ask_top_beach_destinations
+  - ask_top_tourist_attractions_Nairobi
+  - FindFoodNairobi
+  - FindFoodMombasa
+  - FindSpecificFood
+  - FindFoodKisumu
+  - FindIndianCuisine
+  - FindHighlyRankedRestaurants
+  - FindFoodMaasaiMara
+  - FindHiddenGemDining
+  - FindCostCarnivoreRestaurant
+  - FindCostHeroRestaurant
+  - FindCostTalismanRestaurant
+  - FindCostTheArbor
+  - FindCostHarvestRestaurant
+  - FindCostK'oseweRanaloFoods
+  - FindCostNyamaMama
+  - FindCostTamarindDhowRestaurant
+  - FindCostForodhaniRestaurant
+  - FindCostBlueRoomRestaurant
+  - FindCostRedGinger
+  - FindCostKibokoRestaurant
+  - FindCostImpalaEcoLodge
+  - FindCostDungaRestaurant
+  - EnjoyMeal
+  - typical_weather
+  - weather_concerns
+  - pleasant_weather
+  - weather_variation
+  - ask_destination_activities
+  - coastal_activities
+  - relaxation
+  - ask_history_amboseli_national_park
+  - ask_history_lamu_island
+  - ask_history_nairobi_national_park
+  - ask_history_maasai_mara_reserve
+  - ask_directions_maasaimara
+  - ask_directions_carnivore
+  - ask_directions_talisman
+  - ask_directions_nyamamama
+  - ask_directions_Kosewe_Ranalo
+  - Long_distance_Travel
+  - Domestic_Flights
+  - Ferry_services
+  - Airport_Transfer
+  - Safety_Tips
+  - Private_Transport
+  - Public_transport
+  - Essentials
+  - Taxis_and_Ride_sharing
+  - Language_and_ Communication
+  - Safari_Transportation
+  - Airport_Recommendations
+  - Booking_Details
+  - Recommended_Airlines
+
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! My name is SafiriBot. I'm here to provide you with the best insights about our beloved Kenya! How may I be of help?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_great:
+  - text: |
+      Great! In case you have any other questions, feel free to reach out to SafariBot!😄
+
+  utter_find_national_park:
+  - text: "Kenya offers a wealth of breathtaking tourist attractions. Some of the top places to visit include the Maasai Mara National Reserve, Amboseli National Park, Nairobi National Park, Tsavo East and West National Parks, and the Great Rift Valley."
+
+  utter_top_destinations:
+  - text: |
+      Maasai Mara National Reserve: Known for its incredible wildlife, especially during the Great Migration, the Maasai Mara is one of the most famous safari destinations in Africa. Visitors can see the Big Five (lion, elephant, buffalo, leopard, and rhinoceros) and witness the annual wildebeest migration
+      
+      Amboseli National Park: Famous for its large herds of elephants and its stunning views of Mount Kilimanjaro, Amboseli National Park is a top destination for wildlife enthusiasts and photographers
+      
+      Diani Beach: Located on the coast of Kenya, Diani Beach offers stunning white-sand beaches and clear waters. It's a popular destination for relaxation, water sports, and beachfront resorts
+      
+      Great Rift Valley: The Great Rift Valley offers breathtaking views, including lakes like Naivasha, Nakuru, and Elementaita. These areas are known for birdwatching, hiking, and boat trips.
+      
+      Lamu Island: Lamu is a UNESCO World Heritage Site known for its well-preserved Swahili architecture, narrow winding streets, and rich cultural heritage. It's a unique destination for history and culture lovers
+      
+      These are just but a few examples of the intriguing places you should visit in Kenya!!!
+
+  utter_ask_rift_valley:
+  - text: |
+        The landscapes of the Rift Valley in Kenya are incredibly diverse and captivating 😄
+        
+        These are some of the beautiful landscapes to look out for;
+        
+        Lakes: The Rift Valley is dotted with numerous lakes, each with its own unique charm. Lake Naivasha, Lake Nakuru, Lake Baringo, and Lake Bogoria are among the most well-known
+        
+        Volcanic Craters: You can explore volcanic craters such as Mount Longonot and Menengai Crater
+        
+        Cultural Landscapes: The Rift Valley is also home to various cultural landscapes, with Maasai villages and traditional homesteads interspersed among the natural beauty. The juxtaposition of traditional culture against the backdrop of the Rift Valley adds to the overall charm.
+
+  utter_ask_safari_destination:
+  - text: |
+          Kenya offers the best safari experiences. Here are some safari destination examples that will leave you with a euphoric feeling ☺️
+
+          Maasai Mara National Reserve: Known for the Great Migration of wildebeest and an abundance of wildlife.
+
+          Amboseli National Park: Famous for its large elephant herds and stunning views of Mount Kilimanjaro.
+
+          Tsavo National Park: The largest national park in Kenya, divided into Tsavo East and Tsavo West, offering diverse landscapes and wildlife.
+
+          Samburu National Reserve: Home to unique wildlife species like the reticulated giraffe and Grevy's zebra.
+
+          Lake Nakuru National Park: Famous for its flamingo population and rhino conservation efforts.
+
+  utter_enjoy_safari:
+  - text: "Enjoy your safari adventure to the fullest! May you encounter amazing wildlife, breathtaking landscapes, and create unforgettable memories. Stay safe and soak in every moment of this incredible experience.🌳🌞😃🐘"
+
+  utter_top_beach_destinations:
+  - text: |
+          Kenya's coastal gems beckon with their soft sands, azure waters, and the rhythmic whispers of the Indian Ocean, inviting travelers to a serene paradise where nature's artistry meets the warm embrace of the sun. Among these treasures, you'll find some of the top beach destinations on the Kenyan coast 🌴
+
+          Diani Beach: Diani Beach, located near Mombasa, is renowned for its stunning white-sand beaches, crystal-clear waters, and a range of water sports. It's a popular spot for relaxation and beachfront resorts
+
+          Watamu Beach: Watamu is known for its pristine beaches and vibrant marine life. It's a great place for snorkeling and scuba diving, with the Watamu Marine National Park protecting its coral reefs
+
+          Malindi Beach: Malindi is a coastal town with beautiful beaches. It offers a mix of natural beauty, cultural attractions, and water activities
+
+          Nyali Beach: Located in Mombasa, Nyali Beach is known for its soft sands and scenic beauty. It's a great place for beachcombing, swimming, and water sports
+
+  utter_enjoy_beach:
+  - text: "Enjoy every sun-kissed moment, every gentle wave, and the endless beauty of the beach. May your beach experience be filled with relaxation, joy, and unforgettable memories 🌴🌞"
+
+  utter_ask_top_tourist_attractions_Nairobi:
+    - text: |
+        The foremost tourist attractions in Nairobi encompass Nairobi National Park, the Giraffe Centre, and the Karen Blixen Museum.
+
+  utter_enjoy_Nairobi:
+  - text: "Great!!Make sure to savor and enjoy the vibrant experiences Nairobi has to offer!"
+
+
+  utter_FindFoodNairobi:
+  - text: |
+      Nairobi offers a vibrant culinary scene with a wide range of dining options. Here are some recommendations:
+
+           1. **Carnivore Restaurant:** Known for its 'Beast of a Feast' featuring a variety of grilled meats.
+           2. **Talisman Restaurant:** Offers a diverse menu with international and Kenyan dishes.
+           3. **Nyama Mama:** A great place for modern Kenyan cuisine with a twist.
+           4. **K'osewe Ranalo Foods:** Famous for traditional Kenyan dishes like sukuma wiki and ugali.
+           5. **Anghiti Restaurant:** Serving delicious Indian cuisine.
+           6. **Hero:** Ideal for seafood lovers with a range of fresh seafood dishes.
+
+      Nairobi's street food scene is bustling as well, with options lik 'mutura' and 'smokie pasua.' Vegetarian restaurants such as 'Swad Indian Restaurant' and 'Artcaffe' offer delicious meat-free dishes.
+
+      Please let me know if you'd like more details about any of these options or if you have specific preferences!
+
+  utter_FindFoodMombasa:
+  - text: |
+      Mombasa offers a delightful culinary experience with a rich blend of flavors. Here are some recommendations:
+
+         1. **Tamarind Dhow Restaurant:** Enjoy seafood with stunning views on a traditional dhow.
+         2. **Jumba Ruins Monsoon Restaurant:** Known for Swahili and Indian fusion cuisine.
+         3. **Forodhani Restaurant:** Offers Swahili dishes with a waterfront ambiance.
+         4. **Blue Room Restaurant:** A local favorite serving coastal dishes.
+
+      Mombasa's local dishes include 'biriani' (a flavorful rice dish), 'pilau,' and 'mishkaki' (skewered meats). For seafood lovers, 'swahili fish curry' is a must-try.
+
+      If you have specific preferences or need more information about any of these options, feel free to ask!" 
+
+  utter_EnjoyMeal:
+  - text: "Thank you! I hope you have a wonderful meal. If you have any questions or need assistance with anything else, feel free to ask."
+
+  utter_FindSpecificFood:
+  - text: |
+      Kenya is known for its delicious and diverse culinary offerings. Here's where you can enjoy some of the iconic Kenyan dishes:
+
+      **Nyama Choma (Grilled Meat):**
+      If you're looking for nyama choma, you're in for a treat! Many local restaurants and 'nyama choma joints' in Kenya serve this grilled meat specialty. In Nairobi, 'Carnivore Restaurant' is a popular choice and you can check out  'Olepolos Restaurant' try their famous grilled meats and African dishes.
+
+      **Ugali and Sukuma Wiki:**
+      Ugali, a staple food, is often served with sukuma wiki (collard greens). You can find this combination in almost every local eatery, especially in Nairobi and other major cities.
+
+      **Chapati:**
+      Nairobi offers a wide range of places to savor chapati, a soft flatbread. 'Maasai Ostrich Resort' and 'Zucchini' in Nairobi are known for their delicious chapati.
+
+      **Samosas:**
+      For samosas, Mombasa has plenty of options. Local eateries and street food vendors offer tasty samosas with various fillings. You can try them at 'Fort Jesus Food Court' and 'Old Town Mombasa.'
+
+      **Kenya's Staple Food:**
+      The staple food of Kenya is 'ugali,' a maize porridge served as a side dish with various accompaniments.
+
+      Enjoy exploring the diverse flavors of Kenya's cuisine!
+
+  utter_FindFoodKisumu:
+   - text: |
+      Kisumu, with its stunning lakeside location, offers a unique culinary experience, especially when it comes to fish specialties. Here are some recommendations:
+      
+        **Lakeside Restaurants:**
+           1. **Kiboko Bay Resort:** Enjoy a scenic lakeside dining experience with a variety of dishes.
+           2. **Impala Ecolodge Restaurant:** Offers a tranquil atmosphere with a focus on sustainability.
+           3. **Dunga Hill Camp:** Known for its beautiful views and fresh fish dishes.
+      
+        **Must-Try Dishes:**
+          Kisumu is famous for its fresh fish from Lake Victoria. Be sure to try 'tilapia' and 'Nile perch' prepared in various delicious ways. You can savor the flavors of grilled, fried, or stewed fish with local spices.
+      
+      If you have any specific preferences or need more information, feel free to ask. Enjoy your dining experience by the lake!
+
+  utter_FindIndianCuisine:
+  - text: |
+      Indian cuisine is a delightful choice, and Kenya offers a range of Indian restaurants. Here are some recommendations:
+      
+        **Nairobi:**
+           1. **Haandi Restaurant:** Known for its authentic Indian flavors.
+           2. **Mughal Garden:** Offers a diverse menu of Indian dishes.
+           3. **Anghiti Restaurant:** Renowned for its Indian culinary experience.
+           4. **Red Ginger:** Offers a diverse menu of Indian dishes.
+      
+        **Mombasa:**
+           1. **Tamu Tamu Grill:** Offers a blend of Indian and coastal flavors.
+           2. **Annapurna Indian Restaurant:** Known for its Indian vegetarian dishes.
+           3. **Tarboush Restaurant:** Offers a mix of Indian and Middle Eastern cuisine.
+      
+         Whether you're craving biryani, tandoori, or vegetarian dishes, these restaurants have you covered. Enjoy the rich flavors of Indian cuisine in Kenya!
+
+  utter_FindHighlyRankedRestaurants:
+  - text: |
+        You're in for a treat! Kenya has some highly-ranked restaurants that are sure to delight your taste buds. Here are a few top-rated dining spots:
+        
+        **Nairobi:**
+           1. **Talisman Restaurant:** Known for its exceptional cuisine and ambiance.
+           2. **Dusit D2 Hotel & Restaurant:** Offers a range of culinary delights.
+           3. **Harvest Restaurant:** Popular for its farm-to-table concept.
+        
+        **Mombasa:**
+           1. **Tamarind Dhow Restaurant:** Renowned for its seafood and waterfront dining.
+           2. **Jumba Ruins Monsoon Restaurant:** Fusion cuisine with excellent reviews.
+           3. **Forodhani Restaurant:** A top choice for Swahili dishes.
+        
+        **Eldoret:**
+           1. **64 Resort & Sporting Club:** Offers a mix of international and local dishes.
+           2. **Makasembo Restaurant:** Known for its quality food and service.
+        
+        These are just a few highly-rated options to consider. Keep in mind that restaurant ratings can change, so it's a good idea to check recent reviews and availability before dining out. Enjoy your culinary journey!
+
+  utter_FindFoodMaasaiMara:
+  - text: "Maasai Mara National Reserve offers dining experiences amidst the stunning wilderness. Here are some recommendations:
+
+      **Lodges and Camps:**
+         1. **Mara Serena Safari Lodge:** Offers a mix of international and Kenyan cuisine.
+         2. **Mara Intrepids Luxury Tented Camp:** Known for its delectable dishes with a view of the savannah.
+         3. **Keekorok Lodge:** Offers buffet-style dining with a variety of options.
+
+     **Safari Picnics:**
+      Many safari operators in Maasai Mara offer delightful bush picnics. Enjoy a meal in the heart of the reserve with the sights and sounds of wildlife around you.
+
+      If you're specifically looking for nyama choma (grilled meat), you can inquire at the lodges or camps, as they often offer this delicious Kenyan specialty as part of their menu.
+
+      Please note that dining experiences in the reserve are often arranged by the lodges and safari operators. Feel free to inquire with your accommodation or tour provider for specific dining arrangements and options."
+
+  utter_FindHiddenGemDining:
+  - text: "Exploring hidden gem dining spots can be an exciting culinary adventure! Here are some lesser-known dining options in Kenya:
+
+       **Nairobi:**
+       1. **The Arbor:** A cozy spot with a unique menu and charming ambiance.
+       2. **Sai Rock Beach Hotel:** Offers coastal cuisine with serene beachfront dining.
+       3. **Tin Roof Café:** A quaint café known for its homemade dishes.
+
+       **Mombasa:**
+       1. **Forodhani Restaurant:** Known for Swahili dishes and a vibrant atmosphere.
+       2. **Jumba Ruins Monsoon Restaurant:** Fusion cuisine with an underrated charm.
+       3. **Levantine Restaurant:** Offers Middle Eastern specialties in a hidden gem setting.
+
+       **Street Food Gems:**
+       For hidden gem street food experiences, explore local markets and neighborhoods in Nairobi, Mombasa, and other cities. You'll find unique flavors and authentic dishes prepared by local vendors.
+
+       Be sure to check recent reviews and ask locals for their recommendations to discover more hidden culinary treasures in Kenya. Enjoy your gastronomic journey!"
+
+  utter_FindCostCarnivoreRestaurant:
+  - text: "The cost of dining at Carnivore Restaurant can vary depending on your menu choices. On average, a meal at Carnivore Restaurant may range from Ksh. 2,500 - Ksh. 6,000. Keep in mind that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing."
+
+  utter_FindCostHeroRestaurant:
+  - text: "The cost of dining at Hero Restaurant may vary based on your menu selections. On average, a meal at Hero Restaurant may fall within the range of Ksh. 2,500 - Ksh. 6,000. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+
+
+  utter_FindCostTalismanRestaurant:
+  - text: "The cost of dining at Talisman Restaurant can vary based on your menu selections. On average, a meal at Talisman Restaurant may fall within the range of Ksh. 3,500 - Ksh. 6,000. Please note that prices may change over time, so it's advisable to check their current menu or contact the restaurant for the most accurate pricing information."
+
+  utter_FindCostTheArbor:
+  - text: "The cost of dining at The Arbor may vary depending on your menu choices. On average, a meal at The Arbor may range from [Ksh. 2,000 - Ksh. 4,000]. Keep in mind that prices can change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing."
+
+  utter_FindCostHarvestRestaurant:
+  - text: "The cost of dining at Harvest Restaurant can vary depending on your menu choices. On average, a meal at Harvest Restaurant may range from Ksh. 4,000 - Ksh. 8,000. Please note that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing information."
+
+  utter_FindCostK'oseweRanaloFoods:
+  - text: "The cost of dining at K'osewe Ranalo Foods can vary based on your menu selections. On average, a meal at K'osewe Ranalo Foods may range from Ksh. 2,000 - Ksh. 4,000. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+
+  utter_FindCostNyamaMama:
+  - text: "The cost of dining at Nyama Mama can vary based on your menu selections. On average, a meal at Nyama Mama may fall within the range of Ksh. 2,000 - Ksh. 5,000. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+
+  utter_FindCostTamarindDhowRestaurant:
+  - text: "The cost of dining at Tamarind Dhow Restaurant can vary depending on your menu choices. On average, a meal at Tamarind Dhow Restaurant may range from Ksh. 4000 - Ksh. 10,000. Prices may change, so it's advisable to check their current menu or contact the restaurant for the most up-to-date pricing."
+
+  utter_FindCostForodhaniRestaurant:
+  - text: "The cost of dining at Forodhani Restaurant can vary depending on your menu selections. On average, a meal at Forodhani Restaurant may fall within the range of Ksh. 4,000 - Ksh. 7,000. Keep in mind that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing information."
+
+  utter_FindCostBlueRoomRestaurant:
+  - text: "The cost of dining at Blue Room Restaurant can vary depending on your menu choices. On average, a meal at BlueRoom Restaurant may range from Ksh. 1,000 - Ksh. 2,000. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+
+  utter_FindCostRedGinger:
+  - text: "The cost of dining at Red Ginger can vary based on your menu selections. On average, a meal at Red Ginger may fall within the range of Ksh. 2,000 - Ksh. 6,000. Prices may change, so it's advisable to check their current menu or contact the restaurant for the most up-to-date pricing information."
+
+  utter_FindCostKibokoRestaurant:
+  - text: "The cost of dining at Kiboko Restaurant can vary depending on your menu choices. On average, a meal at Kiboko Restaurant may range from [Ksh. 3,000 - Ksh. 4,500. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+
+  utter_FindCostImpalaEcoLodge:
+  - text: "The cost of dining at Impala Eco Lodge can vary based on your menu selections. On average, a meal at Impala Eco Lodge may fall within the range of Ksh. 3,000 - Ksh. 4,500. Prices may change, so it's advisable to check their current menu or contact the lodge for the most up-to-date pricing information."
+
+  utter_FindCostDungaRestaurant:
+  - text: "The cost of dining at Dunga Restaurant can vary depending on your menu choices. On average, a meal at Dunga Restaurant may range from [Ksh. 2,500 - Ksh. 4,000. Please note that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing information."
+
+  utter_typical_weather:
+    - text: "During July, August, and December, Kenya generally has warm and dry weather. July and August are considered to be part of Kenya's dry season,particularly in many of the popular safari destinations like Maasai Mara, Amboseli, and Samburu.Days are typically sunny with clear skies, making it an excellent time for wildlife viewing.While in December, it marks the start of Kenya's short rainy season, especially in central and western regions.Coastal areas, like Mombasa, experience warm and humid weather during this time with occasional rain showers.In Nairobi and the highlands, you can expect some rainfall, but it's often short and sporadic."
+
+  utter_weather_concerns:
+  - text: "When planning a trip to Kenya, it's crucial to consider weather-related factors. Kenya has two rainy seasons with heavy rainfall from March to May and October to December, potentially leading to flooding. The dry seasons are ideal for safaris but can be hot. Temperature variations exist by region and altitude. Malaria is a concern, so consult a healthcare professional and use mosquito repellent. Be aware of altitude sickness in high-altitude areas.Stay informed about travel advisories, water safety, and consider travel insurance for unexpected situations. Flexibility and preparedness are key to a safe and enjoyable trip to Kenya."
+
+  utter_pleasant_weather:
+  - text: "The best time to visit Kenya for pleasant weather and wildlife viewing depends on your preferences. The dry season from June to September is ideal for wildlife viewing, with cool, dry weather making animal sightings easier, including the Great Migration in the Maasai Mara.While the green season from October to November and March to May is wetter, it offers lush landscapes and excellent birdwatching. Coastal areas are great for beach vacations year-round. Consider your interests and book in advance for popular wildlife experiences."
+
+  utter_weather_variation:
+  - text: "The weather in coastal regions like Mombasa and inland areas like Nairobi varies significantly due to differences in their climate zones. Mombasa, located along the Indian Ocean, experiences a tropical climate with high humidity and relatively stable temperatures throughout the year.In contrast, Nairobi, being at a higher elevation, has a milder and more temperate climate with cooler nights.Nairobi's temperatures are generally cooler than Mombasa's, particularly during the evenings and early mornings. These variations make Nairobi more suitable for outdoor activities during the day while Mombasa's coastal climate offers a tropical beach experience."
+
+  utter_ask_destination_activities:
+  - text: "Kenya hosts a range of vibrant cultural festivals throughout the year, such as the Maasai Mara Cultural Festival, Lamu Cultural Festival, and the Great Rift Valley Cultural Festival. These events offer a fantastic opportunity to immerse yourself in the rich traditions and customs of various Kenyan communities. As a tourist, you are often welcome to participate in these festivals, where you can enjoy traditional dances, music, crafts, and even taste authentic Kenyan cuisine. Engaging in these local traditions and ceremonies can provide a deeper cultural experience and a chance to interact with the welcoming and diverse Kenyan communities. It's a great way to learn about the country's heritage and make lasting memories during your visit."
+
+  utter_coastal_activities:
+  - text: "Along the Kenyan coast, you can embark on unique boat trips and dhow cruises that offer a glimpse into the coastal culture and stunning marine life. Lamu and Malindi are popular starting points for these excursions, allowing you to sail on traditional dhows, explore ancient Swahili architecture, and even visit nearby islands like Lamu and Manda. You can also check out snorkeling and scuba diving adventures in Diani Beach, I recommend checking out reputable operators like Diani Marine for guided tours to explore the colorful coral reefs and diverse underwater ecosystems. I would also recommend you have a look at historical sites and museums, Fort Jesus in Mombasa is a must-visit, offering insight into Kenya's colonial past. Additionally, the Lamu Museum in Lamu town provides a fascinating glimpse into the region's rich history and cultural heritage, making your coastal Kenya experience both educational and memorable"
+
+  utter_relaxation:
+  - text: "Kenya offers several natural hot springs and geothermal pools for relaxation. One notable location is the Olkaria Geothermal Spa in Hell's Gate National Park, where you can enjoy soothing geothermal pools surrounded by scenic landscapes. Additionally, the Chyulu Hills in Tsavo West National Park boasts the Shetani Lava Flows, which have hidden geothermal pools ideal for relaxation. If you're seeking spa resorts and wellness retreats, places like the Great Rift Valley Lodge and Golf Resort, Sarova Whitesands Beach Resort & Spa in Mombasa, and Serena Beach Resort & Spa in Malindi offer tranquil spa experiences and wellness facilities, providing the perfect opportunity to unwind and rejuvenate during your stay in Kenya."
+
+  utter_history_destination:
+  - text: |
+      "With its origins tracing back to the 14th century, Lamu Old Town stands as an exquisite example of a well-preserved Swahili settlement. A vibrant history of trade with Arabia, Persia, and India is woven into the town's fabric. The town's streets wind through a captivating tapestry of traditional Swahili architecture. Some of the prominent attractions are the Lamu fort,Lamu Museum, Lamu House museum and it renowned Swahili architecture."
+
+  utter_history_destination_nnp:
+  - text: |
+      "Nairobi National Park: Where the Wild Meets the City!Nairobi National Park, often referred to as the Savannah in the City,is a unique and historic wildlife sanctuary located on the outskirts of Nairobi,the bustling capital city of Kenya. Established in 1946, it holds the distinction of being the first national park in Kenya and one of the earliest in Africa."
+
+  utter_history_destination_anp:
+  - text: |
+      "Amboseli National Park, located in southern Kenya near the Tanzanian border, has a rich history that dates back centuries. The park, known for its stunning landscapes and iconic views of Mount Kilimanjaro, holds both cultural and ecological significance.Maasai Land: Before becoming a national park, the Amboseli area was inhabited by the Maasai people.Establishment as a Game Reserve: In 1906, during British colonial rule, Amboseli was declared a Southern Reserve for Maasai hunting, marking the first step towards wildlife conservation in the area.Becoming a National Park: In 1974, Amboseli was officially designated a national park, ensuring even stronger protections for its wildlife and environment.Iconic Wildlife: Amboseli is famed for its large elephant herds, which are among the most studied in the world. Other iconic species found here include lions, cheetahs, zebras, giraffes, and numerous bird species."
+
+  utter_history_destination_mmr:
+  - text: |
+      The Maasai Mara Reserve, located in southwestern Kenya, has a rich history dating back to the early 20th century. Originally established in 1911 as a Game Reserve by British colonial authorities, it aimed to protect the area's abundant wildlife from overhunting. Over the years, the reserve expanded its boundaries and was officially designated as the Maasai Mara National Reserve in 1961. It was named after the Maasai people who have inhabited the region for generations and the Mara River that runs through it. The Maasai Mara is famous for its breathtaking landscapes, diverse wildlife, and the annual wildebeest migration, often referred to as the "Great Migration." This incredible natural phenomenon sees millions of wildebeest, zebras, and other animals journey from the Serengeti in Tanzania to the Maasai Mara in search of fresh grazing grounds. Today, the Maasai Mara Reserve is not only a crucial wildlife conservation area but also a top tourist destination, drawing visitors from around the world who come to witness the spectacular wildlife and experience the unique Maasai culture that still thrives in the region. Whether you're interested in the history, wildlife, or culture of the Maasai Mara, there's always something captivating to discover in this iconic Kenyan reserve.
+
+  utter_maasaimara_directions:
+  - text: |
+      From Nairobi.
+      To get to Maasai Mara from Nairobi, you can head west on the A104 highway towards Narok. Once you reach Narok, follow signs to Maasai Mara, which is approximately a 5 to 6-hour drive from Nairobi
+      
+      From Narok.
+      If you are already in Narok, you can follow the road signs to Maasai Mara from here. It's approximately a 2 to 3-hour drive from Narok
+      
+      From other locations in Kenya
+      If you are coming from a different location within Kenya, please let me know your starting point, and I can provide more specific directions
+      
+      GPS/Navigation
+      You can also use a GPS or a navigation app like Google Maps to get turn-by-turn directions to Maasai Mara. Click the following link to use GPS;[Google Maps link](https://www.google.com/maps/dir/Nairobi/Maasai+Mara) 
+
+  utter_carnivore_directions:
+  - text: |
+      To get to the Carnivore restaurant in Nairobi, you can head to Langata Road. The restaurant is located at Langata Road, near Wilson Airport. If you are in the city center, you can take Uhuru Highway and then turn onto Langata Road. Follow the road, and you'll see the Carnivore restaurant on your right. 
+      
+      Click [here](geo:-1.365022,36.777813?q=Carnivore%20Restaurant%2C%20Langata%20Road%2C%20Nairobi%2C%20Kenya) to get the GPS
+  utter_talisman_directions:
+  - text: |
+      The Talisman Restaurant is located in Karen, Nairobi, Kenya. Here are directions to the Talisman Restaurant from Nairobi city center:
+      
+      By Car
+      
+      Start in Nairobi city center.
+      Head southwest on Kenyatta Avenue and continue onto Uhuru Highway/A104.
+      Continue on Uhuru Highway/A104, and take the exit onto Lang'ata Road.
+      Drive along Lang'ata Road until you reach Karen.
+      In Karen, turn right onto Karen Road.
+      Continue on Karen Road for a short distance until you see The Talisman Restaurant on your left.
+      
+      By Public Transportation:
+      
+      You can take a matatu (shared minibus) or a taxi from Nairobi city center to Karen.
+      Once you arrive in Karen, you can ask locals for directions to The Talisman Restaurant, as it is a well-known establishment in the area.
+      Please note that road conditions and traffic can vary, so it's a good idea to use a navigation app or ask locals for real-time guidance if needed. Additionally, consider checking the restaurant's website or contacting them directly for the most up-to-date information and any specific location details.
+      
+      Here's a link to the GPS [here](geo:-1.316389,36.704503?q=The%20Talisman%20Restaurant%2C%20Karen%2C%20Nairobi%2C%20Kenya)
+
+
+  utter_nyamamama_directions:
+   - text: |
+        Nyama Mama is a popular restaurant with multiple locations in Nairobi, Kenya. Here are the directions to the Nyama Mama restaurant in Westlands, Nairobi, which is one of their locations:
+      
+          Nyama Mama, Westlands, Nairobi:
+      
+          Address: Delta Towers, Westlands Road, Nairobi, Kenya.
+          Directions from Nairobi City Center (CBD):
+      
+          Start in Nairobi city center.
+          Head west on Kenyatta Avenue.
+          Turn left onto Muindi Mbingu Street.
+          Continue on Muindi Mbingu Street, which becomes Koinange Street.
+          Turn right onto University Way.
+          Merge onto Waiyaki Way via the ramp on the left.
+          Take the slip road to Westlands.
+          Continue on Westlands Road.
+          You'll find Nyama Mama in Delta Towers on your right.
+          By Public Transportation:
+      
+          You can take a matatu (shared minibus) or a taxi from Nairobi city center to Westlands, and then ask locals for directions to Nyama Mama in Delta Towers.
+          Please note that there are multiple Nyama Mama locations in Nairobi, so it's essential to specify the exact branch you are looking for. Additionally, road conditions and traffic may vary, so using a navigation app or asking locals for real-time guidance can be helpful.
+
+  utter_Kosewe_ranalo_directions:
+  - text: |
+      Here are directions to Kosewe Ranalo Foods from the Nairobi city center:
+  
+        Kosewe Ranalo Foods, Nairobi:
+  
+        Address: Tom Mboya Street, Nairobi, Kenya.
+        Directions from Nairobi City Center (CBD):
+  
+        Start in Nairobi city center.
+        Head towards Tom Mboya Street.
+        Kosewe Ranalo Foods is located on Tom Mboya Street, and it is a well-known establishment in that area.
+        By Public Transportation:
+  
+        You can take a matatu (shared minibus) or a taxi from Nairobi city center to Tom Mboya Street, and then you should be able to find Kosewe Ranalo Foods.
+
+
+  utter_Airport_Transportation_Options:
+  - text: |
+      From Jomo Kenyatta International Airport, you have several transportation options to reach the city center. You can choose from:
+
+      1. **Airport Taxis:** Taxis are readily available at the airport and provide a convenient way to reach the city center. Registered airport taxis have set fares, and the journey takes around 20-30 minutes, depending on traffic.
+
+      2. **Rideshare Services:** You can also use rideshare services like Uber and Bolt, which operate at the airport and can be more cost-effective than traditional taxis.
+
+      3. **Airport Shuttle:** Some hotels offer complimentary shuttle services for guests. Check with your hotel to see if this service is available.
+
+      4. **Public Bus:** Kenya Bus Service (KBS) operates public buses from the airport. The bus stop is a short walk from the international arrivals terminal and offers an economical option.
+
+      5. **Airport Shuttle Services:** Various shuttle companies provide transportation between the airport and Nairobi, including major hotels. These shuttles are comfortable and may be pre-booked.
+
+      6. **Car Rental:** Several car rental companies have desks at the airport if you prefer to have your vehicle.
+
+      7. **Private Transfers:** Consider private transfer services for a personalized and comfortable experience. These can be pre-arranged with providers.
+
+      Please note that Nairobi's traffic can be congested, so plan your transportation accordingly. For the latest options and fares, check with the airport information desk upon arrival.
+
+
+  utter_Hotel_Airport_Transfers:
+  - text: "Many city hotels in Nairobi offer airport pickup services for their guests. It's a convenient option to ensure a smooth transition from the airport to your accommodation."
+  - text: "The cost of a taxi from Jomo Kenyatta International Airport to the city center can vary depending on traffic conditions and your exact destination. On average, it can range from approximately 20 to 40 USD."
+  - text: "Tourists often find special deals on airport transfers, especially when booking accommodation packages. It's worth checking with your hotel or travel provider for any available discounts or bundled services."
+  - text: "For a typical taxi ride from the airport to the city center, you can expect to pay around 20 to 40 USD. However, prices may vary, so it's a good idea to confirm the fare with the taxi driver before starting your journey."
+  - text: "Yes, there are discounts available for airport transportation. Some taxi companies or ride-sharing services may offer promotional codes or loyalty programs that can help you save on your airport transfer."
+
+
+  utter_Airport_Public_Transportation:
+  - text: "The recommended way to travel from Jomo Kenyatta International Airport (JKIA) to downtown Nairobi is by using the airport's public transportation options. There are reliable public buses and shuttle services available for passengers."
+  - text: "Yes, there are public buses that connect the airport to the city center. These buses are a cost-effective way to travel and are used by both locals and tourists. Look for clearly marked bus stops at the airport."
+  - text: "If you're looking for an affordable mode of transportation from the airport to downtown, public buses and shuttle services are excellent choices. They offer a budget-friendly option for travelers."
+  - text: "To get from JKIA to the city using public transport, simply follow the signs at the airport to locate the designated bus stops or shuttle terminals. The staff at the airport can also assist you in finding the right transportation option for your destination."
+
+
+
+  utter_Recommended_Airlines:
+  - text: "There are several reputable airlines for domestic flights within Kenya. Some of the recommended airlines include Kenya Airways, Safarilink Aviation, Jambojet, and Fly540. These airlines offer various routes and services to cater to your domestic travel needs."
+
+
+  utter_Airport_Recommendations:
+  - text: "For domestic travel within Kenya, you'll primarily use Jomo Kenyatta International Airport (Nairobi), Moi International Airport (Mombasa), Wilson Airport (Nairobi), and Eldoret International Airport. These airports are well-connected for domestic flights, offering a wide range of options for your travel convenience."
+
+
+  utter_Booking_Details:
+  - text: "To book domestic flights in advance, you can visit the airline's official website, contact their customer service, or use online travel agencies. Discounts and deals are often available, so keep an eye out for promotions. Baggage allowances vary by airline, so check with your chosen carrier. You can book both one-way and round-trip tickets, and it's essential to arrive at the airport at least two hours before your domestic flight for check-in and security procedures."
+
+
+  utter_Taxis_and_Ride_sharing:
+  - text: "When it comes to transportation options in Kenya, taxis and ride-sharing services are popular choices. Here are some key points to know:
+      1. Availability: Taxis are readily available in major cities like Nairobi and Mombasa. You can easily hail one on the street or use ride-sharing apps like Uber or Bolt.
+      2. Ride-sharing Apps: Yes, you can use ride-sharing apps like Uber and Bolt in Kenya. They are a convenient way to book rides in major cities.
+      3. Booking: To book a taxi from your hotel to a tourist attraction, you can use a ride-sharing app or ask the hotel staff to arrange one for you.
+      4. Fares: Typical taxi fares for short distances in Nairobi can vary, but it's a good idea to ask the driver to use the meter or agree on a fare before starting the trip.
+      5. Safety: Taxis are generally safe for tourists in Kenya, but it's recommended to use reputable taxi companies, especially at night, and share your ride details with someone for added security.
+      If you have any more specific questions or need assistance with transportation in Kenya, feel free to ask!"
+
+  utter_Long_distance_Travel:
+  - text: "For long-distance travel between major cities like Nairobi and Mombasa, you can choose from options like comfortable bus services or trains. Bus services are available for intercity journeys and offer various levels of comfort. Train travel, such as the SGR (Standard Gauge Railway), is an option for some routes and provides a scenic experience. Train tickets can be booked online in advance. The time it takes for long-distance travel can vary depending on the mode of transport and distance. Additionally, there may be overnight bus options for certain routes. Ticket prices vary, so it's advisable to check schedules and prices in advance. Discounts for round-trip long-distance tickets may be available."
+
+  utter_Safari_Transportation:
+  - text: "Getting to various safari destinations in Kenya can be done through multiple transportation options, including domestic flights, safari vans, and tour operators. The best mode of transportation depends on your destination and preferences. Would you like more information about transportation to a specific safari location?"
+
+  utter_Ferry_services:
+  - text: "Ferry services in Kenya connect various coastal destinations and islands. The schedules and availability may vary by location. To provide you with accurate information, could you please specify the route or destination you are interested in?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,626 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hae
+    - what's poppin
+    - Jambo
+    - hallo
+    - how are you
+    - salut
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: find_national_park
+  examples: |
+    - which is the best national park to visit in Kenya
+    - recommend national parks to visit in Kenya
+    - best game reserves in Kenya
+    - Do you know of any national parks in Kenya
+    - Which national parks are in Kenya
+
+- intent: top_destinations
+  examples: |
+    - What are the most popular tourist spots in Kenya
+    - Can you list the must-visit places for tourists in Kenya
+    - Which places should I visit as a tourist in Kenya
+    - What are Kenya's top attractions for travelers
+    - Tell me about the best places to see in Kenya as a tourist
+    - I'm planning a trip to Kenya; where should I go to experience the best of the country
+    - Can you suggest the top vacation spots in Kenya
+
+- intent: ask_rift_valley
+  examples: |
+    - How can I witness the stunning landscapes of the Rift Valley
+    - What are the ways to encounter the mesmerizing scenery of the Rift Valley
+    - How can I take in the awe-inspiring vistas of the Rift Valley
+    - What options are there for enjoying the magnificent landscapes of the Rift Valley
+    - What are some ways to explore the breathtaking landscapes of the Rift Valley
+
+- intent: ask_safari_destination
+  examples: |
+    - What's the top destination for a safari experience in Kenya
+    - Where should I head for the ultimate safari adventure in Kenya
+    - Which location offers the best safari opportunities in Kenya
+    - Tell me about the prime spot to embark on a safari in Kenya
+    - Where can I find the most rewarding safari experience in Kenya
+
+- intent: ask_top_beach_destinations
+  examples: |
+    - What are the top beach destinations on the Kenyan coast
+    - What are the most popular beach getaways along the Kenyan coastline
+    - Which coastal destinations in Kenya are renowned for their beautiful beaches
+    - Can you list some of the top beach spots on Kenya's coast
+    - Which Kenyan coastal locations are famous for their stunning shorelines
+    - What are the prime beach destinations found on the Kenyan coastal region
+
+- intent: ask_top_tourist_attractions_Nairobi
+  examples: |
+    - What are the top tourist attractions in Nairobi
+    - What are the primary points of interest for tourists in Nairobi
+    - Can you list the most popular tourist spots in Nairobi
+    - Which places draw the most visitors in Nairobi
+    - Could you outline the key tourist destinations in Nairobi
+
+- intent: FindFoodNairobi
+  examples: |
+    - Recommend restaurants in Nairobi.
+    - Where can I try authentic Kenyan food in Nairobi?
+    - What are the top dining spots in the capital?
+    - Tell me about Nairobi's street food.
+    - I'm looking for vegetarian restaurants in Nairobi.
+    - Recommend seafood restaurants in Nairobi.
+
+- intent: FindFoodMombasa
+  examples: |
+    - What are the best places to eat in Mombasa?
+    - Recommend seafood restaurants in Mombasa.
+    - Where can I try Swahili cuisine in Mombasa?
+    - Tell me about Mombasa's local dishes.
+    - What is the popular dish in Mombasa?
+
+- intent: FindSpecificFood
+  examples: |
+   - Where can I try nyama choma (grilled meat) in Kenya?
+   - Tell me about ugali and sukuma wiki.
+   - I want to taste chapati in Nairobi.
+   - Recommend places for samosas in Mombasa.
+   - What is Kenya's staple food?
+
+- intent: FindFoodKisumu
+  examples: |
+   - Where can I eat fish in Kisumu?
+   - Recommend lakeside restaurants in Kisumu.
+   - What are the must-try dishes in Kisumu?
+   - Tell me about Kisumu's fish specialties.
+
+- intent: FindIndianCuisine
+  examples: |
+   - Where can I find Indian restaurants in Kenya?
+   - Recommend Indian cuisine spots in Nairobi.
+   - Tell me about the best places for Indian food in Mombasa.
+   - Show me restaurants that serve Indian dishes in Kenya.
+
+- intent: FindHighlyRankedRestaurants
+  examples: |
+   - Recommend highly-ranked restaurants in Kenya.
+   - Tell me about the top-rated dining spots in Nairobi.
+   - Where can I find restaurants with excellent reviews in Mombasa?
+   - Show me the best places to eat in Kenya according to reviews.
+   - I'm looking for top-rated restaurants in Eldoret.
+
+- intent: FindFoodMaasaiMara
+  examples: |
+   - Where can I dine in Maasai Mara National Reserve?
+   - Recommend restaurants in Maasai Mara.
+   - What are the dining options in Maasai Mara?
+   - Tell me about dining in the Maasai Mara lodge.
+   - Where can I enjoy nyama choma (grilled meat) in Maasai Mara?
+
+- intent: FindHiddenGemDining
+  examples: |
+    - Recommend hidden gem restaurants in Kenya.
+    - Tell me about underrated dining spots in Nairobi.
+    - Where can I find hidden gem street food vendors?
+    - Show me lesser known food joints in Mombasa.
+    - I want to explore hidden gem cafes in Kenya.
+
+- intent: FindCostCarnivoreRestaurant
+  examples: |
+    - How much does a meal at Carnivore Restaurant cost?
+    - What is the price range at Carnivore Restaurant?
+    - Can you tell me the cost of dining at Carnivore Restaurant?
+    - Are meals in Carnivore expensive
+    - Are meals in Carnivore cheap
+
+- intent: FindCostHeroRestaurant
+  examples: |
+    - What is the average cost of dining at Hero Restaurant?
+    - Can you tell me the price range at Hero Restaurant?
+    - How much should I budget for a meal at Hero Restaurant?
+    - Are meals in Hero cheap
+    - Are meals in Hero expensive
+
+- intent: FindCostTalismanRestaurant
+  examples: |
+    - How much should I expect to spend at Talisman Restaurant?
+    - Can you provide the price range for dining at Talisman Restaurant?
+    - What is the cost of a meal at Talisman Restaurant?
+    - Are meals in Talisman expensive
+    - Are meals in Talisman cheap
+
+- intent: FindCostTheArbor
+  examples: |
+    - How much does dining at The Arbor typically cost?
+    - Can you provide the price range for The Arbor?
+    - What is the average cost of a meal at The Arbor?
+    - Are meals in Arbor expensive
+    - Are meals in Arbor cheap
+
+- intent: FindCostHarvestRestaurant
+  examples: |
+    - What is the cost of dining at Harvest Restaurant?
+    - Can you tell me the price range at Harvest Restaurant?
+    - How much should I expect to pay for food at Harvest Restaurant?
+    - Are meals in Harvest expensive
+    - Are meals in Harvest cheap
+
+- intent: FindCostK'oseweRanaloFoods
+  examples: |
+    - What is the cost of dining at K'osewe Ranalo Foods?
+    - Can you tell me the price range at K'osewe Ranalo Foods?
+    - How much should I expect to pay for food at K'osewe Ranalo Foods?
+    - Are meals in K'osewe Ranalo expensive
+    - Are meals in K'osewe Ranalo cheap
+
+- intent: FindCostNyamaMama
+  examples: |
+    - How much should I budget for a meal at Nyama Mama?
+    - Can you provide the price range at Nyama Mama?
+    - What is the average cost of dining at Nyama Mama?
+    - Are meals in Nyama Mama expensive
+    - Are meals in Nyama Mama cheap
+
+- intent: FindCostTamarindDhowRestaurant
+  examples: |
+    - How much does dining at Tamarind Dhow Restaurant typically cost?
+    - Can you tell me the price range at Tamarind Dhow Restaurant?
+    - What is the average cost of a meal at Tamarind Dhow Restaurant?
+
+- intent: FindCostForodhaniRestaurant
+  examples: |
+    - What is the cost of dining at Forodhani Restaurant?
+    - Can you tell me the price range at Forodhani Restaurant?
+    - How much should I budget for a meal at Forodhani Restaurant?
+
+- intent: FindCostBlueRoomRestaurant
+  examples: |
+    - How much does a meal at Blue Room Restaurant cost?
+    - What is the price range at Blue Room Restaurant?
+    - Can you tell me the cost of dining at Blue Room Restaurant?
+
+- intent: FindCostRedGinger
+  examples: |
+    - How much should I budget for a meal at Red Ginger?
+    - Can you provide the price range at Red Ginger?
+    - What is the average cost of dining at Red Ginger?
+
+- intent: FindCostKibokoRestaurant
+  examples: |
+    - How much does dining at Kiboko Restaurant typically cost?
+    - Can you tell me the price range at Kiboko Restaurant?
+    - What is the average cost of a meal at Kiboko Restaurant?
+
+- intent: FindCostImpalaEcoLodge
+  examples: |
+    - How much should I budget for dining at Impala Eco Lodge?
+    - Can you provide the price range at Impala Eco Lodge?
+    - What is the average cost of dining at Impala Eco Lodge?
+
+- intent: FindCostDungaRestaurant
+  examples: |
+    - How much does a meal at Dunga Restaurant cost?
+    - What is the price range at Dunga Restaurant?
+    - Can you tell me the cost of dining at Dunga Restaurant?
+
+- intent: EnjoyMeal
+  examples: |
+    - Enjoy your meal.
+    - Have a great meal.
+    - Bon appétit!
+    - Hope you enjoy your food.
+    - Wishing you a delicious meal.
+
+- intent: typical_weather
+  examples: |
+    - What is the typical weather in Kenya during July, August and December? 
+    - Could you describe the typical temperatures and rainfall in Kenya for July, August, and December?
+    - Give me an overview of the Kenyan weather during July, August, and December.
+    - Could you please provide me with a summary of the weather conditions in Kenya for the months of July, August, and December
+    - I'm planning a trip to Kenya, and I'd like to know what the weather is like during July, August, and December. Can you give me an overview of the climate for those months
+
+- intent: weather_concerns
+  examples: |
+    - Are there any weather-related concerns i should be aware of for my trip to Kenya?
+    - When is the most suitable time to plan my trip to Kenya for a combination of favorable weather conditions and optimal wildlife sightings?
+    - Could you provide information on potential weather-related challenges for travelers in Kenya?
+    - What weather challenges or precautions should I be aware of for my Kenya trip?
+    - What are the potential weather-related challenges and precautions I should keep in mind for my upcoming trip to Kenya
+
+- intent: pleasant_weather
+  examples: |
+    - Can you recommend the best time of the year to visit Kenya for pleasant weather and wildlife viewing?
+    - When should I consider traveling to Kenya for a great balance of comfortable climate and the best wildlife-watching experiences?
+
+- intent: weather_variation
+  examples: |
+    - How does the weather vary between coastal regions like Mombasa and inland areas like Nairobi?
+    - Could you explain the variations in weather patterns I can expect between the coastal regions, such as Mombasa, and the inland areas, like Nairobi, when traveling in Kenya?
+    - How does the climate differ between coastal towns like Mombasa and the interior cities like Nairobi within Kenya, and what impact does this have on travel planning?
+    - When is the best time to visit Kenya for a perfect balance of pleasant weather and the ultimate wildlife-watching opportunities
+    - What would be the ideal period for my trip to Kenya when I can enjoy both comfortable weather and exceptional wildlife viewing
+
+- intent: ask_destination_activities
+  examples: |
+    - What cultural festivals are happening during my visit to Kenya?
+    - Can i participate in local traditions or ceremonies as a tourist?
+    - I'd love to immerse myself in Kenyan culture during my visit. Can you tell me which cultural festivals will be taking place while I'm there
+    - During my trip to Kenya, I'm interested in experiencing the local culture. Could you provide information on any cultural festivals or events that will coincide with my visit
+    - As part of my itinerary in Kenya, I'd like to participate in cultural festivities. Can you inform me about any cultural festivals scheduled during my stay
+
+- intent: coastal_activities
+  examples: |
+    - Are there any unique boat trips or dhow cruises available along Kenyan Coast?
+    - Can you recommend a reputable snorkeling or scuba diving tour in Diani Beach?
+    - Which historical sites or museums in Kenya are worth visiting in coastal Kenya?
+
+- intent: relaxation
+  examples: |
+    - Where can i find natural hot springs or geothermal pools for relaxation?
+    - Are there any spa resorts or wellness retreats in Kenya where i can unwind?
+
+- intent: ask_history_amboseli_national_park
+  examples: |
+    -Could you provide me with some historical information regarding Amboseli
+    -I'm interested in learning about the historical background of Amboseli. What can you tell me?
+    -Share with me the history and origins of Amboseli.
+    -Provide me with some historical insights into Amboseli
+    -I'd like to know more about the historical context of Amboseli. Please share some facts
+
+- intent: ask_history_lamu_island
+  examples: |
+    -Give me some historical facts about Lamu Island.
+    -I'd love to learn about the history of Lamu Island. Could you provide me with some historical facts?
+    -Can you share some interesting historical details about Lamu Island?
+    -Tell me about the historical background of Lamu Island.
+    -I'm curious about the past of Lamu Island. Could you give me some historical insights?
+    -What can you tell me about the history of Lamu Island?
+    -Share with me the historical information you have on Lamu Island.
+    -I'm interested in the history of Lamu Island. Please provide me with some historical facts.
+
+- intent: ask_history_nairobi_national_park
+  examples: |
+    -Could you provide me with some historical information regarding Nairobi National Park?
+    -I'm interested in learning about the historical background of Nairobi National Park. What can you tell me?
+    -Tell me about the historical facts and origins of Nairobi National Park
+    -Share with me the history and origins of Nairobi National Park.
+    -What are the historical details and events associated with Nairobi National Park
+    -Can you enlighten me on the past and historical significance of Nairobi National Park
+
+- intent: ask_history_maasai_mara_reserve
+  examples: |
+    -Could you provide me with some historical insights about Maasai Mara Reserve
+    -I'm interested in learning about the history of Maasai Mara Reserve. Can you share some historical facts
+    -Tell me about the historical background of Maasai Mara Reserve.
+    -What historical information do you have about Maasai Mara Reserve.
+    -Please enlighten me with historical facts about Maasai Mara Reserve.
+    -I'm curious about the historical aspects of Maasai Mara Reserve. Can you provide some historical insights.
+
+- intent: ask_directions_maasaimara
+  examples: |
+    - Which way is Maasai Mara?
+    - How can I get to Maasai Mara
+    - could you kindly provide me with directions to Maasai Mara
+    - I wonder if you could assist me in finding my way to Maasai Mara
+    - I'm not familiar with the area. Could you help me find my way to Maasai Mara
+    - I'm planning a trip to Maasai Mara. Can you provide step-by-step directions
+    - What's the quickest route to Maasai Mara, and are there any road closures or construction I should be aware of
+
+- intent: ask_directions_carnivore
+  examples: |
+    - do you know how to get to the Carnivore restaurant
+    - Can you please tell me the way to the Carnivore restaurant
+    - could you kindly provide me with directions to the Carnivore restaurant
+    - I'm looking for the Carnivore restaurant. Could you assist me with directions
+    - I'm not from around here. Can you point me in the right direction to the Carnivore restaurant
+    - What's the best route to the Carnivore restaurant, and are there any road closures I should be aware of
+
+- intent: ask_directions_talisman
+  examples: |
+    - do you know how to get to the Talisman restaurant
+    - Can you please tell me the way to the Talisman restaurant
+    - could you kindly provide me with directions to the Talisman restaurant
+    - I'm looking for the Talisman restaurant. Could you assist me with directions
+    - I'm not from around here. Can you point me in the right direction to the Talisman restaurant
+    - What's the best route to the Talisman restaurant, and are there any road closures I should be aware of
+
+- intent: ask_directions_nyamamama
+  examples: |
+    - do you know how to get to the Nyama mama restaurant
+    - Can you please tell me the way to the Nyama mama restaurant
+    - could you kindly provide me with directions to the Nyama mama restaurant
+    - I'm looking for the Nyama mama restaurant. Could you assist me with directions
+    - I'm not from around here. Can you point me in the right direction to the Nyama mama restaurant
+    - What's the best route to the Nyama mama restaurant, and are there any road closures I should be aware of
+
+- intent: ask_directions_Kosewe_Ranalo
+  examples: |
+    - do you know how to get to the Kosewe Ranalo restaurant
+    - Can you please tell me the way to the Nyama Kosewe Ranalo restaurant
+    - could you kindly provide me with directions to the Kosewe Ranalo restaurant
+    - I'm looking for the Kosewe Ranalo restaurant. Could you assist me with directions
+    - I'm not from around here. Can you point me in the right direction to the Kosewe Ranalo restaurant
+    - What's the best route to the Kosewe Ranalo restaurant, and are there any road closures I should be aware of
+
+- intent: Airport_Transfer
+  examples: |
+    - How can I travel from Jomo Kenyatta International Airport to the city center?
+    - What transportation choices are there to reach the city from the airport?
+    - Is there a taxi service at the airport for city transfers?
+    - Are private car services available for airport transfers?
+    - Can I book a shuttle from the airport to my hotel?
+    - What's the best way to get from the airport to downtown?
+    - Do hotels in the city offer airport pickup services?
+    - Are there public buses that go from the airport to the city?
+    - How much does it cost to take a taxi from the airport to the city center?
+    - Are there any discounts on airport transfers for tourists?
+
+
+- intent: Domestic_Flights
+  examples: |
+    - Which airlines do you recommend for domestic flights within Kenya?
+    - Are there any airlines known for their reliability on domestic routes?
+    - Can you suggest airports that are important for domestic travel within Kenya?
+    - What are the primary airports for domestic flights in Kenya?
+    - How can I book domestic flights in advance for my trip?
+    - Are there any discounts or deals available for domestic air travel?
+    - What's the baggage allowance for domestic flights in Kenya?
+    - Can I book a one-way ticket for domestic travel?
+    - Are there any specific requirements for domestic flight passengers?
+    - How early should I arrive at the airport for a domestic flight?
+
+
+
+- intent: Public_transport
+  examples: |
+    - What is the primary mode of public transportation in Kenya?
+    - How can I use public buses or matatus (minibuses) to get around the city?
+    - Are there transportation cards or passes available for public transport?
+    - Where can I find information about public transportation schedules?
+    - What is the cost of public transportation in major cities like Nairobi?
+    - Can you explain the process of using public transportation in Kenya?
+    - Are there specific routes for public buses or matatus in Nairobi?
+    - Do I need exact change for public bus fares, or can I use a card?
+    - Are there any discounts available for tourists using public transportation?
+    - Are public transportation services reliable for daily commuting?
+
+
+
+- intent: Private_Transport
+  examples: |
+    - Is it advisable to rent a car for travel within Kenya?
+    - What are the road conditions like in Kenya?
+    - Do I need an international driver's permit to drive in Kenya?
+    - Are there reputable car rental companies in Nairobi?
+    - Can you recommend reliable car rental agencies at the airport?
+    - What is the cost of renting a car for a week in Kenya?
+    - Are there any specific rules or regulations for driving in Kenya?
+    - How do I obtain a local driving license if needed?
+    - Are there options for hiring a driver along with the rental car?
+    - Is it safe to drive at night in Kenyan cities?
+
+
+- intent: Taxis_and_Ride_sharing
+  examples: |
+    - Are taxis readily available in major cities like Nairobi and Mombasa?
+    - Can I use ride-sharing apps like Uber or Bolt in Kenya?
+    - How do I book a taxi from my hotel to a tourist attraction?
+    - What are the typical taxi fares for short distances in Nairobi?
+    - Is it common to negotiate taxi fares in Kenya?
+    - Are taxi services safe for tourists, especially at night?
+    - How do I ensure my safety when using taxis or ride-sharing services?
+    - What are the popular ride-sharing alternatives to Uber in Kenya?
+    - Are there any local ride-sharing apps that I should know about?
+    - Can you recommend a reliable taxi company for airport transfers?
+
+
+- intent: Long_distance_Travel
+  examples: |
+    - What options are available for long-distance travel between Nairobi and Mombasa?
+    - Are there comfortable bus services for intercity journeys in Kenya?
+    - How long does it take to travel from Nairobi to Kisumu by train?
+    - Can I book train tickets online for long-distance travel?
+    - What is the best way to get from Nairobi to Eldoret for a long-distance trip?
+    - Are there overnight buses from Nairobi to Malindi?
+    - How much does it cost to travel by bus from Nairobi to Nakuru?
+    - Can I find direct flights for long-distance travel within Kenya?
+    - What are the schedules for long-distance buses between major cities?
+    - Are there any discounts available for booking round-trip long-distance tickets?
+
+
+- intent: Safari_Transportation
+  examples: |
+    - How do I get to Maasai Mara for a safari experience?
+    - Can you arrange transportation to Amboseli National Park for a safari?
+    - Are there safari tour operators that provide transportation from Nairobi?
+    - Which mode of transportation is best for a safari in Tsavo National Park?
+    - What are the transportation options for a safari in Samburu National Reserve?
+    - Do you have information on safari packages that include transportation and accommodations?
+    - Can I book a safari with transportation to Lake Nakuru National Park?
+    - What is the most convenient way to reach the Great Rift Valley for a safari?
+    - Are there guided safari tours that offer transportation from my hotel to Nairobi National Park?
+    - Do I need to rent a 4x4 vehicle for safaris in Kenya, or are there other transportation options?
+
+- intent: Recommended_Airlines
+  examples: |
+    - Which airlines do you recommend for flights within Kenya?
+    - what are the best airlines for traveling in Kenya?
+    - Are there any airlines known for their quality service on domestic routes?
+    - Which domestic carriers are popular among travelers in Kenya?
+    - What are the top-rated airlines for domestic travel within Kenya?
+
+- intent: Ferry_services
+  examples: |
+    - What is the schedule for ferries to Lamu Island from the mainland?
+    - Can I take a ferry to Zanzibar from the Kenyan coast?
+    - Are there ferries that connect Mombasa to nearby islands?
+    - How far in advance should I book ferry tickets to Diani Beach?
+    - Do I need to make a reservation for the Likoni Ferry in Mombasa?
+    - Are there overnight ferry options to reach coastal destinations?
+    - What is the cost of ferry tickets for a round trip to Kisite Mpunguti Marine Park?
+    - Is there a high-speed ferry service from Malindi to Lamu?
+    - How can I check the current ferry schedules for my travel dates?
+    - Are there specific terminals for different ferry routes in Mombasa?
+
+- intent: Airport_Recommendations
+  examples: |
+    - Can you suggest airports that are important for domestic travel within Kenya?
+    - What are the highly rated airports in Kenya?
+    - Which airports in Kenya are well-connected for domestic travel?
+    - Are there any airports that offer a wide range of domestic flight options?
+    - What are the key domestic airports I should know about in Kenya?
+
+- intent: Booking_Details
+  examples: |
+    - How can I book domestic flights in advance for my trip within Kenya?
+    - Are there any discounts or deals available for air travel in Kenya?
+    - What's the baggage allowance in Kenya?
+    - Can I book a one-way ticket for domestic travel, or are round-trip tickets required?
+    - Are there any specific requirements or documentation needed for domestic flight passengers in Kenya?
+    - How early should I arrive at the airport for a domestic flight within Kenya?
+#- intent: Safety_Tips
+#  examples: |
+#    - What safety precautions should I follow when using matatus (minibuses) in Kenya?
+#    - Are there any safety guidelines for travelers regarding wildlife encounters in national parks?
+#    - How can I ensure the safety of my belongings while on safari in Kenya?
+#    - Are there any specific health precautions I should take before traveling to Kenya?
+#    - What safety measures should I be aware of when using public transportation in Nairobi?
+#    - Are there any cultural sensitivities I should respect to travel safely in Kenya?
+#    - What should I do to stay safe while swimming in the coastal areas of Kenya?
+#    - Are  there any recommended safety apps or services for travelers in Kenya?
+#    - How can I stay informed about current safety and security conditions in Kenya?
+#    - Are there any specific safety tips for hiking in the Kenyan mountains?
+#
+#- intent: Language_and_ Communication
+#  examples: |
+#    - What are some common Swahili phrases I should learn for traveling in Kenya?
+#    - Is English widely spoken and understood in Kenyan cities and tourist areas?
+#    - Are there language apps or translation services that can help me communicate in Kenya?
+#    - How can I ask for directions or help if I don't speak Swahili?
+#    - Are there local customs related to greetings and communication I should be aware of?
+#    - What's the best way to communicate with local guides and tour operators?
+#    - Do I need a SIM card or mobile data for communication while traveling in Kenya?
+#    - Are there any language challenges or barriers I might encounter in rural areas?
+#    - Can you recommend language courses or resources for learning basic Swahili?
+#    - Are there specific phrases for ordering food or shopping in local markets?
+#
+#- intent: Essentials
+#  examples: |
+#    - What type of visa do I need to enter Kenya as a tourist?
+#    - How long can I stay in Kenya on a tourist visa, and is it extendable?
+#    - Can I apply for a visa on arrival at the airport, or should I apply in advance?
+#    - What are the specific visa requirements for my country of residence?
+#    - Are there multiple-entry visas available for Kenya?
+#    - Do I need a yellow fever vaccination certificate to enter Kenya?
+#    - Are there any health or travel insurance recommendations for my trip?
+#    - What are the currency and payment options commonly used in Kenya?
+#    - Is it advisable to carry cash or use credit cards for transactions?
+#    - Are there any important contact numbers or embassy information I should have?
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
