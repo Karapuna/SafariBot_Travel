@@ -57,7 +57,6 @@ intents:
   - Domestic_Flights
   - Ferry_services
   - Airport_Transfer
-  - Safety_Tips
   - Private_Transport
   - Public_transport
   - Essentials
@@ -67,6 +66,16 @@ intents:
   - Airport_Recommendations
   - Booking_Details
   - Recommended_Airlines
+  - Safety_Tips_matatu
+  - Safety_Tips_National_park
+  - Safety_of_Belongings_on_Safari_in_Kenya
+  - Health_Precautions_for_Traveling_to_Kenya
+  - Safety_Measures_for_Public_Transportation_in_Nairobi
+  - Cultural_Sensitivities_for_Safe_Travel_in_Kenya
+  - Recommended_Safety_Apps_or_Services_for_Travelers_in_Kenya
+  - Safety_While_Swimming_in_Coastal_Areas_of_Kenya
+  - Staying_Informed_About_Safety_and_Security_in_Kenya
+  - Safety_Tips_for_Hiking_in_Kenyan_Mountains
 
 
 
@@ -92,8 +101,7 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_great:
-  - text: |
-      Great! In case you have any other questions, feel free to reach out to SafariBot!😄
+  - text: "Great! In case you have any other questions, feel free to reach out to SafariBot!😄"
 
   utter_find_national_park:
   - text: "Kenya offers a wealth of breathtaking tourist attractions. Some of the top places to visit include the Maasai Mara National Reserve, Amboseli National Park, Nairobi National Park, Tsavo East and West National Parks, and the Great Rift Valley."
@@ -496,7 +504,8 @@ responses:
   - text: "If you're looking for an affordable mode of transportation from the airport to downtown, public buses and shuttle services are excellent choices. They offer a budget-friendly option for travelers."
   - text: "To get from JKIA to the city using public transport, simply follow the signs at the airport to locate the designated bus stops or shuttle terminals. The staff at the airport can also assist you in finding the right transportation option for your destination."
 
-
+  utter_safety_tips_matatu:
+    - text: "When using matatus in Kenya, choose reputable ones, avoid overcrowding, use seat belts if available, watch your belongings, follow traffic rules, and stay informed about current safety guidelines."
 
   utter_Recommended_Airlines:
   - text: "There are several reputable airlines for domestic flights within Kenya. Some of the recommended airlines include Kenya Airways, Safarilink Aviation, Jambojet, and Fly540. These airlines offer various routes and services to cater to your domestic travel needs."
@@ -528,6 +537,51 @@ responses:
   utter_Ferry_services:
   - text: "Ferry services in Kenya connect various coastal destinations and islands. The schedules and availability may vary by location. To provide you with accurate information, could you please specify the route or destination you are interested in?"
 
+  utter_Safety_Tips_National_park:
+  - text: |
+      To ensure your safety in your wildlife adventure, here are some of the safety tips you can follow
+      Maintain a safe distance from animals.
+      Stay inside your vehicle during safaris.
+      Listen to your guide's instructions.
+      Avoid flash photography and excessive noise.
+      Follow park rules and marked paths.
+      Travel in groups when on foot.
+      Dispose of trash properly to avoid attracting wildlife.
+      
+  utter_enjoy_wildlife_staysafe:
+  - text: "Great! Enjoy your wildlife adventure and stay safe. If you ever have more questions in the future, feel free to return. Have a great day!"
+
+  utter_Safety_of_Belongings_on_Safari_in_Kenya:
+    - text: |
+        To ensure the safety of your belongings while on safari in Kenya, it's crucial to take some precautions. Consider using lockable bags or safes at your accommodations to store valuable items when you're not using them. Keep your belongings with you at all times during your safari, especially in vehicles, to prevent theft. When you're out in the wilderness, be mindful of wildlife, and don't leave food or belongings unattended as animals may be attracted to them. Additionally, consider using a money belt or hidden pouch for important documents and cash. Being vigilant and following these guidelines will help you have a worry-free safari experience.
+
+  utter_Health_Precautions_for_Traveling_to_Kenya:
+    - text: |
+        Before traveling to Kenya, it's essential to take specific health precautions. Ensure you are up-to-date on routine vaccinations and consider vaccinations for diseases like yellow fever, typhoid, and hepatitis A. Malaria is prevalent in some areas, so consult a healthcare professional for antimalarial medications. Pack insect repellent and use it to reduce the risk of mosquito-borne illnesses. Drink bottled or purified water, and avoid ice in your drinks. Be cautious with street food and eat at reputable establishments to prevent foodborne illnesses. It's advisable to carry a basic medical kit with essentials like bandages and over-the-counter medications. Prioritize your health to enjoy a safe and healthy trip to Kenya.
+
+  utter_Safety_Measures_for_Public_Transportation_in_Nairobi:
+    - text: |
+        When using public transportation in Nairobi, safety measures are crucial. Matatus, the minibuses commonly used for commuting, can be crowded, so choose ones that appear well-maintained and avoid overcrowded vehicles. Always use seat belts if available. Keep a close eye on your belongings, as pickpocketing can occur. Follow traffic rules and be cautious when crossing roads. In case of an emergency, have the local emergency number (999) handy. If possible, opt for reputable taxi services or rideshare apps for added safety. Staying aware and making informed choices will help you navigate Nairobi's public transportation safely.
+
+  utter_Cultural_Sensitivities_for_Safe_Travel_in_Kenya:
+    - text: |
+        Respecting local cultural sensitivities is essential for safe and enjoyable travel in Kenya. Dress modestly, particularly in rural areas and around religious sites. Ask for permission before taking photos of people, especially in rural communities. Be mindful of local customs, such as removing your shoes before entering someone's home. Avoid public displays of affection, as they may be considered disrespectful. When interacting with locals, use polite language and gestures. It's also customary to greet with a handshake, which is usually accompanied by a friendly exchange of pleasantries. By demonstrating cultural respect, you'll have a more enriching and trouble-free experience in Kenya.
+
+  utter_Recommended_Safety_Apps_or_Services_for_Travelers_in_Kenya:
+    - text: |
+        For enhanced safety during your travels in Kenya, consider using some recommended apps and services. Download navigation apps like Google Maps or Maps.me for easy navigation in cities and remote areas. For communication, WhatsApp is widely used in Kenya, and you can also download local SIM card apps for mobile data access. Uber is available in Nairobi for secure transportation. Additionally, emergency apps like "112 Kenya" can connect you to emergency services quickly. Staying connected and informed through these apps can be valuable for your safety and convenience while exploring Kenya.
+        
+  utter_Safety_While_Swimming_in_Coastal_Areas_of_Kenya:
+    - text: |
+        Swimming in the coastal areas of Kenya can be a delightful experience, but safety precautions are essential. Always swim at designated and monitored beaches where lifeguards are present. Be aware of strong currents and heed warnings or flags indicating hazardous conditions. Avoid swimming in areas known for the presence of dangerous marine life, such as jellyfish or sharks. Stay hydrated and use sunscreen to protect your skin from the sun's rays. Additionally, be cautious with water sports and only participate with reputable operators who prioritize safety. Adhering to these safety guidelines will help you enjoy the stunning coastal waters of Kenya safely.
+
+  utter_Staying_Informed_About_Safety_and_Security_in_Kenya:
+    - text: |
+        To stay informed about safety and security conditions in Kenya, regularly check government websites and travel advisories issued by your home country. Register with your embassy or consulate to receive safety alerts. Keep an eye on local news sources and social media accounts of reliable sources for real-time updates. Travel forums and apps like "TravelSafe" can also provide valuable information. Be aware of your surroundings, follow any curfews or safety guidelines issued by authorities, and have a plan for emergencies. Staying informed and prepared will help you make informed decisions during your stay in Kenya.
+
+  utter_Safety_Tips_for_Hiking_in_Kenyan_Mountains:
+    - text: |
+        Hiking in the Kenyan mountains can be a thrilling experience, but safety precautions are essential. Before your hike, research the trail, its difficulty, and the expected weather conditions. Ensure you have appropriate gear, including sturdy footwear, rain gear, and layers for changing temperatures. Carry enough water and snacks, as mountain trails may not have access to clean water. Be mindful of altitude sickness; acclimatize gradually if you're ascending to high altitudes. If you're hiking alone, inform someone about your plans and expected return time. Stay on marked trails, follow park regulations, and be cautious of wildlife encounters. Lastly, respect the environment by packing out all your trash. Following these safety tips will help you have a safe and enjoyable mountain hiking experience in Kenya.
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

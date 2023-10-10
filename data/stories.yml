@@ -453,5 +453,69 @@ stories:
   - intent: Ferry_services
   - action: utter_Ferry_services
 
+- story: Safety tips matatu
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Safety_Tips_matatu
+    - action: utter_safety_tips_matatu
 
+- story: Saftey tips wildlife
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Safety_Tips_National_park
+    - action: utter_Safety_Tips_National_park
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_wildlife_staysafe
+
+- story: Saftey of belongings
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Safety_of_Belongings_on_Safari_in_Kenya
+    - action: utter_Safety_of_Belongings_on_Safari_in_Kenya
+
+- story: Saftey of health
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Health_Precautions_for_Traveling_to_Kenya
+    - action: utter_Health_Precautions_for_Traveling_to_Kenya
+
+- story: Saftey using public transportation
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Safety_Measures_for_Public_Transportation_in_Nairobi
+    - action: utter_Safety_Measures_for_Public_Transportation_in_Nairobi
+
+- story: cultural sensitivities
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Cultural_Sensitivities_for_Safe_Travel_in_Kenya
+    - action: utter_Cultural_Sensitivities_for_Safe_Travel_in_Kenya
+
+- story: Safety Apps or Services for Travelers in Kenya
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Recommended_Safety_Apps_or_Services_for_Travelers_in_Kenya
+    - action: utter_Recommended_Safety_Apps_or_Services_for_Travelers_in_Kenya
+
+- story: Safety guidelines for swimmers in coastal areas
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Safety_While_Swimming_in_Coastal_Areas_of_Kenya
+    - action: utter_Safety_While_Swimming_in_Coastal_Areas_of_Kenya
+
+- story: Stay when hiking in kenyan mountains
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Safety_Tips_for_Hiking_in_Kenyan_Mountains
+    - action: utter_Safety_Tips_for_Hiking_in_Kenyan_Mountains
 

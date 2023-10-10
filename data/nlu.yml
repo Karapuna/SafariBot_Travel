@@ -546,18 +546,107 @@ nlu:
     - Can I book a one-way ticket for domestic travel, or are round-trip tickets required?
     - Are there any specific requirements or documentation needed for domestic flight passengers in Kenya?
     - How early should I arrive at the airport for a domestic flight within Kenya?
+
+- intent: Safety_Tips_matatu
+  examples: |
+    - Could you please provide me with some safety tips for using matatus (minibuses) in Kenya?
+    - What are the recommended safety measures I should take when traveling in matatus in Kenya?
+    - I'm planning to use matatus in Kenya. Can you advise me on how to stay safe while using them?
+    - Are there any specific precautions I should be aware of when using matatus in Kenya for transportation?
+    - Before I use matatus in Kenya, could you share some safety guidelines or advice to ensure a secure journey
+
+- intent: Safety_Tips_National_park
+  examples: |
+    - Are there any safety guidelines for travelers regarding wildlife encounters in national parks?
+    - Could you provide information on safety guidelines for travelers when it comes to encountering wildlife in national parks?
+    - What should travelers know about staying safe during wildlife encounters in national parks?
+    - Are there specific safety precautions travelers should follow when encountering wildlife in national parks?
+    - I'm planning a trip to a national park. Can you share any advice on how to stay safe when encountering wildlife?
+    - Before I visit a national park, are there any guidelines I should be aware of to ensure a safe experience when encountering wildlife?
+
+- intent: Safety_of_Belongings_on_Safari_in_Kenya
+  examples: |
+    - What precautions should I take to protect my belongings while on a safari in Kenya?
+    - Are there any specific anti-theft measures I should consider when traveling on safari?
+    - How can I safeguard my camera and electronics during a wildlife safari in Kenya?
+    - What type of luggage or bags are recommended for safaris to keep my belongings safe?
+    - Are there any secure storage options available at safari lodges in Kenya?
+    - How can I ensure the safety of my belongings while on safari in Kenya?
+
+- intent: Health_Precautions_for_Traveling_to_Kenya
+  examples: |
+    - Are there any specific health precautions I should take before traveling to Kenya?
+    - What vaccinations or immunizations are recommended before traveling to Kenya?
+    - Are there any specific health risks I should be aware of when visiting Kenya?
+    - What precautions should I take to avoid common travel-related illnesses in Kenya?
+    - Do I need to take malaria prophylaxis when traveling to Kenya?
+    - How can I ensure safe food and water consumption while in Kenya?
+
+- intent: Safety_Measures_for_Public_Transportation_in_Nairobi
+  examples: |
+    - What safety measures should I be aware of when using public transportation in Nairobi?
+    - What safety precautions should I follow when using public transportation in Nairobi?
+    - Are there any specific safety concerns I should be aware of when taking matatus in Nairobi?
+    - How can I ensure a secure and comfortable experience when using taxis or buses in Nairobi?
+    - What should I do in case of an emergency or security incident while using public transportation in Nairobi?
+    - Are there any recommended apps for tracking public transportation schedules and safety in Nairobi?
+
+- intent: Cultural_Sensitivities_for_Safe_Travel_in_Kenya
+  examples: |
+    - Are there any cultural sensitivities I should respect to travel safely in Kenya?
+    - What cultural norms and sensitivities should I be aware of to travel safely and respectfully in Kenya?
+    - Are there any customs or taboos I should avoid to prevent cultural misunderstandings in Kenya?
+    - How should I dress appropriately to respect local customs and ensure my safety?
+    - What gestures or behaviors should I avoid that might be considered offensive in Kenyan culture?
+    - Are there any specific etiquette guidelines for interactions with local communities in Kenya?
+
+- intent: Recommended_Safety_Apps_or_Services_for_Travelers_in_Kenya
+  examples: |
+    - Are  there any recommended safety apps or services for travelers in Kenya?
+    - Are there any safety apps or services that you recommend for travelers in Kenya?
+    - What mobile apps can help me navigate and stay safe in Kenyan cities and rural areas?
+    - Is there a local emergency number or app that I should have on my phone when traveling in Kenya?
+    - Are there any apps for language translation or communication that can enhance my safety in Kenya?
+    - What travel insurance options or apps are available for emergencies and medical assistance in Kenya?
+
+- intent: Safety_While_Swimming_in_Coastal_Areas_of_Kenya
+  examples: |
+    - What should I do to stay safe while swimming in the coastal areas of Kenya?
+    - What safety precautions should I take when swimming in the coastal areas of Kenya?
+    - Are there any dangerous marine creatures or currents to be aware of while swimming?
+    - What are the safest and most recommended beaches for swimming along the Kenyan coast?
+    - Should I hire a lifeguard or use any safety equipment when swimming in the ocean in Kenya?
+    - How can I stay informed about weather conditions and potential hazards while swimming in coastal areas of Kenya?
+
+- intent: Staying_Informed_About_Safety_and_Security_in_Kenya
+  examples: |
+    - How can I stay informed about current safety and security conditions in Kenya?
+    - How can I stay informed about current safety and security conditions in Kenya during my trip?
+    - Are there government websites or sources where I can check for travel advisories in Kenya?
+    - What are some reliable news sources or apps for real-time safety updates in Kenya?
+    - Should I register with my embassy or consulate for safety alerts while in Kenya?
+    - Are there any social media accounts or forums that provide valuable safety information for travelers in Kenya?
+
+- intent: Safety_Tips_for_Hiking_in_Kenyan_Mountains
+  examples: |
+    - Are there any specific safety tips for hiking in the Kenyan mountains?
+    - What safety precautions should I take before embarking on a hiking trip in Kenyan mountains?
+    - Are there any specific gear or equipment recommendations for safe mountain hiking in Kenya?
+    - How can I prepare for altitude sickness and extreme weather conditions when hiking in Kenyan mountains?
+    - Are there any dangerous animals or insects to watch out for while hiking in Kenyan wilderness?
+    - What emergency procedures should I be aware of when hiking in remote mountain areas of Kenya?
+
 #- intent: Safety_Tips
 #  examples: |
 #    - What safety precautions should I follow when using matatus (minibuses) in Kenya?
 #    - Are there any safety guidelines for travelers regarding wildlife encounters in national parks?
 #    - How can I ensure the safety of my belongings while on safari in Kenya?
-#    - Are there any specific health precautions I should take before traveling to Kenya?
-#    - What safety measures should I be aware of when using public transportation in Nairobi?
-#    - Are there any cultural sensitivities I should respect to travel safely in Kenya?
+#    -
+#    -
+#    -
 #    - What should I do to stay safe while swimming in the coastal areas of Kenya?
-#    - Are  there any recommended safety apps or services for travelers in Kenya?
-#    - How can I stay informed about current safety and security conditions in Kenya?
-#    - Are there any specific safety tips for hiking in the Kenyan mountains?
+#    -
+#    -
 #
 #- intent: Language_and_ Communication
 #  examples: |
