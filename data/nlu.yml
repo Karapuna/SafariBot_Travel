@@ -109,7 +109,30 @@ nlu:
     - Can you list the most popular tourist spots in Nairobi
     - Which places draw the most visitors in Nairobi
     - Could you outline the key tourist destinations in Nairobi
+    
+- intent: ask_top_tourist_attractions_Mombasa
+  examples: |
+    - What are the top tourist attractions in Mombasa?
+    - Can you tell me about the most popular tourist spots in Mombasa?
+    - I'm planning a trip to Mombasa. What are the must-visit tourist attractions there?
+    - Could you share some information about the key places to visit for tourists in Mombasa?
+    - I'd love to explore Mombasa. What are the top tourist destinations I should consider visiting?
 
+- intent: ask_top_tourist_attractions_Kisumu
+  examples: |
+    - What are the most popular tourist attractions in Kisumu?
+    - Can you tell me about the must-visit places for tourists in Kisumu?
+    - I'm planning a trip to Kisumu. What are the key tourist spots there?
+    - Could you share some information about the top destinations for tourists in Kisumu?
+    - I'd love to explore Kisumu. What are the top tourist attractions I should consider visiting?
+- intent: ask_nationalparks_Mombasa
+  examples: |
+    - Are there any national parks near Mombasa?
+    - Can you tell me if there are national parks in the vicinity of Mombasa?
+    - I'm curious about the presence of national parks in or around Mombasa. Are there any?
+    - Are there any protected wildlife areas or national parks in the Mombasa region?
+    - I'd like to know if there are national parks or nature reserves in the Mombasa area. Are there any such places to visit?
+    
 - intent: FindFoodNairobi
   examples: |
     - Recommend restaurants in Nairobi.
@@ -635,7 +658,80 @@ nlu:
     - How can I prepare for altitude sickness and extreme weather conditions when hiking in Kenyan mountains?
     - Are there any dangerous animals or insects to watch out for while hiking in Kenyan wilderness?
     - What emergency procedures should I be aware of when hiking in remote mountain areas of Kenya?
+    
+- intent: Get_Directions_Anghiti
+  examples: |
+    - How do I get to Anghiti Restaurant?
+    - Can you provide directions to Anghiti?
+    - Tell me the way to Anghiti Restaurant.
+    - I'm looking for directions to Anghiti, can you help?
+    - Guide me to Anghiti Restaurant, please.
 
+- intent: Get_Directions_Heros
+  examples: |
+    - I need directions to Heros Restaurant.
+    - How can I reach Heros Restaurant?
+    - Show me the way to Heros, please.
+    - Can you guide me to Heros Restaurant?
+    - Directions to Heros, please.
+    
+- intent: Get_Directions_Tamarind_Dhow
+  examples: |
+    - How can I find Tamarind Dhow Restaurant?
+    - Tell me the route to Tamarind Dhow Restaurant.
+    - Guide me to Tamarind Dhow Restaurant, please.
+    - I'm looking for directions to Tamarind Dhow.
+    - How do I get to Tamarind Dhow Restaurant?
+
+- intent: Get_Directions_Jumba_Ruins
+  examples: |
+    - Give me directions to Jumba Ruins Restaurant.
+    - How do I reach Jumba Ruins Restaurant?
+    - Can you guide me to Jumba Ruins, please?
+    - Tell me the way to Jumba Ruins Restaurant.
+    - I'm looking for Jumba Ruins Restaurant, how can I get there?
+
+- intent: Get_Directions_Forodhani
+  examples: |
+    - How can I find Forodhani Restaurant?
+    - Tell me the route to Forodhani Restaurant.
+    - Guide me to Forodhani Restaurant, please.
+    - I'm looking for directions to Forodhani.
+    - How do I get to Forodhani Restaurant?
+    
+- intent: Get_Directions_Blue_Room
+  examples: |
+    - Give me directions to Blue Room Restaurant.
+    - How do I reach Blue Room Restaurant?
+    - Can you guide me to the Blue Room, please?
+    - Tell me the way to Blue Room Restaurant.
+    - I'm looking for Blue Room Restaurant, how can I get there?
+
+- intent: Get_Directions_Kiboko_Bay
+  examples: |
+    - How can I find Kiboko Bay Restaurant?
+    - Tell me the route to Kiboko Bay Restaurant.
+    - Guide me to Kiboko Bay Restaurant, please.
+    - I'm looking for directions to Kiboko Bay.
+    - How do I get to Kiboko Bay Restaurant?
+
+- intent: Get_Directions_Impala_Ecolodge
+  examples: |
+    - Give me directions to Impala Ecolodge Restaurant.
+    - How do I reach Impala Ecolodge Restaurant?
+    - Can you guide me to Impala Ecolodge, please?
+    - Tell me the way to Impala Ecolodge Restaurant.
+    - I'm looking for Impala Ecolodge Restaurant, how can I get there?
+
+- intent: Get_Directions_Dungahill_Camp
+  examples: |
+    - How can I find Dungahill Camp?
+    - Tell me the route to Dungahill Camp.
+    - Guide me to Dungahill Camp, please.
+    - I'm looking for directions to Dungahill Camp.
+    - How do I get to Dungahill Camp?
+
+    
 #- intent: Safety_Tips
 #  examples: |
 #    - What safety precautions should I follow when using matatus (minibuses) in Kenya?
