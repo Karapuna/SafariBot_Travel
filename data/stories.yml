@@ -76,7 +76,7 @@ stories:
     - intent: affirm
     - action: utter_enjoy_beach
 
-- story: Top Destination Nairobi
+- story: Top attractions Nairobi
   steps:
     - intent: greet
     - action: utter_greet
@@ -86,6 +86,36 @@ stories:
     - intent: affirm
     - action: utter_enjoy_Nairobi
 
+- story: Top attractions Mombasa
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_top_tourist_attractions_Mombasa
+    - action: utter_ask_top_tourist_attractions_Mombasa
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_Mombasa
+    
+- story: Top attractions Kisumu
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_top_tourist_attractions_Kisumu
+    - action: utter_ask_top_tourist_attractions_Kisumu
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_Kisumu
+    
+- story: National Parks Mombasa
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_nationalparks_Mombasa
+    - action: utter_ask_nationalparks_Mombasa
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_Mombasa
+    
 - story: Where can i Dine in Nairobi path 4
   steps:
   - intent: greet
@@ -518,4 +548,13 @@ stories:
     - action: utter_greet
     - intent: Safety_Tips_for_Hiking_in_Kenyan_Mountains
     - action: utter_Safety_Tips_for_Hiking_in_Kenyan_Mountains
+
+- story: Directions Anghiti
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: Get_Directions_Anghiti
+    - action: utter_Get_Directions_Anghiti
+
+
 
