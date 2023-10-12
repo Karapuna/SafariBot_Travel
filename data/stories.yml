@@ -29,22 +29,82 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+- story: Places to visit in Kenya
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: where_to_visit_Ke
+  - action: utter_where_to_visit_Ke
+  - action: utter_provide_interesting_facts_about_destinations
+  - intent: affirm
+  - action: utter_ask_for_location_of_interest
+  
+- story: facts about Amboseli
+  steps:
+  - intent: facts_abt_Amboseli_National_Park
+  - action: utter_amboseli_facts
+
+- story: facts about Lake Victoria
+  steps:
+  - intent: facts_abt_lake_victoria
+  - action: utter_facts_abt_lake_victoria
+  
+- story: facts about Nairobi
+  steps:
+  - intent: facts_abt_Nairobi
+  - action: utter_facts_abt_Nairobi
+  
+- story: facts about Mt. Kenya
+  steps:
+  - intent: facts_abt_MtKenya_National_Park
+  - action: utter_facts_abt_MtKenya_National_Park
+
+- story: facts about Mombasa
+  steps:
+  - intent: facts_abt_Mombasa
+  - action: utter_facts_abt_Mombasa
+  - action: utter_ask_if_interested_in_ta_msa
+  - intent: affirm
+  - action: utter_ask_top_tourist_attractions_Mombasa
+
+- story: facts about Samburu National Park
+  steps:
+  - intent: facts_abt_Samburu_National_Reserve
+  - action: utter_facts_abt_Samburu_National_Reserve
+  
+  
+- story: facts about Malindi
+  steps:
+  - intent: facts_abt_Malindi
+  - action: utter_facts_abt_Malindi
+
+- story: facts about Malindi
+  steps:
+  - intent: facts_abt_Malindi
+  - action: utter_facts_abt_Malindi
+  
+- story: facts about Diani
+  steps:
+  - intent: facts_abt_Diani_Beach
+  - action: utter_facts_abt_Diani_Beach
+
+- story: facts about Manda Bay
+  steps:
+  - intent: facts_abt_Manda_Bay
+  - action: utter_facts_abt_Manda_Bay
+
+- story: facts about great rift valley
+  steps:
+  - intent: facts_abt_The_Great_Rift_Valley
+  - action: utter_facts_abt_The_Great_Rift_Valley
+
+
 - story: visit national parks path 1
   steps:
   - intent: greet
   - action: utter_greet
   - intent: find_national_park
   - action: utter_find_national_park
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_great
-
-- story: top destinations path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: top_destinations
-  - action: utter_top_destinations
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_great
@@ -58,7 +118,7 @@ stories:
 
 - story: Safari Destination
   steps:
-    - intent : greet
+    - intent: greet
     - action: utter_greet
     - intent: ask_safari_destination
     - action: utter_ask_safari_destination
