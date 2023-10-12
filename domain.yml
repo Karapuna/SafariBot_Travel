@@ -8,8 +8,18 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - where_to_visit_Ke
+  - facts_abt_Amboseli_National_Park
+  - facts_abt_lake_victoria
+  - facts_abt_ Nairobi
+  - facts_abt_MtKenya_National_Park
+  - facts_abt_Mombasa
+  - facts_abt_Malindi
+  - facts_abt_Samburu_National_Reserve
+  - facts_abt_Diani_Beach
+  - facts_abt_Manda_Bay
+  - facts_abt_The_Great_Rift_Valley
   - find_national_park
-  - top_destinations
   - ask_rift_valley
   - ask_safari_destination
   - ask_top_beach_destinations
@@ -114,48 +124,108 @@ responses:
   utter_great:
   - text: "Great! In case you have any other questions, feel free to reach out to SafariBot!😄"
 
+  utter_where_to_visit_Ke:
+  - text: |
+      Kenya is an African jewel that offers euphoric experiences for travelers. Here is a list of some of the places you should explore when you visit the country
+         ✅ Amboseli National Park
+         ✅ Lake Victoria
+         ✅ Nairobi
+         ✅ Mt. Kenya National Park
+         ✅ Mombasa
+         ✅ Malindi
+         ✅ Samburu National Reserve
+         ✅ Diani Beach
+         ✅ Manda Bay
+         ✅ The Great Rift Valley
+         ✅ Jamia Mosque
+         ✅ Uhuru Gardens
+         ✅ Lamu Island
+         ✅ Wasini Island
+         ✅ Mt. Elgon
+         ✅ David Sheldrick Wildlife Trust
+         ✅ Fourteen Falls
+         ✅ Maasai Mara
+         ✅ Kiboko Bay
+         ✅ Haller Park
+  utter_provide_interesting_facts_about_destinations:
+  - text: |
+      Here's the thing 🤓 – the list of places I've shared with you is just a small taste of the incredible destinations you can explore in Kenya. Each of these spots has its own unique and fascinating facts that can make your trip even more exciting. So, I'm curious, would you be interested in learning more about these fantastic destinations 🤔?
+ 
+  utter_ask_for_location_of_interest:
+  - text: |
+      Great! 💃🏽 That's awesome to hear. Now, out of the places I mentioned, which one piques your interest the most? I'd be delighted to provide you with more information on your chosen destination.
+ 
+  utter_amboseli_facts:
+  - text: |
+      🌄 Located in southern Kenya, Amboseli National Park is a nature lover's paradise, covering 392 square kilometers. It's not just any park; it's the land of giants with stunning views of Africa's highest peak, Mount Kilimanjaro 🏔️. But the beauty doesn't stop there. Amboseli is home to an incredible array of wildlife, from majestic elephants to regal lions and swift cheetahs. For the birdwatchers among us, it boasts over 400 bird species, making it a true avian haven 🦜. Explore the park through thrilling game drives or tranquil guided walks 🚙🚶. Its landscape encompasses acacia woodlands, vast savannahs, and seasonal lakes, attracting diverse wildlife to its swamps and marshes 🌾🦢. For a touch of culture, the nearby Maasai people bring their unique traditions to life. Plus, you can get up-close and personal with elephants in their natural habitat 🐘🌿. Amboseli National Park is not just a park; it's an unforgettable adventure, and it's all part of the broader Amboseli ecosystem that extends into neighboring Tanzania 🇹🇿. Don't miss this enchanting experience! 🌟
+
+  utter_facts_abt_lake_victoria:
+  - text: |
+      Lake Victoria is a true gem in East Africa! 🌍 Here are some fascinating facts that will pique any traveler's interest: Lake Victoria is the largest tropical lake in the world, often called the "Heart of Africa" due to its central location in the continent, shared by Kenya, Tanzania, and Uganda
+      Here, you'll discover intriguing facts about the lake, including its rich biodiversity and unique cultural encounters. On the Kenyan side, pristine landscapes offer tranquil retreats, ideal for those seeking peaceful getaways. Anglers can rejoice in fishing adventures while birdwatchers revel in spotting endemic and migratory species. Immerse yourself in the rich traditions of the Luo and Luhya communities, visit historical sites on islands like Rusinga, and relax amidst ancient rock art on Mfangano. This eco-friendly haven supports local conservation and boasts various water sports for adventure seekers. Budget-friendly options and diverse accommodations ensure a memorable stay. Lake Victoria in Kenya harmoniously weaves nature, culture, and adventure into an unforgettable tapestry, beckoning you to explore its unique charm. 🌴🌅🎣
+
+  utter_facts_abt_ Nairobi:
+  - text: |
+      Nairobi, the captivating capital and the largest city of Kenya, beckons with its rich blend of history, culture, and natural wonders. 🏙️ Immerse yourself in its legendary colonial past, explore the sprawling infrastructure, and savor the aroma of the flourishing tea and coffee industry. Nairobi boasts a unique charm where you can witness the vibrant culture and dynamic contemporary art scene that define modern Kenya. But that's not all; the city's wildlife parks, like Nairobi National Park and Hell's Gate National Park, offer a remarkable opportunity to get up close with Kenya's stunning wildlife. 🌆🦓🎨
+
+      For an authentic Kenyan experience, don't miss attractions like Bomas of Kenya, which showcase traditional cultures, and the breathtaking vistas of Ngong Hills. Nairobi is a city that seamlessly marries its historical heritage with contemporary vitality, making it a must-visit destination for travelers looking to explore Kenya's multifaceted soul. 🇰🇪🦒🗺️
+
+  utter_facts_abt_MtKenya_National_Park:
+  - text: |
+      Nestled at an exhilarating altitude of 5,199 meters, Mt. Kenya stands proudly as Kenya's second-highest peak, and it's no ordinary destination; it's a UNESCO World Heritage Site. 🗻 Established with a noble mission to protect the endangered wildlife of the region, Mt. Kenya National Park has transformed into a captivating tourist hotspot. 🦓🌿 Here, you'll embark on unforgettable wildlife safari tours, surrounded by the majestic beauty of this iconic mountain. It's not just a destination; it's a remarkable adventure, where nature's splendor and conservation efforts unite for an extraordinary experience. 📸🦁
+
+  utter_facts_abt_Mombasa:
+  - text: |
+      Mombasa, Kenya's coastal jewel, weaves an enchanting tale of history, culture, and natural wonders. Nestled along the Indian Ocean, this ancient city is steeped in tradition and is the country's oldest and second-largest urban hub. Its diverse population, a harmonious blend of Swahili, Arab, European, and Indian influences, gives Mombasa a unique cultural vibrancy. 🌍🌊 Explore historic treasures like the UNESCO-listed Fort Jesus, a testament to its centuries-old maritime importance. Wander through bustling spice markets, savor exquisite coastal cuisine, and dip into the crystal-clear waters of Mombasa Marine National Park. 🏰🍛🐠 With its nearby national parks and pristine beaches, Mombasa acts as a gateway to Kenya's enchanting coastal region, offering a truly immersive and captivating experience. Dive into the heart of Mombasa, where history, culture, and nature come together to create unforgettable memories. 🏖️📸🦋
+  utter_ask_if_interested_in_ta_msa:
+  - text: |
+      Would you be interested in knowing the most visited attractions in Mombasa? I'd be delighted to give you some of the highly-rated places.
+  
+  utter_facts_abt_Malindi:
+  - text: |
+      Malindi is more than just a coastal town; it's a captivating journey through time and culture. Did you know that Malindi holds a history dating back centuries, drawing the likes of Vasco da Gama, who erected the iconic Vasco da Gama Pillar in 1498? 🌊🏰
+
+      What makes this place truly special is its rich tapestry of Swahili culture. From the language to the cuisine, it's an immersion into traditions that have thrived for generations. 🍛🏖️
+      
+      And speaking of coastal wonders, the Watamu Marine National Park, right nearby, boasts stunning coral reefs and a diverse marine life that's nothing short of spectacular. When you're ready to unwind, the pristine beaches, like Silversands and Marine Park Beach, await with their azure waters. And don't forget the bustling Malindi Market, a treasure trove of fresh produce and handcrafted gems. 🍍🛍️
+      
+      But the adventure doesn't end there. Malindi offers thrilling experiences, from deep-sea fishing to the Watamu Turtle Conservation and unique air safaris that provide breathtaking views of Kenya's landscapes from above. There's so much to uncover in Malindi, a traveler's haven that celebrates history, culture, and the natural world. 🗺️🌴🐢
+  
+  utter_facts_abt_Samburu_National_Reserve:
+  - text: |
+      Samburu National Park is a hidden African gem that promises a captivating adventure. What sets it apart is the "Samburu Special Five," a unique collection of wildlife including the reticulated giraffe, Grevy's zebra, Beisa oryx, Somali ostrich, and gerenuk, all exclusive to this region. 🦓🦒 The rugged terrain, punctuated by the Ewaso Nyiro River, forms a stunning backdrop where you can witness wildlife against a dramatic landscape. For those seeking cultural experiences, you can engage with the Samburu people, who have distinct customs and traditions. Birdwatchers will be delighted by over 450 bird species, and eco-conscious travelers can appreciate the park's active involvement in conservation efforts. Samburu National Park is a treasure trove of natural wonders and a unique cultural experience, awaiting your exploration. 🌍🌿🐦
+
+  utter_facts_abt_Diani_Beach:
+  - text: |
+      Diani Beach is a tropical paradise that's bound to charm you with its beauty and allure. With its powdery white sands, swaying palm trees, and crystal-clear waters, it's no wonder that Diani Beach consistently ranks among Africa's best beaches. 🌴🏖️ Snorkeling in the coral reefs and spotting dolphins in the warm Indian Ocean waters are just a few of the marine adventures you can enjoy. The beach's vibrant local culture, delicious seafood, and tranquil beachfront resorts create a perfect blend of relaxation and exploration. Diani Beach is a haven for sun-seekers and water enthusiasts alike, offering a slice of coastal paradise in Kenya. 🏊‍♀️🌞🦀
+
+  utter_facts_abt_Manda_Bay:
+  - text: |
+      Manda Bay, a secluded paradise on the northern coast of Kenya, is a gem waiting to be discovered. This idyllic retreat offers pristine beaches, vibrant coral reefs, and crystal-clear waters, making it a haven for water sports and marine enthusiasts. 🌊🏝️ Snorkel, kayak, or sail in the warm Indian Ocean, and keep an eye out for playful dolphins that often grace the bay with their presence. Manda Bay is also celebrated for its unique blend of luxury and eco-conscious practices, combining comfort with sustainability in a tranquil, beachfront setting. Whether you're seeking a romantic escape or an adventure-packed vacation, Manda Bay offers an unspoiled coastal haven that's as unforgettable as it is breathtaking. 🌴🏄‍♀️🐬
+
+  utter_facts_abt_The_Great_Rift_Valley:
+  - text: |
+      The Great Rift Valley in Kenya is a natural wonder that promises an extraordinary journey. Stretching across the landscape, it offers breathtaking vistas and diverse ecosystems. 🌄 Home to an array of wildlife, including flamingos at Lake Nakuru, it's a paradise for nature enthusiasts. The geothermal activity here gives rise to fascinating hot springs and geysers in places like Hell's Gate National Park. Additionally, the valley is a window into the cultures and traditions of the indigenous tribes. If you're an adventure seeker, the Great Rift Valley offers hiking, rock climbing, and the chance to marvel at one of Earth's most remarkable geological features. It's a destination where nature, wildlife, culture, and adventure converge, making it an unmissable experience for any traveler exploring Kenya. 🦓🏞️🚵‍♀️📸
+  
   utter_find_national_park:
   - text: "Kenya offers a wealth of breathtaking tourist attractions. Some of the top places to visit include the Maasai Mara National Reserve, Amboseli National Park, Nairobi National Park, Tsavo East and West National Parks, and the Great Rift Valley."
-
-  utter_top_destinations:
-  - text: |
-      Maasai Mara National Reserve: Known for its incredible wildlife, especially during the Great Migration, the Maasai Mara is one of the most famous safari destinations in Africa. Visitors can see the Big Five (lion, elephant, buffalo, leopard, and rhinoceros) and witness the annual wildebeest migration
-      
-      Amboseli National Park: Famous for its large herds of elephants and its stunning views of Mount Kilimanjaro, Amboseli National Park is a top destination for wildlife enthusiasts and photographers
-      
-      Diani Beach: Located on the coast of Kenya, Diani Beach offers stunning white-sand beaches and clear waters. It's a popular destination for relaxation, water sports, and beachfront resorts
-      
-      Great Rift Valley: The Great Rift Valley offers breathtaking views, including lakes like Naivasha, Nakuru, and Elementaita. These areas are known for birdwatching, hiking, and boat trips.
-      
-      Lamu Island: Lamu is a UNESCO World Heritage Site known for its well-preserved Swahili architecture, narrow winding streets, and rich cultural heritage. It's a unique destination for history and culture lovers
-      
-      These are just but a few examples of the intriguing places you should visit in Kenya!!!
 
   utter_ask_rift_valley:
   - text: |
         The landscapes of the Rift Valley in Kenya are incredibly diverse and captivating 😄
-        
-        These are some of the beautiful landscapes to look out for;
-        
-        Lakes: The Rift Valley is dotted with numerous lakes, each with its own unique charm. Lake Naivasha, Lake Nakuru, Lake Baringo, and Lake Bogoria are among the most well-known
-        
-        Volcanic Craters: You can explore volcanic craters such as Mount Longonot and Menengai Crater
-        
-        Cultural Landscapes: The Rift Valley is also home to various cultural landscapes, with Maasai villages and traditional homesteads interspersed among the natural beauty. The juxtaposition of traditional culture against the backdrop of the Rift Valley adds to the overall charm.
+            💫These are some of the beautiful landscapes to look out for;
+            💫Lakes: The Rift Valley is dotted with numerous lakes, each with its own unique charm. Lake Naivasha, Lake Nakuru, Lake Baringo, and Lake Bogoria are among the most well-known
+            💫Volcanic Craters: You can explore volcanic craters such as Mount Longonot and Menengai Crater
+            💫Cultural Landscapes: The Rift Valley is also home to various cultural landscapes, with Maasai villages and traditional homesteads interspersed among the natural beauty. The juxtaposition of traditional culture against the backdrop of the Rift Valley adds to the overall charm.
 
   utter_ask_safari_destination:
   - text: |
           Kenya offers the best safari experiences. Here are some safari destination examples that will leave you with a euphoric feeling ☺️
-
-          Maasai Mara National Reserve: Known for the Great Migration of wildebeest and an abundance of wildlife.
-
-          Amboseli National Park: Famous for its large elephant herds and stunning views of Mount Kilimanjaro.
-
-          Tsavo National Park: The largest national park in Kenya, divided into Tsavo East and Tsavo West, offering diverse landscapes and wildlife.
-
-          Samburu National Reserve: Home to unique wildlife species like the reticulated giraffe and Grevy's zebra.
-
-          Lake Nakuru National Park: Famous for its flamingo population and rhino conservation efforts.
+            🦁Maasai Mara National Reserve: Known for the Great Migration of wildebeest and an abundance of wildlife.
+            🐘Amboseli National Park: Famous for its large elephant herds and stunning views of Mount Kilimanjaro.
+            🦁Tsavo National Park: The largest national park in Kenya, divided into Tsavo East and Tsavo West, offering diverse landscapes and wildlife.
+            🦓Samburu National Reserve: Home to unique wildlife species like the reticulated giraffe and Grevy's zebra.
+            🦩Lake Nakuru National Park: Famous for its flamingo population and rhino conservation efforts.
 
   utter_enjoy_safari:
   - text: "Enjoy your safari adventure to the fullest! May you encounter amazing wildlife, breathtaking landscapes, and create unforgettable memories. Stay safe and soak in every moment of this incredible experience.🌳🌞😃🐘"
@@ -461,7 +531,7 @@ responses:
 
   utter_history_destination_anp:
   - text: |
-      "Amboseli National Park, located in southern Kenya near the Tanzanian border, has a rich history that dates back centuries. The park, known for its stunning landscapes and iconic views of Mount Kilimanjaro, holds both cultural and ecological significance.Maasai Land: Before becoming a national park, the Amboseli area was inhabited by the Maasai people.Establishment as a Game Reserve: In 1906, during British colonial rule, Amboseli was declared a Southern Reserve for Maasai hunting, marking the first step towards wildlife conservation in the area.Becoming a National Park: In 1974, Amboseli was officially designated a national park, ensuring even stronger protections for its wildlife and environment.Iconic Wildlife: Amboseli is famed for its large elephant herds, which are among the most studied in the world. Other iconic species found here include lions, cheetahs, zebras, giraffes, and numerous bird species."
+      Amboseli National Park, located in southern Kenya near the Tanzanian border, has a rich history that dates back centuries. The park, known for its stunning landscapes and iconic views of Mount Kilimanjaro, holds both cultural and ecological significance.Maasai Land: Before becoming a national park, the Amboseli area was inhabited by the Maasai people.Establishment as a Game Reserve: In 1906, during British colonial rule, Amboseli was declared a Southern Reserve for Maasai hunting, marking the first step towards wildlife conservation in the area.Becoming a National Park: In 1974, Amboseli was officially designated a national park, ensuring even stronger protections for its wildlife and environment.Iconic Wildlife: Amboseli is famed for its large elephant herds, which are among the most studied in the world. Other iconic species found here include lions, cheetahs, zebras, giraffes, and numerous bird species.
 
   utter_history_destination_mmr:
   - text: |
