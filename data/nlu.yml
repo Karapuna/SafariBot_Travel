@@ -21,11 +21,7 @@ nlu:
     - Jambo
     - hallo
     - how are you
-    - salut
-    - moin
-    - hey there
-    - let's go
-    - hey dude
+   
 
 - intent: goodbye
   examples: |
@@ -58,7 +54,145 @@ nlu:
     - don't like that
     - no way
     - not really
+- intent: where_to_visit_Ke
+  examples: |
+    - I want to tour the country Kenya, suggest places to visit
+    - I'm planning to go on vacation in Kenya can you suggest the best vacation spots
+    - Where can I visit in Kenya
+    - Kenya is huge and I don't know where to start my adventure please suggest some places to visit
+    - I'm thinking about taking a trip to Kenya, can you recommend some places I should definitely visit?
+    - If I were to tour Kenya, where would you suggest I go for a memorable experience?
+    - What are the must-see destinations in Kenya if I plan to travel there?
+    - Could you give me some ideas for places to explore during a visit to Kenya?
+    - I'm considering a trip to Kenya, so can you provide some recommendations on the best places to include in my itinerary?
+    - If I were to go on a tour of Kenya, which spots should I put on my travel list?
+    - I'm looking for travel suggestions for a trip to Kenya. What places do you recommend exploring?
 
+- intent: facts_abt_Amboseli_National_Park
+  examples: |
+    - Amboseli National Park
+    - Tell me more about the Amboseli National Park
+    - Tell me facts about Amboseli National Park
+    - What makes Amboseli National Park an interesting place
+    - Could you tell me some interesting information about Amboseli National Park
+    - What are the key highlights of Amboseli National Park in Kenya?
+    - I'm planning a trip to Amboseli National Park. Can you share some facts about the park?
+    - Tell me more about the wildlife and scenery at Amboseli National Park.
+    - What makes Amboseli National Park a unique destination for tourists?
+    - I'm interested in visiting Amboseli National Park. Can you give me some insights about the park's features?
+    - What's the significance of Mount Kilimanjaro in relation to Amboseli National Park?
+
+- intent: facts_abt_lake_victoria
+  examples: |
+    - Lake Victoria
+    - Tell me more about Lake Victoria
+    - Could you share some intriguing facts about Lake Victoria?
+    - I'm curious about Lake Victoria. What are some interesting things to know about it?
+    - Tell me some captivating details about Africa's Lake Victoria.
+    - What makes Lake Victoria a unique and fascinating body of water?
+    - Can you provide me with some fun facts about Lake Victoria?
+    - I'd like to learn more about Lake Victoria. What are some noteworthy facts?
+    - Why is Lake Victoria renowned, and what sets it apart from other lakes?
+    - Share with me some lesser-known facts about Lake Victoria in Africa.
+
+- intent: facts_abt_ Nairobi
+  examples: |
+    - Nairobi
+    - Tell me more about Nairobi city
+    - Could you provide me with more information about Nairobi?
+    - What makes Nairobi a unique and interesting city to visit?
+    - Share some insights on what I can expect to experience in Nairobi.
+    - Why should I consider visiting Nairobi, and what can I explore there?
+    - What's the local vibe like in Nairobi, and what activities are popular?
+    - What are the key highlights and attractions in Nairobi?
+    - I'd like to learn more about Nairobi. What can you tell me?
+
+- intent: facts_abt_MtKenya_National_Park
+  examples: |
+    - Mt. Kenya National Park
+    - Tell me interesting facts about Mt. Kenya National Park.
+    - I'd like to know more about the unique aspects of Mt. Kenya National Park. Can you share some facts?
+    - What makes Mt. Kenya National Park a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Mt. Kenya National Park.
+    - Why should I consider visiting Mt. Kenya National Park? What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Mt. Kenya National Park.
+    - What's the history and significance of Mt. Kenya National Park as a tourist destination?
+    - What are the top things I should know about Mt. Kenya National Park before planning a trip?
+    
+- intent: facts_abt_Mombasa
+  examples: |
+    - Mombasa
+    - Tell me more about Mombasa
+    - I'd like to know more about the unique aspects of Mombasa. Can you share some facts?
+    - What makes Mombasa a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Mombasa.
+    - Why should I consider visiting Mombasa What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Mombasa.
+    - What's the history and significance of Mombasa as a tourist destination?
+    - What are the top things I should know about Mombasa before planning a trip?
+
+- intent: facts_abt_Malindi
+  examples: |
+    - Malindi
+    - Tell me more about Malindi
+    - I'd like to know more about the unique aspects of Malindi. Can you share some facts?
+    - What makes Malindi a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Malindi.
+    - Why should I consider visiting Malindi What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Malindi.
+    - What's the history and significance of Malindi as a tourist destination?
+    - What are the top things I should know about Malindi before planning a trip?
+
+- intent: facts_abt_Samburu_National_Reserve
+  examples: |
+    - Samburu National Reserve
+    - Tell me more about Samburu National Reserve
+    - I'd like to know more about the unique aspects of Samburu National Reserve. Can you share some facts?
+    - What makes Samburu National Reserve a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Samburu National Reserve.
+    - Why should I consider visiting Samburu National Reserve What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Samburu National Reserve.
+    - What's the history and significance of Samburu National Reserve as a tourist destination?
+    - What are the top things I should know about Samburu National Reserve before planning a trip?
+    
+- intent: facts_abt_Diani_Beach
+  examples: |
+    - Diani Beach
+    - Tell me more about Diani Beach
+    - I'd like to know more about the unique aspects of Diani Beach. Can you share some facts?
+    - What makes Diani Beach a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Diani Beach.
+    - Why should I consider visiting Diani Beach What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Diani Beach.
+    - What's the history and significance of Diani Beach as a tourist destination?
+    - What are the top things I should know about Diani Beach before planning a trip?
+
+ - intent: facts_abt_Manda_Bay
+  examples: |
+    - Manda Bay
+    - I'm interested in Manda Bay
+    - Tell me more about Manda Bay
+    - I'd like to know more about the unique aspects of Manda Bay. Can you share some facts?
+    - What makes Manda Bay a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Manda Bay.
+    - Why should I consider visiting Manda Bay What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Manda Bay.
+    - What's the history and significance of Manda Bay as a tourist destination?
+    - What are the top things I should know about Manda Bay before planning a trip?
+
+ - intent: facts_abt_The_Great_Rift_Valley
+  examples: |
+    - The Great Rift Valley
+    - I'm interested in The Great Rift Valley
+    - Tell me more about The Great Rift Valley
+    - I'd like to know more about the unique aspects of The Great Rift Valley. Can you share some facts?
+    - What makes The Great Rift Valley a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of The Great Rift Valley.
+    - Why should I consider visiting The Great Rift Valley What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in The Great Rift Valley.
+    - What's the history and significance of The Great Rift Valley as a tourist destination?
+    - What are the top things I should know about The Great Rift Valley before planning a trip?
+    
 - intent: find_national_park
   examples: |
     - which is the best national park to visit in Kenya
@@ -67,15 +201,6 @@ nlu:
     - Do you know of any national parks in Kenya
     - Which national parks are in Kenya
 
-- intent: top_destinations
-  examples: |
-    - What are the most popular tourist spots in Kenya
-    - Can you list the must-visit places for tourists in Kenya
-    - Which places should I visit as a tourist in Kenya
-    - What are Kenya's top attractions for travelers
-    - Tell me about the best places to see in Kenya as a tourist
-    - I'm planning a trip to Kenya; where should I go to experience the best of the country
-    - Can you suggest the top vacation spots in Kenya
 
 - intent: ask_rift_valley
   examples: |
@@ -84,6 +209,9 @@ nlu:
     - How can I take in the awe-inspiring vistas of the Rift Valley
     - What options are there for enjoying the magnificent landscapes of the Rift Valley
     - What are some ways to explore the breathtaking landscapes of the Rift Valley
+    - Where can I start exploring Rift Valley
+    - Please give me some of the attractions that i can find in rift valler
+    
 
 - intent: ask_safari_destination
   examples: |
@@ -125,6 +253,7 @@ nlu:
     - I'm planning a trip to Kisumu. What are the key tourist spots there?
     - Could you share some information about the top destinations for tourists in Kisumu?
     - I'd love to explore Kisumu. What are the top tourist attractions I should consider visiting?
+    
 - intent: ask_nationalparks_Mombasa
   examples: |
     - Are there any national parks near Mombasa?
