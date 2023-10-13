@@ -232,17 +232,12 @@ stories:
     - intent: affirm
     - action: utter_enjoy_Mombasa
     
-- story: Where can i Dine in Nairobi path 4
+- story: Where can i Dine in Nairobi path 6
   steps:
   - intent: greet
   - action: utter_greet
   - intent: FindFoodNairobi
   - action: utter_FindFoodNairobi
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-  - intent: FindSpecificFood
-  - action: utter_FindSpecificFood
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_EnjoyMeal
@@ -327,6 +322,33 @@ stories:
   - intent: affirm
   - action: utter_EnjoyMeal
 
+- story: What is the local or staple food in Kenya
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindKenyanLocalFood
+    - action: utter_FindKenyanLocalFood
+
+- story: Recommend Fine Dining Restaurants in Nairobi
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindFineDiningRestaurantsNairobi
+    - action: utter_FindFineDiningRestaurantsNairobi
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+    
+- story: Recommend farm to table restaurants in Kenya
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindFarmToTableRestaurants
+    - action: utter_FindFarmToTableRestaurants
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
 - story: Find Cost at Carnivore Restaurant
   steps:
   - intent: greet
@@ -408,6 +430,313 @@ stories:
   steps:
   - intent: FindCostKibokoRestaurant
   - action: utter_FindCostKibokoRestaurant
+
+- story: Recommend hotels in Nairobi to stay in.
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindAccommodationNairobi
+    - action: utter_FindAccommodationNairobi
+
+- story: Recommend accommodation in the coastal region.
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindAccommodationCoastalRegion
+    - action: utter_FindAccommodationCoastalRegion
+
+- story: Recommend hotels to stay at while in Kisumu.
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindAccommodationKisumu
+    - action: utter_FindAccommodationKisumu
+
+- story: Recommend resorts found in Kajiado.
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindAccommodationKajiado
+    - action: utter_FindAccommodationKajiado
+
+- story: What are some hotels and lodges found in Nakuru?
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindAccommodationNakuru
+    - action: utter_FindAccommodationNakuru
+
+- story: Tell me about accommodation options in Naivasha.
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindAccommodationNaivasha
+    - action: utter_FindAccommodationNaivasha
+
+- story: How much does it cost to stay at Voyager Beach Resort?
+  steps:
+    - intent: FindAccommodationCostVoyager
+    - action: utter_FindAccommodationCostVoyager
+
+- story: Tell me about the room rates at Peponi Hotel.
+  steps:
+    - intent: FindAccommodationCostPeponiHotel
+    - action: utter_FindAccommodationCostPeponiHotel
+
+- story: How much does a Villa cost at Majlis Resort?
+  steps:
+    - intent: FindAccommodationCostMajlisResort
+    - action: utter_FindAccommodationCostMajlisResort
+
+- story: What are the room charges at Baobab Sea Lodge?
+  steps:
+    - intent: FindAccommodationCostBaobabSeaLodge
+    - action: utter_FindAccommodationCostBaobabSeaLodge
+
+- story: What is the estimate cost for staying at Mnarani Club for 3 days and 2 nights?
+  steps:
+    - intent: FindAccommodationCostMnaraniClub
+    - action: utter_FindAccommodationCostMnaraniClub
+
+- story: What are the accommodation charges at Sarova Whitesands?
+  steps:
+    - intent: FindAccommodationCostSarovaWhitesands
+    - action: utter_FindAccommodationCostSarovaWhitesands
+
+- story: How much does it cost to vacation at PrideInn Beach Resort?
+  steps:
+    - intent: FindAccommodationCostPrideInnBeachResort
+    - action: utter_FindAccommodationCostPrideInnBeachResort
+
+- story: What are the accommodation charges at Travelers Beach Hotel?
+  steps:
+    - intent: FindAccommodationCostTravelersBeachHotel
+    - action: utter_FindAccommodationCostTravelersBeachHotel
+
+- story: What are the room charges at Bamburi Beach Hotel?
+  steps:
+    - intent: FindAccommodationCostBamburiBeachHotel
+    - action: utter_FindAccommodationCostBamburiBeachHotel
+
+- story: How much is a vacation at Turtle Bay Beach?
+  steps:
+    - intent: FindAccommodationCostTurtleBayBeach
+    - action: utter_FindAccommodationCostTurtleBayBeach
+
+- story: Tell me about the room rates at Medina Palms.
+  steps:
+    - intent: FindAccommodationCostMedinaPalms
+    - action: utter_FindAccommodationCostMedinaPalms
+
+- story: What is the estimate cost for staying at Hemingways Watamu for 3 days and 2 nights?
+  steps:
+    - intent: FindAccommodationCostHemingwaysWatamu
+    - action: utter_FindAccommodationCostHemingwaysWatamu
+
+- story: What are the packages provided for staying at Diani Reef Beach Resort?
+  steps:
+    - intent: FindAccommodationCostDianiReefBeachResort
+    - action: utter_FindAccommodationCostDianiReefBeachResort
+
+- story: What are the room charges at Leopard Beach Resort?
+  steps:
+    - intent: FindAccommodationCostLeopardBeachResort
+    - action: utter_FindAccommodationCostLeopardBeachResort
+
+- story: How much does it cost to stay at Villa Rosa Kempinski?
+  steps:
+    - intent: FindAccommodationCostVillaRosaKempinski
+    - action: utter_FindAccommodationCostVillaRosaKempinski
+
+- story: What are the room charges at Hemingways Nairobi?
+  steps:
+    - intent: FindAccommodationCostHemingwaysNairobi
+    - action: utter_FindAccommodationCostHemingwaysNairobi
+
+- story: What is the estimate cost for staying at Nairobi Serena Hotel?
+  steps:
+    - intent: FindAccommodationCostNairobiSerenaHotel
+    - action: utter_FindAccommodationCostNairobiSerenaHotel
+
+- story: What are the room charges at Radisson Blu Hotel?
+  steps:
+    - intent: FindAccommodationCostRadissonBluHotel
+    - action: utter_FindAccommodationCostRadissonBluHotel
+
+- story: How much does it cost to stay at Emara Ole Sereni?
+  steps:
+    - intent: FindAccommodationCostEmaraOleSereni
+    - action: utter_FindAccommodationCostEmaraOleSereni
+
+- story: Do the room charges at Ibis Styles include Bed and Breakfast?
+  steps:
+    - intent: FindAccommodationCostIbisStyles
+    - action: utter_FindAccommodationCostIbisStyles
+
+- story: How much does it cost to stay at Eka Hotel for a night?
+  steps:
+    - intent: FindAccommodationCostEkaHotel
+    - action: utter_FindAccommodationCostEkaHotel
+
+- story: What are the room charges at Tribe Hotel?
+  steps:
+    - intent: FindAccommodationCostTribeHotel
+    - action: utter_FindAccommodationCostTribeHotel
+
+- story: What are the rates for staying at Small World Club?
+  steps:
+    - intent: FindAccommodationCostSmallWorldCountryClub
+    - action: utter_FindAccommodationCostSmallWorldCountryClub
+
+- story: What are the packages provided for staying at PrideInn Hotel?
+  steps:
+    - intent: FindAccommodationCostPrideInnHotel
+    - action: utter_FindAccommodationCostPrideInnHotel
+
+- story: What are the rates for staying at Boma Hotel?
+  steps:
+    - intent: FindAccommodationCostTheBomaNairobi
+    - action: utter_FindAccommodationCostTheBomaNairobi
+
+- story: What are the room charges at Best Western Plus?
+  steps:
+    - intent: FindAccommodationCostBestWesternPlus
+    - action: utter_FindAccommodationCostBestWesternPlus
+
+- story: How much does it cost to stay at The Bedelle?
+  steps:
+    - intent: FindAccommodationCostTheBedelle
+    - action: utter_FindAccommodationCostTheBedelle
+
+- story: What is the estimate cost for staying at Palacina The Residence & Suites?
+  steps:
+    - intent: FindAccommodationCostPalacinaTheResidence
+    - action: utter_FindAccommodationCostPalacinaTheResidence
+
+- story: What are the accommodation charges at Macushla House?
+  steps:
+    - intent: FindAccommodationCostMacushlaHouse
+    - action: utter_FindAccommodationCostMacushlaHouse
+
+- story: What are the accommodation charges at Enashipai Resort & Spa?
+  steps:
+    - intent: FindAccommodationCostEnashipaiResort
+    - action: utter_FindAccommodationCostEnashipaiResort
+
+- story: How much does it cost to stay at Lake Naivasha Country Club?
+  steps:
+    - intent: FindAccommodationCostLakeNaivashaCountryClub
+    - action: utter_FindAccommodationCostLakeNaivashaCountryClub
+
+- story: Do the room charges at Sawela Lodges include Bed and Breakfast?
+  steps:
+    - intent: FindAccommodationCostSawelaLodges
+    - action: utter_FindAccommodationCostSawelaLodges
+
+- story: What is the estimate cost for staying at Fisherman's Camp for 3 days and 2 nights?
+  steps:
+    - intent: FindAccommodationCostFishermansCamp
+    - action: utter_FindAccommodationCostFishermansCamp
+
+- story: What are the cottage charges at Naivasha Kongoni Lodge?
+  steps:
+    - intent: FindAccommodationCostNaivashaKongoniLodge
+    - action: utter_FindAccommodationCostNaivashaKongoniLodge
+
+- story: How much does it cost to camp at Crater Lake Tented Camp?
+  steps:
+    - intent: FindAccommodationCostCraterLakeTentedCamp
+    - action: utter_FindAccommodationCostCraterLakeTentedCamp
+
+- story: What are the accommodation charges at Great Rift Valley Lodge & Golf Resort?
+  steps:
+    - intent: FindAccommodationCostGreatRiftValleyLodge
+    - action: utter_FindAccommodationCostGreatRiftValleyLodge
+
+- story: What is the estimate cost for staying at Olerai House for 3 days and 2 nights?
+  steps:
+    - intent: FindAccommodationCostOleraiHouse
+    - action: utter_FindAccommodationCostOleraiHouse
+
+- story: What are the room charges at Kiangazi House?
+  steps:
+    - intent: FindAccommodationCostKiangaziHouse
+    - action: utter_FindAccommodationCostKiangaziHouse
+
+- story: What is the estimate cost for staying at Lerruat Log Resort for 3 days and 2 nights?
+  steps:
+    - intent: FindAccommodationCostLerruatLogResort
+    - action: utter_FindAccommodationCostLerruatLogResort
+
+- story: What are the accommodation charges at Saab Royale Resort?
+  steps:
+    - intent: FindAccommodationCostSaabRoyaleResort
+    - action: utter_FindAccommodationCostSaabRoyaleResort
+
+- story: Do the camp charges at Enchipai Campsite and Cottages include food?
+  steps:
+    - intent: FindAccommodationCostEnchipaiCampsiteandCottages
+    - action: utter_FindAccommodationCostEnchipaiCampsiteandCottages
+
+- story: What are the room charges at Maasai Lodge?
+  steps:
+    - intent: FindAccommodationCostMaasaiLodge
+    - action: utter_FindAccommodationCostMaasaiLodge
+
+- story: What are the accommodation charges at Oldonyo Orok Camp?
+  steps:
+    - intent: FindAccommodationCostOldonyoOrokCamp
+    - action: utter_FindAccommodationCostOldonyoOrokCamp
+
+- story: Tell me about the room rates at Sarova Woodlands Hotel & Spa.
+  steps:
+    - intent: FindAccommodationCostSarovaWoodlands
+    - action: utter_FindAccommodationCostSarovaWoodlands
+
+- story: What is the estimate cost for staying at Lake Nakuru Lodge?
+  steps:
+    - intent: FindAccommodationCostLakeNakuruLodge
+    - action: utter_FindAccommodationCostLakeNakuruLodge
+
+- story: Tell me about the room rates at Ziwa Bush Lodge.
+  steps:
+    - intent: FindAccommodationCostZiwaBushLodge
+    - action: utter_FindAccommodationCostZiwaBushLodge
+
+- story: What are the accommodation charges at Kivu Resort Nakuru?
+  steps:
+    - intent: FindAccommodationCostKivuResortNakuru
+    - action: utter_FindAccommodationCostKivuResortNakuru
+
+- story: What are the packages provided for staying at Top Cliff Lodge?
+  steps:
+    - intent: FindAccommodationCostTopCliffLodge
+    - action: utter_FindAccommodationCostTopCliffLodge
+
+- story: What are the accommodation charges at Acacia Premier Hotel?
+  steps:
+    - intent: FindAccommodationCostAcaciaPremierHotel
+    - action: utter_FindAccommodationCostAcaciaPremierHotel
+
+- story: What are the room charges at Ciala Resort?
+  steps:
+    - intent: FindAccommodationCostCialaResort
+    - action: utter_FindAccommodationCostCialaResort
+
+- story: What is the estimate cost for staying at Sovereign Hotel Kisumu for 3 days and 2 nights?
+  steps:
+    - intent: FindAccommodationCostSovereignHotelKisumu
+    - action: utter_FindAccommodationCostSovereignHotelKisumu
+
+- story: How much does it cost to stay at The Grand Royal Swiss Hotel?
+  steps:
+    - intent: FindAccommodationCostTheGrandRoyalSwissHotel
+    - action: utter_FindAccommodationCostTheGrandRoyalSwissHotel
+
+- story: Tell me about the room rates at Sunset Hotel Kisumu.
+  steps:
+    - intent: FindAccommodationCostSunsetHotelKisumu
+    - action: utter_FindAccommodationCostSunsetHotelKisumu
 
 - story: Typical Weather
   steps:
