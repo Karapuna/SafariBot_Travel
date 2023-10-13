@@ -19,6 +19,17 @@ intents:
   - facts_abt_Diani_Beach
   - facts_abt_Manda_Bay
   - facts_abt_The_Great_Rift_Valley
+  - facts_abt_Ol_pejeta
+  - facts_abt_Nanyuki
+  - facts_abt_Kilifi
+  - facts_abt_Watamu
+  - facts_abt_Equator_Marker
+  - facts_abt_Ol_Jogi_Wildlife_Conservancy
+  - facts_abt_Thomsons_Falls
+  - facts_abt_Mount_Kenya_Wildlife_Conservancy
+  - facts_abt_Solio_Ranch_Conservancy
+  - facts_abt_Sosian_Lodge
+  - facts_abt_Jangwani_Camp_Sagana
   - find_national_park
   - ask_rift_valley
   - ask_safari_destination
@@ -207,6 +218,38 @@ responses:
   - text: |
       The Great Rift Valley in Kenya is a natural wonder that promises an extraordinary journey. Stretching across the landscape, it offers breathtaking vistas and diverse ecosystems. 🌄 Home to an array of wildlife, including flamingos at Lake Nakuru, it's a paradise for nature enthusiasts. The geothermal activity here gives rise to fascinating hot springs and geysers in places like Hell's Gate National Park. Additionally, the valley is a window into the cultures and traditions of the indigenous tribes. If you're an adventure seeker, the Great Rift Valley offers hiking, rock climbing, and the chance to marvel at one of Earth's most remarkable geological features. It's a destination where nature, wildlife, culture, and adventure converge, making it an unmissable experience for any traveler exploring Kenya. 🦓🏞️🚵‍♀️📸
   
+  utter_facts_abt_Kilifi:
+  - text: |
+      Kilifi, a coastal gem along Kenya's Indian Ocean, beckons tourists with its serene beaches, azure waters, and vibrant culture. 🏖️ This charming town is known for its pristine coastline, providing an ideal backdrop for relaxation, water sports, and stunning sunsets. Explore the Kilifi Creek, where you can kayak, sail, and marvel at the mangrove forests. For culture enthusiasts, Kilifi offers a glimpse into Swahili traditions and delectable coastal cuisine. Whether you're in search of laid-back beachfront living, thrilling water adventures, or cultural immersion, Kilifi welcomes you with open arms. It's the perfect place to unwind, explore, and create cherished coastal memories in Kenya. 🌅🌊🍤
+  
+  utter_facts_abt_Equator_Marker:
+  - text: |
+      The Equator Marker in Kenya offers a unique opportunity to stand with one foot in the Northern Hemisphere and the other in the Southern Hemisphere. 🌍👣 It's not just a geographical point; it's a fun and fascinating experience. You can balance an egg on a nail, and it won't fall, thanks to the Earth's rotation! Visiting the Equator Marker allows you to witness a remarkable scientific phenomenon and take home a fantastic story of defying gravity. Plus, who wouldn't want to say they've straddled two hemispheres in one unforgettable moment? It's an interactive and Instagram-worthy adventure that adds an exciting twist to your Kenyan journey! 🥚🤩 #EquatorExplorer
+
+  utter_facts_abt_Ol_Jogi_Wildlife_Conservancy:
+  - text: |
+      Ol Jogi Wildlife Conservancy in Kenya is an extraordinary wildlife haven waiting to be discovered. 🌿 Home to a diverse range of animals, from lions to rhinos, it offers an exclusive opportunity for intimate wildlife encounters and eco-conscious safaris. Not only does Ol Jogi focus on conservation, but it also supports local communities and works to protect endangered species. Tourists can not only immerse themselves in nature's beauty but also play a part in the larger mission of preserving Kenya's remarkable wildlife heritage. An exploration of Ol Jogi is an adventure that combines unforgettable animal encounters with responsible travel, leaving you with cherished memories and a sense of contributing to a greater cause. 🦁🌍🌟
+
+  utter_facts_abt_Thomsons_Falls:
+  - text: |
+      Thomson's Falls, named after the Scottish geologist Joseph Thomson, is a breathtaking 243-foot waterfall located near Nyahururu in Kenya. 🌊 A visit to this natural wonder promises a refreshing escape from the city, with lush greenery, a serene atmosphere, and opportunities for picnics and photography. The falls are not just a visual delight; their soothing sound is music to the ears. For tourists, exploring Thomson's Falls offers a chance to connect with Kenya's natural beauty, unwind in a tranquil environment, and capture stunning moments of cascading waters. It's an ideal day trip for those seeking a blend of nature and relaxation, making it a must-visit destination for travelers in Kenya. 🏞️📸🌿
+
+  utter_facts_abt_Mount_Kenya_Wildlife_Conservancy:
+  - text: |
+      Nestled at the base of majestic Mount Kenya, the Mount Kenya Wildlife Conservancy is a haven for nature enthusiasts. 🌄 Here, you have the rare opportunity to witness Kenya's incredible wildlife, including the almost extinct mountain bongo, elephants, leopards, and more. The conservancy's breeding program for rare white zebras and bongos, along with its orphanage for abandoned animals, showcases a commitment to wildlife conservation that's truly inspiring. Visitors can get up close with these animals, gaining a deeper understanding of Kenya's biodiversity and the dedicated efforts to protect it. Exploring the conservancy is an educational and heartwarming experience, making it a must-visit for travelers looking to connect with Kenya's wild side and contribute to its preservation. 🦓🏞️🐆
+
+  utter_facts_abt_Solio_Ranch_Conservancy:
+  - text: |
+      Solio Ranch, Kenya's oldest rhino sanctuary, is a testament to the remarkable success of rhino conservation efforts. 🦏 Privately owned and dedicated to preserving these magnificent creatures, it's a vital hub for the protection and breeding of black rhinos in Kenya. The impact has been so profound that it has contributed to restocking game reserves across Africa. Beyond rhinos, the park is home to a diverse array of wildlife, from gazelles and giraffes to lions, hyenas, and buffaloes. Exploring Solio Ranch offers not only an incredible opportunity to see these endangered giants up close but also a chance to support their continued survival. It's a wildlife enthusiast's dream come true and a destination where conservation truly makes a difference. 🌿🌍🦁
+
+  utter_facts_abt_Sosian_Lodge:
+  - text: |
+      Sosian Lodge is the epitome of a unique and intimate bush experience in the heart of the wilderness. 🦓🦁 With a plethora of wildlife, including elephants, buffalo, lions, leopards, and rare species like wild dogs and Grevy's zebras, it's a safari enthusiast's dream. Birdwatchers will find paradise in its 250 bird species. What sets Sosian Lodge apart is the warm and personalized hosting by a seasoned team, creating a relaxed atmosphere. Each day is tailored to your desires, offering a range of safari activities, from thrilling horseback rides to tracking lions or peaceful moments of wildlife observation. Every day here is a new adventure, and you'll leave with cherished memories of your unique wildlife encounters. 🐾🌄🦜
+
+  utter_facts_abt_Jangwani_Camp_Sagana:
+  - text: |
+      Jangwani Camp Sagana is where adventure and nature converge in Kenya. 🏕️ Nestled amidst the scenic beauty of Sagana, this camp offers thrilling activities like white-water rafting, kayaking, and rock climbing along the iconic Tana River. But it's not just adrenaline; the camp is also a serene retreat with the soothing sound of the river as your backdrop. You can immerse in Kenya's natural beauty, spot diverse bird species, and unwind by the campfire under the starry African sky. It's the perfect escape for adventure seekers, nature lovers, and anyone looking to experience Kenya's wilderness in a truly interactive and unforgettable way. 🌅🚣‍♂️🌿
+  
   utter_find_national_park:
   - text: "Kenya offers a wealth of breathtaking tourist attractions. Some of the top places to visit include the Maasai Mara National Reserve, Amboseli National Park, Nairobi National Park, Tsavo East and West National Parks, and the Great Rift Valley."
 
@@ -233,15 +276,24 @@ responses:
   utter_top_beach_destinations:
   - text: |
           Kenya's coastal gems beckon with their soft sands, azure waters, and the rhythmic whispers of the Indian Ocean, inviting travelers to a serene paradise where nature's artistry meets the warm embrace of the sun. Among these treasures, you'll find some of the top beach destinations on the Kenyan coast 🌴
+            🌴 Diani Beach: Diani Beach, located near Mombasa, is renowned for its stunning white-sand beaches, crystal-clear waters, and a range of water sports. It's a popular spot for relaxation and beachfront resorts
+            🌴 Watamu Beach: Watamu is known for its pristine beaches and vibrant marine life. It's a great place for snorkeling and scuba diving, with the Watamu Marine National Park protecting its coral reefs
+            🌴 Malindi Beach: Malindi is a coastal town with beautiful beaches. It offers a mix of natural beauty, cultural attractions, and water activities
+            🌴 Nyali Beach: Located in Mombasa, Nyali Beach is known for its soft sands and scenic beauty. It's a great place for beachcombing, swimming, and water sports
 
-          Diani Beach: Diani Beach, located near Mombasa, is renowned for its stunning white-sand beaches, crystal-clear waters, and a range of water sports. It's a popular spot for relaxation and beachfront resorts
-
-          Watamu Beach: Watamu is known for its pristine beaches and vibrant marine life. It's a great place for snorkeling and scuba diving, with the Watamu Marine National Park protecting its coral reefs
-
-          Malindi Beach: Malindi is a coastal town with beautiful beaches. It offers a mix of natural beauty, cultural attractions, and water activities
-
-          Nyali Beach: Located in Mombasa, Nyali Beach is known for its soft sands and scenic beauty. It's a great place for beachcombing, swimming, and water sports
-
+  utter_facts_abt_Ol_pejeta:
+  - text: |
+      Ol Pejeta Conservancy in Kenya is a wildlife wonderland where your safari dreams come true. 🌍 This remarkable conservation area is home to the last two northern white rhinos on Earth and offers sanctuary to an abundance of other species. Tourists can embark on thrilling game drives to spot the Big Five, including rare black rhinos, or visit the Chimpanzee Sanctuary to connect with our closest relatives. What makes Ol Pejeta truly special is its commitment to conservation and community development, making it a responsible choice for eco-conscious travelers. Exploring Ol Pejeta is an opportunity to witness the beauty of Kenya's wildlife, participate in meaningful conservation, and support local communities. It's an extraordinary adventure that leaves an impact far beyond your visit. 🦏🐆🐵
+  
+  utter_facts_abt_Nanyuki:
+  - text: |
+      Nanyuki, often referred to as the gateway to Mount Kenya, is a charming town that holds the keys to unforgettable adventures in Kenya. 🌄 Surrounded by stunning landscapes, Nanyuki offers a unique blend of nature, culture, and adrenaline-packed activities. Tourists can explore the rugged terrain of Mount Kenya on treks, visit wildlife sanctuaries, and even enjoy a thrilling air safari. It's also a hub for unique cultural experiences, allowing you to interact with local communities and savor traditional dishes. Nanyuki is the perfect base for exploring Mount Kenya National Park, offering a chance to conquer this iconic peak or simply revel in its majesty. If you're seeking a blend of nature, culture, and adventure, Nanyuki is your gateway to it all. 🏞️🏔️🌍
+ 
+  utter_facts_abt_Watamu:
+  - text: |
+      Watamu, a coastal paradise along Kenya's shores, is an aquatic wonderland that beckons tourists with its vibrant coral reefs and dazzling marine life. 🏝️ This charming town is celebrated for its exquisite beaches, making it a prime destination for sun-seekers and water enthusiasts. Snorkeling and diving in the Watamu Marine National Park offer an enchanting underwater spectacle, with the chance to spot dolphins, turtles, and an array of colorful fish. Watamu is also a gateway to deep-sea fishing, thrilling water sports, and unique air safaris that reveal Kenya's breathtaking landscapes from above. For those in search of coastal beauty and marine adventures, Watamu is the perfect destination. It promises unforgettable experiences in the heart of Kenya's tropical paradise. 🌞🐬🌊
+  
+      
   utter_enjoy_beach:
   - text: "Enjoy every sun-kissed moment, every gentle wave, and the endless beauty of the beach. May your beach experience be filled with relaxation, joy, and unforgettable memories 🌴🌞"
 
@@ -254,73 +306,53 @@ responses:
 
   utter_ask_top_tourist_attractions_Mombasa:
   - text: |
-      Fort Jesus: This historical fort, built by the Portuguese in the 16th century, is a UNESCO World Heritage Site and offers insight into Mombasa's past.
+      1. Discover the heart of Mombasa's history at 🏰 Fort Jesus – a UNESCO World Heritage Site that narrates tales of the past.      
+      2. Diani Beach 🏖️ is the place for relaxation and water sports. 🌊 Dip your toes in pristine sands and crystal-clear waters.      
+      3. Embrace the wild at Haller Park 🦒, where you can meet giraffes, hippos, and reptiles. Take a stroll along nature trails and flutter by the butterfly pavilion. 🦋
+      4. Wander through the charming 🏘️ Old Town, with its Swahili architecture and narrow streets, to feel the local culture.
+      5. Dive into the vibrant underwater world at Mombasa Marine National Park. 🐠 Snorkeling and scuba diving await in the colorful coral reefs.
+      6. Explore the diverse 🌳 Bamburi Nature Trail and its butterfly sanctuary, a close encounter with Mombasa's biodiversity.
+      7. Capture a shot at the iconic 🦷 Mombasa Tusks – a symbol of the city's rich history and a must-visit photo spot.
+      8. Meet the ancient past at 🏛️ Jumba La Mtwana, where ruins of Swahili buildings transport you back in time.
+      9. Seek the sun and sand at Nyali Beach 🏝️, where water sports and beachfront resorts are your gateway to fun and relaxation.
 
-      Diani Beach: Known for its pristine white sands and clear waters, Diani Beach is a popular destination for relaxation and water sports.
-      
-      Haller Park: This nature park features a variety of wildlife, including giraffes, hippos, and reptiles. Visitors can also enjoy nature trails and a butterfly pavilion.
-      
-      Old Town: Mombasa's Old Town area is known for its Swahili architecture, narrow streets, and historic buildings. It's a great place to explore and soak in the local culture.
-      
-      Mombasa Marine National Park: This marine park offers fantastic opportunities for snorkeling and scuba diving, with colorful coral reefs and marine life.
-      
-      Bamburi Nature Trail: A nature trail and butterfly sanctuary that allows you to experience Mombasa's biodiversity up close.
-      
-      Mombasa Tusks: These iconic ivory tusks arching over Moi Avenue are a famous symbol of the city and a popular photo spot.
-      
-      Mamba Village: A crocodile farm with guided tours and opportunities to see and learn about these reptiles.
-      
-      Jumba La Mtwana: These ruins include several ancient Swahili buildings and offer a glimpse into the region's historical past.
-      
-      Nyali Beach: Another beautiful beach in Mombasa with various water sports activities and beachfront resorts.
+
 
   utter_enjoy_Mombasa:
   - text: "Great!! Make sure to savor and enjoy the vibrant experiences Mombasa has to offer!"
 
   utter_ask_top_tourist_attractions_Kisumu:
   - text: |
-      These attractions offer a mix of natural beauty, cultural experiences, and historical insights, making Kisumu a fascinating destination for travelers
-      
-      Kisumu Impala Sanctuary: A wildlife sanctuary home to impalas, hippos, giraffes, and a wide range of bird species. Visitors can enjoy nature walks and educational tours.
+      Kisumu, a captivating destination, awaits your exploration! 🌍
 
-      Dunga Beach: A scenic lakeside area where you can relax, enjoy boat rides, and try fresh fish from local restaurants.
-      
-      Kit Mikayi: A massive rock formation with spiritual and cultural significance, offering panoramic views of the surrounding landscape.
-      
-      Hippo Point: A viewpoint on Lake Victoria where you can spot hippos and enjoy the beautiful scenery.
-      
-      Kisumu Museum: This museum showcases the cultural and natural heritage of the region, including traditional Luo artifacts and archaeological exhibits.
-      
-      Ndere Island National Park: Located on Lake Victoria, this national park is home to a variety of bird species and is an excellent place for boat safaris and picnics.
-      
-      Kiboko Bay: A serene lakeside resort with beautiful gardens, dining options, and stunning views of Lake Victoria.
-      
-      Impala Eco Lodge: A picturesque eco-lodge that provides accommodations and beautiful surroundings for visitors.
-      
-      Kisumu Railway Museum: This museum offers insights into Kenya's railway history with its collection of vintage locomotives and carriages.
-      
-      St. Joseph's Cathedral: A magnificent piece of architecture in the heart of Kisumu, known for its stunning stained glass windows and serene ambiance.
-      
+        1. At Kisumu Impala Sanctuary, you can spot impalas, hippos, giraffes, and a plethora of bird species while enjoying serene nature walks. 🦒🦋
+        2. Dunga Beach offers relaxation by the lakeside, boat rides, and delicious fresh fish from local restaurants. 🏖️🚤        
+        3. Marvel at the spiritual and cultural significance of Kit Mikayi, a colossal rock formation with panoramic views of the landscape. ⛰️        
+        4. Hippo Point, on Lake Victoria, promises hippo sightings and breathtaking scenery. 🦛🌅        
+        5. Delve into the rich heritage of Kisumu at the Kisumu Museum, home to traditional Luo artifacts and archaeological exhibits. 🏺🏛️        
+        6. Discover the bird-filled wonderland of Ndere Island National Park on Lake Victoria. Enjoy boat safaris and delightful picnics. 🦜🚣        
+        7. Kiboko Bay, a serene lakeside resort, welcomes you with beautiful gardens, dining options, and stunning Lake Victoria views. 🍃🍽️        
+        8. Unwind at Impala Eco Lodge, offering picturesque accommodations and breathtaking surroundings. 🏨🏞️        
+        9. Explore Kenya's railway history at Kisumu Railway Museum, home to vintage locomotives and carriages. 🚂🏢        
+        10. St. Joseph's Cathedral, a magnificent architectural gem in Kisumu, is known for its stunning stained glass windows and serene ambiance. ⛪🪟
+        
+        These attractions offer a perfect blend of nature, culture, history, and relaxation, making Kisumu an enthralling destination for travelers of all kinds. 🦢📸🌟
   
   utter_enjoy_Kisumu:
   - text: "Great!! Make sure to savor and enjoy the vibrant experiences Kisumu has to offer!"
 
   utter_ask_nationalparks_Mombasa:
   - text: |
-    Mombasa serves as a gateway to several national parks and wildlife reserves in the surrounding coastal and inland areas of Kenya. Some of the national parks and wildlife reserves accessible from Mombasa include:
+       Mombasa, your gateway to Kenya's wild treasures! 🦁🌿
 
-    Tsavo East National Park: This is one of the largest and oldest national parks in Kenya, known for its diverse wildlife and the red elephants of Tsavo. It's about a 3-4 hour drive from Mombasa.
-    
-    Tsavo West National Park: Located adjacent to Tsavo East, it offers stunning landscapes, lava flows, the Mzima Springs, and diverse wildlife. It's also approximately a 3-4 hour drive from Mombasa.
-    
-    Shimba Hills National Reserve: This coastal rainforest reserve is about a 45-minute drive from Mombasa and is known for its diverse flora and fauna, including the rare Sable antelope.
-    
-    Arabuko Sokoke Forest Reserve: A forest reserve known for its rich biodiversity, including bird species, butterflies, and the golden-rumped elephant shrew. It's located a few hours' drive from Mombasa.
-    
-    Haller Park: While not a national park, it's a nature park in Bamburi, Mombasa, where you can see a variety of wildlife, including giraffes, hippos, and reptiles.
-    
-    These are some of the nature reserves and parks near Mombasa where you can experience Kenya's incredible wildlife and natural beauty.
-  
+      1. Tsavo East National Park: Discover diverse wildlife, including the famous red elephants of Tsavo, on a 3-4 hour drive from Mombasa.
+      2. Tsavo West National Park: Adjacent to Tsavo East, it offers stunning landscapes, Mzima Springs, and more wildlife wonders, just a 3-4 hour drive away.
+      3. Shimba Hills National Reserve: A 45-minute drive from Mombasa, it's a coastal rainforest teeming with unique flora and fauna, including the rare Sable antelope. 🦌🌳
+      4. Arabuko Sokoke Forest Reserve: This haven for bird species, butterflies, and the golden-rumped elephant shrew awaits just a few hours' drive from Mombasa. 🐦🦋🌲
+      5. Haller Park: While not a national park, it's a nature park in Mombasa itself. Here, you can meet giraffes, hippos, reptiles, and more. A perfect spot for a family adventure! 🦒🐊🏞️
+
+      These reserves and parks near Mombasa promise a thrilling safari adventure and a chance to immerse in Kenya's remarkable natural beauty. 🇰🇪🚗🐾
+ 
   utter_FindFoodNairobi:
   - text: |
       Nairobi offers a vibrant culinary scene with a wide range of dining options. Here are some recommendations:
@@ -409,14 +441,14 @@ responses:
         You're in for a treat! Kenya has some highly-ranked restaurants that are sure to delight your taste buds. Here are a few top-rated dining spots:
         
           Nairobi:
-           1. **Talisman Restaurant:** Known for its exceptional cuisine and ambiance.
-           2. **Dusit D2 Hotel & Restaurant:** Offers a range of culinary delights.
-           3. **Harvest Restaurant:** Popular for its farm-to-table concept.
+           1. Talisman Restaurant: Known for its exceptional cuisine and ambiance.
+           2. Dusit D2 Hotel & Restaurant: Offers a range of culinary delights.
+           3. Harvest Restaurant: Popular for its farm-to-table concept.
         
           Mombasa:
-           1. **Tamarind Dhow Restaurant:** Renowned for its seafood and waterfront dining.
-           2. **Jumba Ruins Monsoon Restaurant:** Fusion cuisine with excellent reviews.
-           3. **Forodhani Restaurant:** A top choice for Swahili dishes.
+           1. Tamarind Dhow Restaurant: Renowned for its seafood and waterfront dining.
+           2. Jumba Ruins Monsoon Restaurant: Fusion cuisine with excellent reviews.
+           3. Forodhani Restaurant: A top choice for Swahili dishes.
         
           Eldoret:
            1. 64 Resort & Sporting Club:** Offers a mix of international and local dishes.
@@ -428,16 +460,16 @@ responses:
   - text: "Maasai Mara National Reserve offers dining experiences amidst the stunning wilderness. Here are some recommendations:
 
       Lodges and Camps:
-         1. **Mara Serena Safari Lodge:** Offers a mix of international and Kenyan cuisine.
-         2. **Mara Intrepids Luxury Tented Camp:** Known for its delectable dishes with a view of the savannah.
-         3. **Keekorok Lodge:** Offers buffet-style dining with a variety of options.
+         1. Mara Serena Safari Lodge: Offers a mix of international and Kenyan cuisine.
+         2. Mara Intrepids Luxury Tented Camp: Known for its delectable dishes with a view of the savannah.
+         3. Keekorok Lodge:  Offers buffet-style dining with a variety of options.
 
      Safari Picnics:
-      Many safari operators in Maasai Mara offer delightful bush picnics. Enjoy a meal in the heart of the reserve with the sights and sounds of wildlife around you.
-
-      If you're specifically looking for nyama choma (grilled meat), you can inquire at the lodges or camps, as they often offer this delicious Kenyan specialty as part of their menu.
-
-      Please note that dining experiences in the reserve are often arranged by the lodges and safari operators. Feel free to inquire with your accommodation or tour provider for specific dining arrangements and options."
+        Many safari operators in Maasai Mara offer delightful bush picnics. Enjoy a meal in the heart of the reserve with the sights and sounds of wildlife around you.
+  
+        If you're specifically looking for nyama choma (grilled meat), you can inquire at the lodges or camps, as they often offer this delicious Kenyan specialty as part of their menu.
+  
+        Please note that dining experiences in the reserve are often arranged by the lodges and safari operators. Feel free to inquire with your accommodation or tour provider for specific dining arrangements and options."
 
   utter_FindHiddenGemDining:
   - text: "Exploring hidden gem dining spots can be an exciting culinary adventure! Here are some lesser-known dining options in Kenya:
