@@ -410,11 +410,20 @@ nlu:
   examples: |
     - Recommend restaurants in Nairobi.
     - Where can I try authentic Kenyan food in Nairobi?
+    - Where can i find grilled meat (nyama choma) in Nairobi?
     - What are the top dining spots in the capital?
     - Tell me about Nairobi's street food.
     - I'm looking for vegetarian restaurants in Nairobi.
     - Recommend seafood restaurants in Nairobi.
 
+- intent: FindFineDiningRestaurantsNairobi
+  examples: |
+    - Recommend fine dining restaurants in Nairobi.
+    - Where can I experience fine dining in Nairobi?
+    - Tell me about upscale restaurants in the capital.
+    - I'm looking for an elegant dining experience in Nairobi.
+    - Suggest high-end restaurants in Nairobi.
+  
 - intent: FindFoodMombasa
   examples: |
     - What are the best places to eat in Mombasa?
@@ -423,13 +432,15 @@ nlu:
     - Tell me about Mombasa's local dishes.
     - What is the popular dish in Mombasa?
 
-- intent: FindSpecificFood
+- intent: FindKenyanLocalFood
   examples: |
-   - Where can I try nyama choma (grilled meat) in Kenya?
+   - Where can i get nyama choma (grilled meat) in Kenya?
+   - What is the local food of Kenya?
+   - Recommend local dishes in Kenya.
    - Tell me about ugali and sukuma wiki.
    - I want to taste chapati in Nairobi.
-   - Recommend places for samosas in Mombasa.
-   - What is Kenya's staple food?
+   - Recommend places for swahili in Mombasa.
+   - What is Kenya's staple food? 
 
 - intent: FindFoodKisumu
   examples: |
@@ -468,6 +479,17 @@ nlu:
     - Where can I find hidden gem street food vendors?
     - Show me lesser known food joints in Mombasa.
     - I want to explore hidden gem cafes in Kenya.
+
+- intent: FindFarmToTableRestaurants
+  examples: |
+    - Where can I find Farm-to-Table restaurants in Kenya?
+    - Recommend restaurants that offer Farm-to-Table dining in Nairobi.
+    - Tell me about sustainable dining options in Kenya.
+    - Find eco-friendly restaurants in Nairobi.
+    - Recommend places with organic food in Kenya.
+    - Show me Farm-to-Table restaurants in Mombasa.
+    - Where can I dine sustainably in Kenya?
+    - Find restaurants with locally sourced ingredients in Nairobi.
 
 - intent: FindCostCarnivoreRestaurant
   examples: |
@@ -575,6 +597,600 @@ nlu:
     - Hope you enjoy your food.
     - Wishing you a delicious meal.
 
+- intent: FindAccommodationCoastalRegion
+  examples: |
+    - Recommend hotels in the coastal region of Kenya.
+    - Where can I find accommodation in Lamu?
+    - Tell me about hotels in Kilifi.
+    - I'm looking for places to stay in Mombasa.
+    - Suggest resorts in Watamu.
+    - Find lodges in Diani.
+    - Show me options for accommodation on the Kenyan coast.
+
+- intent: FindAccommodationNairobi
+  examples: |
+    - Recommend hotels in Nairobi.
+    - Where can I find accommodation in Nairobi?
+    - Tell me about lodging options in the capital city.
+    - I'm looking for places to stay in Nairobi.
+    - Find resorts in Nairobi.
+    - Show me options for accommodation in Nairobi.
+
+- intent: FindAccommodationNaivasha
+  examples: |
+    - Tell me about accommodation options in Naivasha.
+    - Where can I stay in Naivasha?
+    - What are the lodging options in Naivasha?
+    - Find hotels in Naivasha.
+    - Recommend hotels for my stay in Naivasha.
+    - Find lodges in Naivasha.
+    - Recommend lodges for my stay in Naivasha.
+    - Recommend resorts for a relaxing stay in Naivasha.
+    - Where can I find a resort with scenic views in Naivasha?
+
+- intent: FindAccommodationKajiado
+  examples: |
+    - Where can I find accommodations in Kajiado?
+    - Recommend places to stay in Kajiado.
+    - Tell me about lodging options in Kajiado.
+    - Find hotels in Kajiado.
+    - Show me popular places to stay in Kajiado.
+    - Where can I book a room in Kajiado?
+    - Recommend lodges and resorts in Kajiado.
+    - What are the best accommodations in Kajiado right now?
+
+- intent: FindAccommodationNakuru
+  examples: |
+    - Where can I find accommodations in Nakuru?
+    - Recommend places to stay in Nakuru.
+    - Tell me about lodging options in Nakuru.
+    - Find hotels in Nakuru.
+    - Show me popular places to stay in Nakuru.
+    - Where can I book a room in Nakuru?
+    - Recommend lodges and resorts in Nakuru.
+    - What are the best accommodations in Nakuru right now?
+
+- intent: FindAccommodationKisumu
+  examples: |
+    - Where can I find accommodations in Kisumu?
+    - Recommend places to stay in Kisumu.
+    - Tell me about lodging options in Kisumu.
+    - Find hotels in Kisumu.
+    - Show me popular places to stay in Kisumu.
+    - Where can I book a room in Kisumu?
+    - Recommend lodges and resorts in Kisumu.
+    - What are the best accommodations in Kisumu right now?
+
+- intent: FindAccommodationCostVoyager
+  examples: |
+    - What are the accommodation charges at Voyager Beach Resort?
+    - How much does it cost to stay at Voyager Beach Resort?
+    - Tell me about the room rates at Voyager Beach Resort.
+    - What are the packages provided for staying at Voyager?
+    - What is the estimate cost for staying at Voyager for 3 days and 2 nights?
+    - What are the room charges at Voyager?
+    - Do the room charges at Voyager include Bed and Breakfast?
+
+- intent: FindAccommodationCostPeponiHotel
+  examples: |
+    - What are the accommodation charges at Peponi Hotel?
+    - How much does it cost to stay at Peponi Hotel?
+    - Tell me about the room rates at Peponi Hotel.
+    - What are the packages provided for staying at Peponi Hotel?
+    - What is the estimate cost for staying at Peponi Hotel for 3 days and 2 nights?
+    - What are the room charges at Peponi Hotel?
+    - Do the room charges at Peponi Hotel include Bed and Breakfast?
+
+- intent: FindAccommodationCostMajlisResort
+  examples: |
+    - What are the accommodation charges at Majlis Resort?
+    - How much does it cost to stay at Majlis Resort?
+    - How much does a Villa cost at Majlis Resort?
+    - How many people can stay in a villa at Majlis Resort?
+    - What is the estimate cost for staying at Majlis Resort for 3 days and 2 nights?
+    - What are the villa charges at Majlis Resort?
+    - Do the villa charges include Bed and Breakfast at Majlis Resort?
+
+- intent: FindAccommodationCostBaobabSeaLodge
+  examples: |
+    - What are the accommodation charges at Baobab Sea Lodge?
+    - How much does it cost to stay at Baobab Sea Lodge?
+    - Tell me about the room rates at Baobab Sea Lodge.
+    - What are the packages provided for staying at Baobab Sea Lodge?
+    - What is the estimate cost for staying at Baobab Sea Lodge for 3 days and 2 nights?
+    - What are the room charges at Baobab Sea Lodge?
+    - Do the room charges at Baobab Sea Lodge include Bed and Breakfast?
+
+- intent: FindAccommodationCostMnaraniClub
+  examples: |
+    - What are the accommodation charges at Mnarani Club?
+    - How much does it cost to stay at Mnarani Club?
+    - Tell me about the room rates at Mnarani Club.
+    - What are the packages provided for staying at Mnarani Club?
+    - What is the estimate cost for staying at Mnarani Club for 3 days and 2 nights?
+    - What are the room charges at Mnarani Club?
+    - Do the room charges at Mnarani Club include Bed and Breakfast?
+
+- intent: FindAccommodationCostSarovaWhitesands
+  examples: |
+    - What are the accommodation charges at Sarova Whitesands?
+    - How much does it cost to stay at Sarova Whitesands?
+    - Tell me about the room rates at Sarova Whitesands.
+    - What are the packages provided for staying at Sarova Whitesands?
+    - What is the estimate cost for staying at Sarova Whitesands for 3 days and 2 nights?
+    - What are the room charges at Sarova Whitesands?
+    - Do the room charges at Sarova Whitesands include Bed and Breakfast?
+
+- intent: FindAccommodationCostPrideInnBeachResort
+  examples: |
+    - What are the accommodation charges at PrideInn Beach Resort & Spa?
+    - How much does it cost to stay at PrideInn Beach Resort?
+    - Tell me about the room rates at PrideInn Beach Resort.
+    - What are the packages provided for staying at PrideInn Beach Resort?
+    - What is the estimate cost for staying at PrideInn Beach Resort for 3 days and 2 nights?
+    - What are the room charges at PrideInn Beach Resort?
+    - Do the room charges at PrideInn Beach Resort include Bed and Breakfast?
+
+- intent: FindAccommodationCostTravelersBeachHotel
+  examples: |
+    - What are the accommodation charges at Travelers Beach Hotel?
+    - How much does it cost to stay at Travelers Beach Hotel?
+    - Tell me about the room rates at Travelers Beach Hotel.
+    - What are the packages provided for staying at Travelers Beach?
+    - What is the estimate cost for staying at Travelers Beach Hotel for 3 days and 2 nights?
+    - What are the room charges at Travelers Beach Hotel?
+    - Do the room charges at Travelers Beach Resort include Bed and Breakfast?
+
+- intent: FindAccommodationCostBamburiBeachHotel
+  examples: |
+    - What are the accommodation charges at Bamburi Beach Hotel?
+    - How much does it cost to stay at Bamburi Beach Hotel?
+    - Tell me about the room rates at Bamburi Beach Hotel.
+    - What are the packages provided for staying at Bamburi Beach?
+    - What is the estimate cost for staying at Bamburi Beach Hotel for 3 days and 2 nights?
+    - What are the room charges at Bamburi Beach Hotel?
+    - Do the room charges at Bamburi Beach Hotel include Bed and Breakfast?
+
+- intent: FindAccommodationCostTurtleBayBeach
+  examples: |
+    - What are the accommodation charges at Turtle Bay Beach?
+    - How much does it cost to stay at Turtle Bay Beach?
+    - Tell me about the room rates at Turtle Bay Beach.
+    - What are the packages provided for staying at Turtle Bay Beach?
+    - What is the estimate cost for staying at Turtle Bay Beach for 3 days and 2 nights?
+    - What are the room charges at Turtle Bay Beach?
+    - Do the room charges at Turtle Bay Beach include Bed and Breakfast?
+
+- intent: FindAccommodationCostMedinaPalms
+  examples: |
+    - What are the accommodation charges at Medina Palms?
+    - How much does it cost to stay at Medina Palms?
+    - Tell me about the room rates at Medina Palms.
+    - What are the packages provided for staying at Medina Palms?
+    - What is the estimate cost for staying at Medina Palms for 3 days and 2 nights?
+    - What are the room charges at Medina Palms?
+    - Do the room charges at Medina Palms include Bed and Breakfast?
+
+- intent: FindAccommodationCostHemingwaysWatamu
+  examples: |
+    - What are the accommodation charges at Hemingways Watamu?
+    - How much does it cost to stay at Hemingways Watamu?
+    - Tell me about the room rates at Hemingways Watamu.
+    - What are the packages provided for staying at Hemingways Watamu?
+    - What is the estimate cost for staying at Hemingways Watamu for 3 days and 2 nights?
+    - What are the room charges at Hemingways Watamu?
+    - Do the room charges at Hemingways Watamu include Bed and Breakfast?
+
+- intent: FindAccommodationCostDianiReefBeachResort
+  examples: |
+    - What are the accommodation charges at Diani Reef Beach Resort?
+    - How much does it cost to stay at Diani Reef Beach Resort?
+    - Tell me about the room rates at Diani Reef Beach Resort.
+    - What are the packages provided for staying at Diani Reef Beach Resort?
+    - What is the estimate cost for staying at Diani Reef Beach Resort for 3 days and 2 nights?
+    - What are the room charges at Diani Reef Beach Resort?
+    - Do the room charges at Diani Reef Beach Resort include Bed and Breakfast?
+
+- intent: FindAccommodationCostLeopardBeachResort
+  examples: |
+    - What are the accommodation charges at Leopard Beach Resort?
+    - How much does it cost to stay at Leopard Beach Resort?
+    - Tell me about the room rates at Leopard Beach Resort.
+    - What are the packages provided for staying at Leopard Beach Resort?
+    - What is the estimate cost for staying at Leopard Beach Resort for 3 days and 2 nights?
+    - What are the room charges at Leopard Beach Resort?
+    - Do the room charges at Leopard Beach Resort include Bed and Breakfast?
+
+- intent: FindAccommodationCostVillaRosaKempinski
+  examples: |
+    - What are the accommodation charges at Villa Rosa Kempinski?
+    - How much does it cost to stay at Villa Rosa Kempinski?
+    - Tell me about the room rates at Villa Rosa Kempinski.
+    - What are the packages provided for staying at Villa Rosa Kempinski?
+    - What is the estimate cost for staying at Villa Rosa Kempinski for 3 days and 2 nights?
+    - What are the room charges at Villa Rosa Kempinski?
+    - Do the room charges at Villa Rosa Kempinski include Bed and Breakfast?
+
+- intent: FindAccommodationCostHemingwaysNairobi
+  examples: |
+    - What are the accommodation charges at Hemingways Nairobi?
+    - How much does it cost to stay at Hemingways Nairobi?
+    - Tell me about the room rates at Hemingways Nairobi.
+    - What are the packages provided for staying at Hemingways Nairobi?
+    - What is the estimate cost for staying at Hemingways Nairobi for 3 days and 2 nights?
+    - What are the room charges at Hemingways Nairobi?
+    - Do the room charges at Hemingways Nairobi include Bed and Breakfast?
+
+- intent: FindAccommodationCostNairobiSerenaHotel
+  examples: |
+    - What are the accommodation charges at Nairobi Serena Hotel?
+    - How much does it cost to stay at Nairobi Serena Hotel?
+    - Tell me about the room rates at Nairobi Serena Hotel.
+    - What are the packages provided for staying at Nairobi Serena Hotel?
+    - What is the estimate cost for staying at Nairobi Serena Hotel for 3 days and 2 nights?
+    - What are the room charges at Nairobi Serena Hotel?
+    - Do the room charges at Nairobi Serena Hotel include Bed and Breakfast?
+
+- intent: FindAccommodationCostRadissonBluHotel
+  examples: |
+    - What are the accommodation charges at Radisson Blu Hotel?
+    - How much does it cost to stay at Radisson Blu Hotel?
+    - Tell me about the room rates at Radisson Blu Hotel.
+    - What are the packages provided for staying at Radisson Blu Hotel?
+    - What is the estimate cost for staying at Radisson Blu Hotel for 3 days and 2 nights?
+    - What are the room charges at Radisson Blu Hotel?
+    - Do the room charges at Radisson Blu Hotel include Bed and Breakfast?
+
+- intent: FindAccommodationCostEmaraOleSereni
+  examples: |
+    - What are the accommodation charges at Emara Ole Sereni?
+    - How much does it cost to stay at Emara Ole Sereni?
+    - Tell me about the room rates at Emara Ole Sereni.
+    - What are the packages provided for staying at Emara Ole Sereni?
+    - What is the estimate cost for staying at Emara Ole Sereni for 3 days and 2 nights?
+    - What are the room charges at Emara Ole Sereni?
+    - Do the room charges at Emara Ole Sereni include Bed and Breakfast?
+
+- intent: FindAccommodationCostIbisStyles
+  examples: |
+    - What are the accommodation charges at Ibis Styles?
+    - How much does it cost to stay at Ibis Styles?
+    - Tell me about the room rates at Ibis Styles.
+    - What are the packages provided for staying at Ibis Styles?
+    - What is the estimate cost for staying at Ibis Styles for 3 days and 2 nights?
+    - What are the room charges at Ibis Styles?
+    - Do the room charges at Ibis Styles include Bed and Breakfast?
+
+- intent: FindAccommodationCostEkaHotel
+  examples: |
+    - What are the accommodation charges at Eka Hotel?
+    - How much does it cost to stay at Eka Hotel?
+    - Tell me about the room rates at Eka Hotel.
+    - What are the packages provided for staying at Eka Hotel?
+    - What is the estimate cost for staying at Eka Hotel for 3 days and 2 nights?
+    - What are the room charges at Eka Hotel?
+    - Do the room charges at Eka Hotel include Bed and Breakfast?
+
+- intent: FindAccommodationCostTribeHotel
+  examples: |
+    - What are the accommodation charges at Tribe Hotel?
+    - How much does it cost to stay at Tribe Hotel?
+    - Tell me about the room rates at Tribe Hotel.
+    - What are the packages provided for staying at Tribe Hotel?
+    - What is the estimate cost for staying at Tribe Hotel for 3 days and 2 nights?
+    - What are the room charges at Tribe Hotel?
+    - Do the room charges at Tribe Hotel include Bed and Breakfast?
+
+- intent: FindAccommodationCostSmallWorldCountryClub
+  examples: |
+    - What are the accommodation charges at Small World Country Club?
+    - How much does it cost to stay at Small World Country Club?
+    - Tell me about the room rates at Small World Country Club.
+    - What are the packages provided for staying at Small World Country Club?
+    - What is the estimate cost for staying at Small World Country Club for 3 days and 2 nights?
+    - What are the room charges at Small World Country Club?
+    - Do the room charges at Small World Country Club include Bed and Breakfast?
+
+- intent: FindAccommodationCostPrideInnHotel
+  examples: |
+    - What are the accommodation charges at PrideInn Hotel?
+    - How much does it cost to stay at PrideInn Hotel?
+    - Tell me about the room rates at PrideInn Hotel.
+    - What are the packages provided for staying at PrideInn Hotel?
+    - What is the estimate cost for staying at PrideInn Hotel for 3 days and 2 nights?
+    - What are the room charges at PrideInn Hotel?
+    - Do the room charges at PrideInn Hotel include Bed and Breakfast?
+
+- intent: FindAccommodationCostTheBomaNairobi
+  examples: |
+    - What are the accommodation charges at The Boma Nairobi?
+    - How much does it cost to stay at The Boma Nairobi?
+    - Tell me about the room rates at The Boma Nairobi.
+    - What are the packages provided for staying at The Boma Nairobi?
+    - What is the estimate cost for staying at The Boma Nairobi for 3 days and 2 nights?
+    - What are the room charges at The Boma Nairobi?
+    - Do the room charges at The Boma Nairobi include Bed and Breakfast?
+
+- intent: FindAccommodationCostBestWesternPlus
+  examples: |
+    - What are the accommodation charges at Best Western Plus?
+    - How much does it cost to stay at Best Western Plus?
+    - Tell me about the room rates at Best Western Plus.
+    - What are the packages provided for staying at Best Western Plus?
+    - What is the estimate cost for staying at Best Western Plus for 3 days and 2 nights?
+    - What are the room charges at Best Western Plus?
+    - Do the room charges at Best Western Plus include Bed and Breakfast?
+
+- intent: FindAccommodationCostTheBedelle
+  examples: |
+    - What are the accommodation charges at The Bedelle?
+    - How much does it cost to stay at The Bedelle?
+    - Tell me about the room rates at The Bedelle.
+    - What are the packages provided for staying at The Bedelle?
+    - What is the estimate cost for staying at The Bedelle for 3 days and 2 nights?
+    - What are the room charges at The Bedelle?
+    - Do the room charges at The Bedelle include Bed and Breakfast?
+
+- intent: FindAccommodationCostPalacinaTheResidence
+  examples: |
+    - What are the accommodation charges at Palacina The Residence & Suites?
+    - How much does it cost to stay at Palacina The Residence & Suites?
+    - Tell me about the room rates at Palacina The Residence & Suites.
+    - What are the packages provided for staying at Palacina The Residence & Suites?
+    - What is the estimate cost for staying at Palacina The Residence & Suites for 3 days and 2 nights?
+    - What are the room charges at Palacina The Residence & Suites?
+    - Do the room charges at Palacina The Residence & Suites include Bed and Breakfast?
+
+- intent: FindAccommodationCostMacushlaHouse
+  examples: |
+    - What are the accommodation charges at Macushla House?
+    - How much does it cost to stay at Macushla House?
+    - Tell me about the room rates at Macushla House.
+    - What are the packages provided for staying at Macushla House?
+    - What is the estimate cost for staying at Macushla House for 3 days and 2 nights?
+    - What are the room charges at Macushla House?
+    - Do the room charges at Macushla House include Bed and Breakfast?
+
+- intent: FindAccommodationCostEnashipaiResort
+  examples: |
+    - What are the accommodation charges at Enashipai Resort & Spa?
+    - How much does it cost to stay at Enashipai Resort & Spa?
+    - Tell me about the room rates at Enashipai Resort & Spa.
+    - What are the packages provided for staying at Enashipai Resort & Spa?
+    - What is the estimate cost for staying at Enashipai Resort & Spa for 3 days and 2 nights?
+    - What are the room charges at Enashipai Resort & Spa?
+    - Do the room charges at Enashipai Resort & Spa include Bed and Breakfast?
+
+- intent: FindAccommodationCostLakeNaivashaCountryClub
+  examples: |
+    - What are the accommodation charges at Lake Naivasha Country Club?
+    - How much does it cost to stay at Lake Naivasha Country Club?
+    - Tell me about the room rates at Lake Naivasha Country Club.
+    - What are the packages provided for staying at Lake Naivasha Country Club?
+    - What is the estimate cost for staying at Lake Naivasha Country Club for 3 days and 2 nights?
+    - What are the room charges at Lake Naivasha Country Club?
+    - Do the room charges at Lake Naivasha Country Club include Bed and Breakfast?
+
+- intent: FindAccommodationCostSawelaLodges
+  examples: |
+    - What are the accommodation charges at Sawela Lodges?
+    - How much does it cost to stay at Sawela Lodges?
+    - Tell me about the room rates at Sawela Lodges.
+    - What are the packages provided for staying at Sawela Lodges?
+    - What is the estimate cost for staying at Sawela Lodges for 3 days and 2 nights?
+    - What are the room charges at Sawela Lodges?
+    - Do the room charges at Sawela Lodges include Bed and Breakfast?
+
+- intent: FindAccommodationCostFishermansCamp
+  examples: |
+    - What are the accommodation charges at Fisherman's Camp?
+    - How much does it cost to stay at Fisherman's Camp?
+    - Tell me about the cottage rates at Fisherman's Camp.
+    - What are the packages provided for staying at Fisherman's Camp?
+    - What is the estimate cost for staying at Fisherman's Camp for 3 days and 2 nights?
+    - What are the cottage charges at Fisherman's Camp?
+    - Do the room charges at Fisherman's Camp include Bed and Breakfast?
+
+- intent: FindAccommodationCostNaivashaKongoniLodge
+  examples: |
+    - What are the accommodation charges at Naivasha Kongoni Lodge?
+    - How much does it cost to stay at Naivasha Kongoni Lodge?
+    - Tell me about the cottage rates at Naivasha Kongoni Lodge.
+    - What are the packages provided for staying at Naivasha Kongoni Lodge?
+    - What is the estimate cost for staying at Naivasha Kongoni Lodge for 3 days and 2 nights?
+    - What are the cottage charges at Naivasha Kongoni Lodge?
+    - Do the room charges at Naivasha Kongoni Lodge include Bed and Breakfast?
+
+- intent: FindAccommodationCostCraterLakeTentedCamp
+  examples: |
+    - What are the accommodation charges at Crater Lake Tented Camp?
+    - How much does it cost to camp at Crater Lake Tented Camp?
+    - Tell me about the camping cost at Crater Lake Tented Camp.
+    - What are the packages provided for staying at Crater Lake Tented Camp?
+    - What is the estimate cost for staying at Crater Lake Tented Camp?
+    - What are the camping charges at Crater Lake Tented Camp?
+    - Do the camp charges at Crater Lake Tented Camp include food?
+
+- intent: FindAccommodationCostGreatRiftValleyLodge
+  examples: |
+    - What are the accommodation charges at Great Rift Valley Lodge & Golf Resort?
+    - How much does it cost to stay at Great Rift Valley Lodge & Golf Resort?
+    - Tell me about the room rates at Great Rift Valley Lodge & Golf Resort.
+    - What are the packages provided for staying at Great Rift Valley Lodge & Golf Resort?
+    - What is the estimate cost for staying at Great Rift Valley Lodge & Golf Resort for 3 days and 2 nights?
+    - What are the room charges at Great Rift Valley Lodge & Golf Resort?
+    - Do the room charges at Great Rift Valley Lodge & Golf Resort include Bed and Breakfast?
+
+- intent: FindAccommodationCostOleraiHouse
+  examples: |
+    - What are the accommodation charges at Olerai House?
+    - How much does it cost to stay at Olerai House?
+    - Tell me about the room rates at Olerai House.
+    - What are the packages provided for staying at Olerai House?
+    - What is the estimate cost for staying at Olerai House for 3 days and 2 nights?
+    - What are the room charges at Olerai House?
+    - Do the room charges at Olerai House include Bed and Breakfast?
+
+- intent: FindAccommodationCostKiangaziHouse
+  examples: |
+    - What are the accommodation charges at Kiangazi House?
+    - How much does it cost to stay at Kiangazi House?
+    - Tell me about the room rates at Kiangazi House.
+    - What are the packages provided for staying at Kiangazi House?
+    - What is the estimate cost for staying at Kiangazi House for 3 days and 2 nights?
+    - What are the room charges at Kiangazi House?
+    - Do the room charges at Kiangazi House include Bed and Breakfast?
+
+- intent: FindAccommodationCostLerruatLogResort
+  examples: |
+    - What are the accommodation charges at Lerruat Log Resort?
+    - How much does it cost to stay at Lerruat Log Resort?
+    - Tell me about the room rates at Lerruat Log Resort.
+    - What are the packages provided for staying at Lerruat Log Resort?
+    - What is the estimate cost for staying at Lerruat Log Resort for 3 days and 2 nights?
+    - What are the room charges at Lerruat Log Resort?
+    - Do the room charges at Lerruat Log Resort include Bed and Breakfast?
+
+- intent: FindAccommodationCostSaabRoyaleResort
+  examples: |
+    - What are the accommodation charges at Saab Royale Resort?
+    - How much does it cost to stay at Saab Royale Resort?
+    - Tell me about the room rates at Saab Royale Resort.
+    - What are the packages provided for staying at Saab Royale Resort?
+    - What is the estimate cost for staying at Saab Royale Resort for 3 days and 2 nights?
+    - What are the room charges at Saab Royale Resort?
+    - Do the room charges at Saab Royale Resort include Bed and Breakfast?
+
+- intent: FindAccommodationCostEnchipaiCampsiteandCottages
+  examples: |
+    - What are the accommodation charges at Enchipai Campsite and Cottages?
+    - How much does it cost to camp at Enchipai Campsite and Cottages?
+    - Tell me about the camping cost at Enchipai Campsite and Cottages.
+    - What are the packages provided for staying at Enchipai Campsite and Cottages?
+    - What is the estimate cost for staying at Enchipai Campsite and Cottages?
+    - What are the camping charges at Enchipai Campsite and Cottages?
+    - Do the camp charges at Enchipai Campsite and Cottages include food?
+
+- intent: FindAccommodationCostMaasaiLodge
+  examples: |
+    - What are the accommodation charges at Maasai Lodge?
+    - How much does it cost to stay at Maasai Lodge?
+    - Tell me about the room rates at Maasai Lodge.
+    - What are the packages provided for staying at Maasai Lodge?
+    - What is the estimate cost for staying at Maasai Lodge for 3 days and 2 nights?
+    - What are the room charges at Maasai Lodge?
+    - Do the room charges at Maasai Lodge include Bed and Breakfast?
+
+- intent: FindAccommodationCostOldonyoOrokCamp
+  examples: |
+    - What are the accommodation charges at Oldonyo Orok Camp?
+    - How much does it cost to camp at Oldonyo Orok Camp?
+    - Tell me about the camping cost at Oldonyo Orok Camp.
+    - What are the packages provided for staying at Oldonyo Orok Camp?
+    - What is the estimate cost for staying at Oldonyo Orok Camp?
+    - What are the camping charges at Oldonyo Orok Camp?
+    - Do the camp charges at Oldonyo Orok Camp include food?
+
+- intent: FindAccommodationCostSarovaWoodlands
+  examples: |
+    - What are the accommodation charges at Sarova Woodlands Hotel & Spa?
+    - How much does it cost to stay at Sarova Woodlands Hotel & Spa?
+    - Tell me about the room rates at Sarova Woodlands Hotel & Spa.
+    - What are the packages provided for staying at Sarova Woodlands Hotel & Spa?
+    - What is the estimate cost for staying at Sarova Woodlands Hotel & Spa for 3 days and 2 nights?
+    - What are the room charges at Sarova Woodlands Hotel & Spa?
+    - Do the room charges at Sarova Woodlands Hotel & Spa include Bed and Breakfast?
+
+- intent: FindAccommodationCostLakeNakuruLodge
+  examples: |
+    - What are the accommodation charges at Lake Nakuru Lodge?
+    - How much does it cost to stay at Lake Nakuru Lodge?
+    - Tell me about the room rates at Lake Nakuru Lodge.
+    - What are the packages provided for staying at Lake Nakuru Lodge?
+    - What is the estimate cost for staying at Lake Nakuru Lodge for 3 days and 2 nights?
+    - What are the room charges at Lake Nakuru Lodge?
+    - Do the room charges at Lake Nakuru Lodge include Bed and Breakfast?
+
+- intent: FindAccommodationCostZiwaBushLodge
+  examples: |
+    - What are the accommodation charges at Ziwa Bush Lodge?
+    - How much does it cost to stay at Lake Ziwa Bush Lodge?
+    - Tell me about the room rates at Ziwa Bush Lodge.
+    - What are the packages provided for staying at Ziwa Bush Lodge?
+    - What is the estimate cost for staying at Ziwa Bush Lodge for 3 days and 2 nights?
+    - What are the room charges at Ziwa Bush Lodge?
+    - Do the room charges at Ziwa Bush Lodge include Bed and Breakfast?
+
+- intent: FindAccommodationCostKivuResortNakuru
+  examples: |
+    - What are the accommodation charges at Kivu Resort Nakuru?
+    - How much does it cost to stay at Kivu Resort Nakuru?
+    - Tell me about the room rates at Kivu Resort Nakuru.
+    - What are the packages provided for staying at Kivu Resort Nakuru?
+    - What is the estimate cost for staying at Kivu Resort Nakuru for 3 days and 2 nights?
+    - What are the room charges at Kivu Resort Nakuru?
+    - Do the room charges at Kivu Resort Nakuru include Bed and Breakfast?
+
+- intent: FindAccommodationCostTopCliffLodge
+  examples: |
+    - What are the accommodation charges at Top Cliff Lodge?
+    - How much does it cost to stay at Top Cliff Lodge?
+    - Tell me about the room rates at Top Cliff Lodge.
+    - What are the packages provided for staying at Top Cliff Lodge?
+    - What is the estimate cost for staying at Top Cliff Lodge for 3 days and 2 nights?
+    - What are the room charges at Top Cliff Lodge?
+    - Do the room charges at Top Cliff Lodge include Bed and Breakfast?
+
+- intent: FindAccommodationCostAcaciaPremierHotel
+  examples: |
+    - What are the accommodation charges at Acacia Premier Hotel?
+    - How much does it cost to stay at Acacia Premier Hotel?
+    - Tell me about the room rates at Acacia Premier Hotel.
+    - What are the packages provided for staying at Acacia Premier Hotel?
+    - What is the estimate cost for staying at Acacia Premier Hotel for 3 days and 2 nights?
+    - What are the room charges at Acacia Premier Hotel?
+    - Do the room charges at Acacia Premier Hotel include Bed and Breakfast?
+
+- intent: FindAccommodationCostCialaResort
+  examples: |
+    - What are the accommodation charges at Ciala Resort?
+    - How much does it cost to stay at Ciala Resort?
+    - Tell me about the room rates at Ciala Resort.
+    - What are the packages provided for staying at Ciala Resort?
+    - What is the estimate cost for staying at Ciala Resort for 3 days and 2 nights?
+    - What are the room charges at Ciala Resort?
+    - Do the room charges at Ciala Resort include Bed and Breakfast?
+
+- intent: FindAccommodationCostSovereignHotelKisumu
+  examples: |
+    - What are the accommodation charges at Sovereign Hotel Kisumu?
+    - How much does it cost to stay at Sovereign Hotel Kisumu?
+    - Tell me about the room rates at Sovereign Hotel Kisumu.
+    - What are the packages provided for staying at Sovereign Hotel Kisumu?
+    - What is the estimate cost for staying at Sovereign Hotel Kisumu for 3 days and 2 nights?
+    - What are the room charges at Sovereign Hotel Kisumu?
+    - Do the room charges at Sovereign Hotel Kisumu include Bed and Breakfast?
+
+- intent: FindAccommodationCostTheGrandRoyalSwissHotel
+  examples: |
+    - What are the accommodation charges at The Grand Royal Swiss Hotel?
+    - How much does it cost to stay at The Grand Royal Swiss Hotel?
+    - Tell me about the room rates at The Grand Royal Swiss Hotel.
+    - What are the packages provided for staying at The Grand Royal Swiss Hotel?
+    - What is the estimate cost for staying at The Grand Royal Swiss Hotel for 3 days and 2 nights?
+    - What are the room charges at The Grand Royal Swiss Hotel?
+    - Do the room charges at The Grand Royal Swiss Hotel include Bed and Breakfast?
+
+- intent: FindAccommodationCostSunsetHotelKisumu
+  examples: |
+    - What are the accommodation charges at Sunset Hotel Kisumu?
+    - How much does it cost to stay at Sunset Hotel Kisumu?
+    - Tell me about the room rates at Sunset Hotel Kisumu.
+    - What are the packages provided for staying at Sunset Hotel Kisumu?
+    - What is the estimate cost for staying at Sunset Hotel Kisumu for 3 days and 2 nights?
+    - What are the room charges at Sunset Hotel Kisumu?
+    - Do the room charges at Sunset Hotel Kisumu include Bed and Breakfast?
+    
 - intent: typical_weather
   examples: |
     - What is the typical weather in Kenya during July, August and December? 
