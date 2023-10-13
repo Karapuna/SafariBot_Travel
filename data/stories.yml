@@ -99,6 +99,62 @@ stories:
   - action: utter_facts_abt_The_Great_Rift_Valley
 
 
+- story: facts about Ol Pejeta
+  steps:
+  - intent: facts_abt_Ol_pejeta
+  - action: utter_facts_abt_Ol_pejeta
+
+ - story: facts about Nanyuki
+  steps:
+  - intent: facts_abt_Nanyuki
+  - action: utter_facts_abt_Nanyuki
+  
+- story: facts about Kilifi
+  steps:
+  - intent: facts_abt_Kilifi
+  - action: utter_facts_abt_Kilifi
+  
+- story: facts about Watamu
+  steps:
+  - intent: facts_abt_Watamu
+  - action: utter_facts_abt_Watamu
+
+ - story: facts about Equator Marker
+  steps:
+  - intent: facts_abt_Equator_Marker
+  - action: utter_facts_abt_Equator_Marker
+  
+ - story: facts about Equator Marker
+  steps:
+  - intent: facts_abt_Ol_Jogi_Wildlife_Conservancy
+  - action: utter_facts_abt_Ol_Jogi_Wildlife_Conservancy
+  
+ - story: facts about Thomsons Falls
+  steps:
+  - intent: facts_abt_Thomsons_Falls
+  - action: utter_facts_abt_Thomsons_Falls
+  
+ - story: facts about Mount Kenya Wildlife Conservancy
+  steps:
+  - intent: facts_abt_Mount_Kenya_Wildlife_Conservancy
+  - action: utter_facts_abt_Mount_Kenya_Wildlife_Conservancy
+
+ - story: facts about Solio Ranch Conservancy
+  steps:
+  - intent: facts_abt_Solio_Ranch_Conservancy
+  - action: utter_facts_abt_Solio_Ranch_Conservancy
+
+ - story: facts about Sosian Lodge
+  steps:
+  - intent: facts_abt_Sosian_Lodge
+  - action: utter_facts_abt_Sosian_Lodge
+
+ - story: facts about Jangwani Camp Sagana
+  steps:
+  - intent: facts_abt_Jangwani_Camp_Sagana
+  - action: utter_facts_abt_Jangwani_Camp_Sagana
+
+  
 - story: visit national parks path 1
   steps:
   - intent: greet
