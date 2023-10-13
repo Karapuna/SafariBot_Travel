@@ -36,13 +36,15 @@ intents:
   - ask_top_beach_destinations
   - ask_top_tourist_attractions_Nairobi
   - FindFoodNairobi
+  - FindFineDiningRestaurantsNairobi
   - FindFoodMombasa
-  - FindSpecificFood
+  - FindKenyanLocalFood
   - FindFoodKisumu
   - FindIndianCuisine
   - FindHighlyRankedRestaurants
   - FindFoodMaasaiMara
   - FindHiddenGemDining
+  - FindFarmToTableRestaurants
   - FindCostCarnivoreRestaurant
   - FindCostHeroRestaurant
   - FindCostTalismanRestaurant
@@ -58,6 +60,65 @@ intents:
   - FindCostImpalaEcoLodge
   - FindCostDungaRestaurant
   - EnjoyMeal
+  - FindAccommodationCoastalRegion
+  - FindAccommodationNairobi
+  - FindAccommodationNaivasha
+  - FindAccommodationKajiado
+  - FindAccommodationNakuru
+  - FindAccommodationKisumu
+  - FindAccommodationCostVoyager
+  - FindAccommodationCostPeponiHotel
+  - FindAccommodationCostMajlisResort
+  - FindAccommodationCostBaobabSeaLodge
+  - FindAccommodationCostMnaraniClub
+  - FindAccommodationCostSarovaWhitesands
+  - FindAccommodationCostPrideInnBeachResort
+  - FindAccommodationCostTravelersBeachHotel
+  - FindAccommodationCostBamburiBeachHotel
+  - FindAccommodationCostTurtleBayBeach
+  - FindAccommodationCostMedinaPalms
+  - FindAccommodationCostHemingwaysWatamu
+  - FindAccommodationCostDianiReefBeachResort
+  - FindAccommodationCostLeopardBeachResort
+  - FindAccommodationCostVillaRosaKempinski
+  - FindAccommodationCostHemingwaysNairobi
+  - FindAccommodationCostNairobiSerenaHotel
+  - FindAccommodationCostRadissonBluHotel
+  - FindAccommodationCostEmaraOleSereni
+  - FindAccommodationCostIbisStyles
+  - FindAccommodationCostEkaHotel
+  - FindAccommodationCostTribeHotel
+  - FindAccommodationCostSmallWorldCountryClub
+  - FindAccommodationCostPrideInnHotel
+  - FindAccommodationCostTheBomaNairobi
+  - FindAccommodationCostBestWesternPlus
+  - FindAccommodationCostTheBedelle
+  - FindAccommodationCostPalacinaTheResidence
+  - FindAccommodationCostMacushlaHouse
+  - FindAccommodationCostEnashipaiResort
+  - FindAccommodationCostLakeNaivashaCountryClub
+  - FindAccommodationCostSawelaLodges
+  - FindAccommodationCostFishermansCamp
+  - FindAccommodationCostNaivashaKongoniLodge
+  - FindAccommodationCostCraterLakeTentedCamp
+  - FindAccommodationCostGreatRiftValleyLodge
+  - FindAccommodationCostOleraiHouse
+  - FindAccommodationCostKiangaziHouse
+  - FindAccommodationCostLerruatLogResort
+  - FindAccommodationCostSaabRoyaleResort
+  - FindAccommodationCostEnchipaiCampsiteandCottages
+  - FindAccommodationCostMaasaiLodge
+  - FindAccommodationCostOldonyoOrokCamp
+  - FindAccommodationCostSarovaWoodlands
+  - FindAccommodationCostLakeNakuruLodge
+  - FindAccommodationCostZiwaBushLodge
+  - FindAccommodationCostKivuResortNakuru
+  - FindAccommodationCostTopCliffLodge
+  - FindAccommodationCostAcaciaPremierHotel
+  - FindAccommodationCostCialaResort
+  - FindAccommodationCostSovereignHotelKisumu
+  - FindAccommodationCostTheGrandRoyalSwissHotel
+  - FindAccommodationCostSunsetHotelKisumu
   - typical_weather
   - weather_concerns
   - pleasant_weather
@@ -357,17 +418,34 @@ responses:
   - text: |
       Nairobi offers a vibrant culinary scene with a wide range of dining options. Here are some recommendations:
 
-           1. Carnivore Restaurant: Known for its 'Beast of a Feast' featuring a variety of grilled meats.
-           2. Talisman Restaurant: Offers a diverse menu with international and Kenyan dishes.
-           3. Nyama Mama: A great place for modern Kenyan cuisine with a twist.
-           4. K'osewe Ranalo Foods: Famous for traditional Kenyan dishes like sukuma wiki and ugali.
-           5. Anghiti Restaurant: Serving delicious Indian cuisine.
-           6. Hero: Ideal for seafood lovers with a range of fresh seafood dishes.
+     1. Carnivore Restaurant: Known for its 'Beast of a Feast' featuring a variety of grilled meats.
+     2. Talisman Restaurant: Offers a diverse menu with international and Kenyan dishes.
+     3. Nyama Mama: A great place for modern Kenyan cuisine with a twist.
+     4. K'osewe Ranalo Foods: Famous for traditional Kenyan dishes like sukuma wiki and ugali.
+     5. Hero: Ideal for seafood lovers with a range of fresh seafood dishes.
+     6. Inti: Experience the flavors of Peru at Inti with their delicious ceviche and other Peruvian specialties.
+     7. Ankole Grill: For an upscale dining experience, visit Ankole Grill, known for its juicy steaks and extensive wine list.
+     8. Fogo Gaucho: Enjoy a Brazilian barbecue experience at Fogo Gaucho, where you can savor a variety of grilled meats.
+     9. 5Senses: If you're looking for a diverse menu with global influences, 5Senses offers a wide range of options to satisfy your taste buds.
+    10. Shamba Cafe: For a taste of local Kenyan cuisine, Shamba Cafe serves traditional dishes in a relaxed and welcoming atmosphere.
 
       Nairobi's street food scene is bustling as well, with options lik 'mutura' and 'smokie pasua.' Vegetarian restaurants such as 'Swad Indian Restaurant' and 'Artcaffe' offer delicious meat-free dishes.
 
       Please let me know if you'd like more details about any of these options or if you have specific preferences!
 
+  utter_FindFineDiningRestaurantsNairobi:
+  - text: |
+      Nairobi boasts a selection of fine dining establishments where you can experience an upscale culinary journey. Here are some recommendations:
+
+     1. Talisman Restaurant: Known for its fusion of international and Kenyan flavors, offering a refined dining experience.
+     2. Sankara Nairobi: The rooftop restaurant at Sankara Nairobi provides stunning views and a luxurious dining atmosphere.
+     3. Hemmingways Nairobi: Offers a blend of fine dining and a classic brasserie, known for its seafood and grill options.
+     4. Lord Erroll Gourmet Restaurant: Nestled in a serene setting, this restaurant serves gourmet cuisine in an elegant ambiance.
+     5. Tamarind Restaurant: Famous for its seafood and waterfront dining, providing a romantic and upscale experience.
+     6. Seven Seafood & Grill: Offers a range of seafood dishes with a focus on freshness and quality.
+
+   Whether you're celebrating a special occasion or simply want to indulge in a high-end dining experience, these restaurants in Nairobi are sure to impress.
+  
   utter_FindFoodMombasa:
   - text: |
       Mombasa offers a delightful culinary experience with a rich blend of flavors. Here are some recommendations:
@@ -384,7 +462,7 @@ responses:
   utter_EnjoyMeal:
   - text: "Thank you! I hope you have a wonderful meal. If you have any questions or need assistance with anything else, feel free to ask."
 
-  utter_FindSpecificFood:
+  utter_FindKenyanLocalFood:
   - text: |
       Kenya is known for its delicious and diverse culinary offerings. Here's where you can enjoy some of the iconic Kenyan dishes:
 
@@ -397,8 +475,8 @@ responses:
       Chapati:
       Nairobi offers a wide range of places to savor chapati, a soft flatbread. 'Maasai Ostrich Resort' and 'Zucchini' in Nairobi are known for their delicious chapati.
 
-      Samosas:
-      For samosas, Mombasa has plenty of options. Local eateries and street food vendors offer tasty samosas with various fillings. You can try them at 'Fort Jesus Food Court' and 'Old Town Mombasa.'
+      Birhyani, Samosas, Pilau:
+      For these swahili dishes, Mombasa has plenty of options. Local eateries and street food vendors offer these tasty meals and more. 
 
       Kenya's Staple Food:
       The staple food of Kenya is 'ugali,' a maize porridge served as a side dish with various accompaniments.
@@ -489,6 +567,28 @@ responses:
 
        Be sure to check recent reviews and ask locals for their recommendations to discover more hidden culinary treasures in Kenya. Enjoy your gastronomic journey!"
 
+    utter_FindFarmToTableRestaurants:
+   - text: |
+       Farm-to-Table dining is a sustainable and eco-friendly way to enjoy fresh and locally sourced food in Kenya. Here are some Farm-to-Table restaurants:
+
+    **Nairobi:**
+    1. Tin Roof Café: A cozy spot known for using fresh ingredients from local farms.
+    2. About Thyme: Offers a farm-to-table dining experience in a beautiful garden setting.
+    3. J's Fresh Bar and Kitchen: Committed to serving organic and locally sourced dishes.
+    4. Cultiva Restaurant: A renowned restaurant dedicated to farm-to-table cuisine.
+    5. Harvest Restaurant: Known for its sustainable and locally sourced ingredients.
+
+    **Mombasa:**
+    1. Bahari Dhow Restaurant: Offers seafood dishes with locally caught seafood.
+    2. The Tamarind Restaurant: Known for its sustainable seafood choices.
+    3. Aniello's Pizza: Uses locally sourced ingredients in their pizzas.
+
+    **Naivasha:**
+    1. Sovereign Suites: Offers farm-fresh produce and locally sourced ingredients.
+    2. Malewa Wildlife Lodge: Committed to sustainable and organic dining.
+
+    Enjoy a guilt-free and sustainable dining experience at these Farm-to-Table restaurants in Kenya!
+  
   utter_FindCostCarnivoreRestaurant:
   - text: "The cost of dining at Carnivore Restaurant can vary depending on your menu choices. On average, a meal at Carnivore Restaurant may range from Ksh. 2,500 - Ksh. 6,000. Keep in mind that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing."
 
@@ -531,6 +631,278 @@ responses:
 
   utter_FindCostDungaRestaurant:
   - text: "The cost of dining at Dunga Restaurant can vary depending on your menu choices. On average, a meal at Dunga Restaurant may range from [Ksh. 2,500 - Ksh. 4,000. Please note that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing information."
+
+  utter_FindAccommodationCoastalRegion:
+  - text: "The Kenyan coastal region offers a wide range of accommodation options, from luxurious beachfront resorts to cozy lodges. Here are some recommendations for your stay:
+
+   **Lamu Island:**
+   1. **Peponi Hotel:** A charming beachfront hotel known for its relaxed atmosphere.
+   2. **Majlis Resort:** Offers private villas and a stunning view of the Indian Ocean.
+
+   **Kilifi:**
+   1. **Baobab Sea Lodge:** A beachfront resort with a range of amenities for a comfortable stay.
+   2. **Mnarani Club:** Known for its sailing and water sports activities.
+
+   **Mombasa:**
+   1. **Sarova Whitesands Beach Resort & Spa:** A popular resort with an expansive beachfront.
+   2. **Voyager Beach Resort:** Offers an all-inclusive experience.
+   3. **PrideInn Beach Resort & Spa:** Known for its comfortable accommodations and beach access.
+   4. **Travelers Beach Hotel & Club:** Offers a variety of amenities and entertainment options.
+   5. **Bamburi Beach Hotel:** Offers a delightful beachfront experience.
+   
+   **Watamu:**
+   1. **Turtle Bay Beach Club:** A beachfront resort with an eco-friendly focus.
+   2. **Medina Palms:** Known for its luxurious accommodations and serene environment.
+   3. **Hemingways Watamu:** A luxurious boutique hotel with top-notch service.
+
+   **Diani:**
+   1. **Diani Reef Beach Resort & Spa:** Offers a range of amenities and water sports activities.
+   2. **Leopard Beach Resort & Spa:** Known for its breathtaking views and comfortable rooms.
+   
+   Whether you're looking for a romantic getaway, family-friendly options, or water sports adventures, the Kenyan coast has something for everyone. Let me know if you need more information about any of these accommodations."
+
+  utter_FindAccommodationNairobi:
+  - text: "Nairobi, the capital city of Kenya, offers a wide range of accommodation options to suit different preferences and budgets. Here are some recommendations for your stay in Nairobi:
+
+  **Luxury Hotels:**
+  1. **Villa Rosa Kempinski:** A luxurious hotel offering world-class amenities and fine dining.
+  2. **Hemingways Nairobi:** Known for its elegance and personalized service.
+  3. **Nairobi Serena Hotel:** A city center hotel with stunning views and excellent service.
+  4. **Radisson Blu Hotel, Nairobi:** Offers luxury accommodations and top-notch facilities.
+  5. **Emara Ole Sereni:** A 5-star hotel with picturesque views of the Nairobi National Park.
+  
+  **Mid-Range Hotels:**
+  1. **Ibis Styles:** A modern, warm hotel for solo, family or business travelers.
+  2. **Eka Hotel:** Offers comfortable accommodations and modern amenities.
+  3. **Tribe Hotel:** A boutique hotel with a unique design and ambiance.
+  4. **Small World Country Club:** A Swahili inspired getaway with views over the Kapiti Plains. 
+
+  **Budget Accommodations:**
+  1. **PrideInn Hotel:** Provides affordable rooms and a convenient location.
+  2. **The Boma Nairobi:** A contemporary hotel designed for luxury and comfort.
+  3. **Best Western Plus:** Offers enhanced style and creative dining experiences.
+
+  **Boutique Hotels:**
+  1. **The Bedelle:** A boutique hotel with a chic and stylish design.
+  2. **Palacina The Residence & Suites:** Offers a peaceful retreat with spacious suites.
+  3. **Macushla House:** Known for its charming garden setting.
+
+  Whether you're in Nairobi for business, leisure, or a stopover, there are accommodation options to cater to your needs. Let me know if you need more information about any of these accommodations or if you have specific preferences."
+
+  utter_FindAccommodationNaivasha:
+  - text: "Naivasha offers a range of accommodations for your stay. Here are some options:
+
+    **Hotels:**
+    1. **Enashipai Resort & Spa:** A luxury hotel with beautiful views of Lake Naivasha.
+    2. **Lake Naivasha Country Club:** Known for its tranquil setting and excellent services.
+    3. **Sawela Lodges:** Offers cozy rooms and a peaceful atmosphere.
+
+    **Lodges:**
+    1. **Fisherman's Camp:** A rustic lodge with stunning lakeside views.
+    2. **Naivasha Kongoni Lodge:** A lodge set in a private conservancy.
+    3. **Crater Lake Tented Camp:** Offers unique accommodation near a volcanic crater.
+
+    **Resorts:**
+    1. **Great Rift Valley Lodge & Golf Resort:** A resort with a golf course and panoramic views.
+    2. **Olerai House:** Known for its serene surroundings and beautiful gardens.
+    3. **Kiangazi House:** A secluded resort in a picturesque location.
+
+    Enjoy your stay in Naivasha! If you'd like more information about any of these options, feel free to ask."
+
+  utter_FindAccommodationKajiado:
+  - text: "Kajiado offers a range of accommodations, from hotels to lodges, to make your stay comfortable. Here are some options:
+    
+    **Kajiado Accommodation:**
+    1. **Lerruat Log Resort:** A popular choice for serene and nature-filled lodging.
+    2. **Saab Royale Resort:** Offers a scenic, relaxed atmosphere for rejuvenation.
+    3. **Enchipai Campsite and Cottages:** This latest resort offers a striking view of the greater Rift Valley.
+    4. **Maasai Lodge:** Offers a unique Maasai cultural experience and comfortable stays.
+    5. **Oldonyo Orok Camp:** An eco-lodge where you can interact with the wildlife at the camp.
+
+    These accommodations offer various amenities and beautiful surroundings. Enjoy your stay in Kajiado!"
+
+  utter_FindAccommodationNakuru:
+  - text: "Nakuru offers a variety of accommodations for your stay. Here are some options:
+    
+    **Nakuru Accommodation:**
+    1. **Sarova Woodlands Hotel & Spa:** A luxurious option with great amenities.
+    2. **Lake Nakuru Lodge:** Located near Lake Nakuru National Park for a wildlife experience.
+    3. **Ziwa Bush Lodge:** It brings the magic of coexistence with nature.
+    4. **Kivu Resort Nakuru:** Offers an affordable and adventurous stay.
+    5. **Top Cliff Lodge:** Where natural beauty meets human art.
+
+    Whether you're looking for luxury or a comfortable stay, Nakuru has options to suit your preferences. Enjoy your visit!"
+
+  utter_FindAccommodationKisumu:
+  - text: "Kisumu offers a range of accommodations to make your stay comfortable. Here are some options:
+
+    **Kisumu Accommodations:**
+    1. **Acacia Premier Hotel:** A luxury hotel with great amenities and lake views.
+    2. **Ciala Resort:** A luxurious resort over the beautiful hills..
+    3. **Sovereign Hotel Kisumu:** Known for its comfortable rooms and proximity to the city center.
+    4. **The Grand Royal Swiss Hotel:** Offers a blend of comfort and convenience.
+    5. **Sunset Hotel Kisumu:** A budget-friendly choice with good services.
+
+    Whether you prefer luxury or a cozy stay, Kisumu has options to cater to your needs. Enjoy your visit to Kisumu!"
+
+  utter_FindAccommodationCostVoyager:
+  - text: "The accommodation details, activities, cuisine and much more on Voyager Beach Resort can be found here:(http://www.voyagerbeachresortmombasa.com/)"
+
+  utter_FindAccommodationCostPeponiHotel:
+  - text: "The accommodation details, activities, cuisine and much more on Peponi Hotel can be found here:(https://www.peponihotel.com/)"
+
+  utter_FindAccommodationCostMajlisResort:
+  - text: "The accommodation details, activities, cuisine and much more on Majlis Resort can be found here:(https://themajlisresorts.com/#/)"
+
+  utter_FindAccommodationCostBaobabSeaLodge:
+  - text: "The accommodation details, activities, cuisine and much more on for Baobab Sea Lodge can be found here:(https://madahotels.com/baobab-sea-lodge/)"
+
+  utter_FindAccommodationCostMnaraniClub:
+  - text: "The accommodation details, activities, cuisine and much more on Mnarani Club can be found here:(https://www.mnarani.net/)"
+
+  utter_FindAccommodationCostSarovaWhitesands:
+  - text: "The accommodation details, activities, cuisine and much more on Sarova Whitesands Beach Resort & Spa can be found here:(https://www.sarovahotels.com/whitesands-mombasa/)"
+
+  utter_FindAccommodationCostPrideInnBeachResort:
+  - text: "The accommodation details, activities, cuisine and much more on PrideInn Beach Resort & Spa can be found here:(https://www.prideinn.co.ke/)"
+
+  utter_FindAccommodationCostTravelersBeachHotel:
+  - text: "The accommodation details, activities, cuisine and much more on Travelers Beach Hotel can be found here:(https://www.travellersbeach.com/)"
+
+  utter_FindAccommodationCostBamburiBeachHotel:
+  - text: "The accommodation details, activities, cuisine and much more on Bamburi Beach Hotel can be found here:(https://bamburibeachkenya.com/)"
+
+  utter_FindAccommodationCostTurtleBayBeach:
+  - text: "The accommodation details, activities, cuisine and much more on Turtle Bay Beach Club can be found here:(https://www.tbbckenya.com/)"
+
+  utter_FindAccommodationCostMedinaPalms:
+  - text: "The accommodation details, activities, cuisine and much more on Medina Palms can be found here:(https://www.medinapalms.com/)"
+
+  utter_FindAccommodationCostHemingwaysWatamu:
+  - text: "The accommodation details, activities, cuisine and much more on Hemingways Watamu can be found here:(https://www.hemingways-collection.com/watamu/)"
+
+  utter_FindAccommodationCostDianiReefBeachResort:
+  - text: "The accommodation details, activities, cuisine and much more on Diani Reef Beach Resort can be found here:(https://dianireef.com/)"
+
+  utter_FindAccommodationCostLeopardBeachResort:
+  - text: "The accommodation details, activities, cuisine and much more on Leopard Beach Resort can be found here:(https://www.leopardbeachresort.com/)"
+
+  utter_FindAccommodationCostVillaRosaKempinski:
+  - text: "The accommodation details, activities, cuisine and much more on Villa Rosa Kempinski can be found here:(https://www.kempinski.com/en/hotel-villa-rosa/overview/offers/a-decade-of-luxury?utm_source=google&utm_medium=cpc&source=S46992213&&utm_campaign=KINBO1%20-%20Villa+Rosa_488060_Brand_Search_EN_KE&utm_content=villarosa+kempinski&gad=1&gclid=Cj0KCQjw1aOpBhCOARIsACXYv-fkT9EYJHi8aALxWHJ_Vz3YWDKkCeWHEqjC0--r0F0GZ99COdgxjyIaAlxAEALw_wcB&gclsrc=aw.ds)"
+
+  utter_FindAccommodationCostHemingwaysNairobi:
+  - text: "The accommodation details, activities, cuisine and much more on Hemingways Nairobi can be found here:(https://www.hemingways-collection.com/nairobi/)"
+
+  utter_FindAccommodationCostNairobiSerenaHotel:
+  - text: "The accommodation details, activities, cuisine and much more on Nairobi Serena Hotel can be found here:(https://www.serenahotels.com/nairobi)"
+
+  utter_FindAccommodationCostRadissonBluHotel:
+  - text: "The accommodation details, activities, cuisine and much more on Radisson Blu Hotel can be found here:(https://www.radissonhotels.com/en-us/hotels/radisson-blu-nairobi-arboretum)"
+
+  utter_FindAccommodationCostEmaraOleSereni:
+  - text: "The accommodation details, activities, cuisine and much more on Emara Ole Sereni can be found here:(https://emara.ole-sereni.com/)"
+
+  utter_FindAccommodationCostIbisStyles:
+  - text: "The accommodation details, activities, cuisine and much more on Ibis Styles can be found here:(https://www.ibisstylesnairobi.com/)"
+
+  utter_FindAccommodationCostEkaHotel:
+  - text: "The accommodation details, activities, cuisine and much more on Eka Hotel can be found here:(https://ekahotel.com/)"
+
+  utter_FindAccommodationCostTribeHotel:
+  - text: "The accommodation details, activities, cuisine and much more on Tribe Hotel can be found here:(https://www.tribe-hotel.com/?gclid=Cj0KCQjw1aOpBhCOARIsACXYv-ckNUlvXQqtCs4Kayv8bYbCLVLnIwf4TAmGkCchLFqqijRtQ7tKq6gaAq27EALw_wcB&gclsrc=aw.ds)"
+
+  utter_FindAccommodationCostSmallWorldCountryClub:
+  - text: "The accommodation details, activities, cuisine and much more on Small World Country Club can be found here:(https://www.booking.com/hotel/ke/kahama-small-world-country-club.en-gb.html?aid=356980&label=gog235jc-1DCAsodkIfa2FoYW1hLXNtYWxsLXdvcmxkLWNvdW50cnktY2x1YkgzWANodogBAZgBCbgBF8gBDNgBA-gBAYgCAagCA7gC8PukqQbAAgHSAiQ4MWVmN2Y3YS0wNDRiLTRlMjUtYTI4ZC0xYjI2MDAyNDVhYWHYAgTgAgE&sid=4a1ec8090c9feee2afc910b13efcc69f&dist=0&keep_landing=1&sb_price_type=total&type=total&)"
+
+  utter_FindAccommodationCostPrideInnHotel:
+  - text: "The accommodation details, activities, cuisine and much more on Pride Inn Hotel can be found here:(https://www.prideinn.co.ke/)"
+
+  utter_FindAccommodationCostTheBomaNairobi:
+  - text: "The accommodation details, activities, cuisine and much more on The Boma Nairobi can be found here:(https://www.theboma.co.ke/the-boma-nairobi/)"
+
+  utter_FindAccommodationCostBestWesternPlus:
+  - text: "The accommodation details, activities, cuisine and much more on Best Western Plus can be found here:(https://www.bestwesternpluswestlands.com/)"
+
+  utter_FindAccommodationCostTheBedelle:
+  - text: "The accommodation details, activities, cuisine and much more on The Bedelle can be found here:(https://thebedelle.com/)"
+
+  utter_FindAccommodationCostPalacinaTheResidence:
+  - text: "The accommodation details, activities, cuisine and much more on Palacina The Residence & Suites can be found here:(https://www.palacina.com/)"
+
+  utter_FindAccommodationCostMacushlaHouse:
+  - text: "The accommodation details, activities, cuisine and much more on Macushla House can be found here:(https://www.tripadvisor.com/Hotel_Review-g294207-d583378-Reviews-Macushla_House-Nairobi.html)"
+
+  utter_FindAccommodationCostEnashipaiResort:
+  - text: "The accommodation details, activities, cuisine and much more on Enashipai Resort can be found here:(https://www.enashipai.com/#/)"
+
+  utter_FindAccommodationCostLakeNaivashaCountryClub:
+  - text: "The accommodation details, activities, cuisine and much more on Lake Naivasha Country Club can be found here:(https://www.muthuhotelsmgm.com/muthu-lake-naivasha-country-club-kenya-hotel.html)"
+
+  utter_FindAccommodationCostSawelaLodges:
+  - text: "The accommodation details, activities, cuisine and much more on Sawela Lodges can be found here:(https://sawelalodges.com/)"
+
+  utter_FindAccommodationCostFishermansCamp:
+  - text: "The accommodation details, activities, cuisine and much more on Fisherman's Camp can be found here:(https://fishermanscamp.com/)"
+
+  utter_FindAccommodationCostNaivashaKongoniLodge:
+  - text: "The accommodation details, activities, cuisine and much more on Naivasha Kongoni Lodge can be found here:(https://naivashakongonilodge.com/)"
+
+  utter_FindAccommodationCostCraterLakeTentedCamp:
+  - text: "The accommodation details, activities, cuisine and much more on Crater Lake Tented Camp can be found here:(https://www.craterlake.co.ke/)"
+
+  utter_FindAccommodationCostGreatRiftValleyLodge:
+  - text: "The accommodation details, activities, cuisine and much more on Great Rift Valley Lodge can be found here:(https://www.heritage-eastafrica.com/greatriftvalleylodgeandgolfresort/golf)"
+
+  utter_FindAccommodationCostOleraiHouse:
+  - text: "The accommodation details, activities, cuisine and much more on Olerai House can be found here:(http://elephantwatchportfolio.com/oleraihouse/contact-us/)"
+
+  utter_FindAccommodationCostKiangaziHouse:
+  - text: "The accommodation details, activities, cuisine and much more on Kiangazi House can be found here:(https://journeysbydesign.com/destinations/kenya/the-great-rift-valley/kiangazi-house)"
+
+  utter_FindAccommodationCostLerruatLogResort:
+  - text: "The accommodation details, activities, cuisine and much more on Lerruat Log Resort can be found here:(https://www.lerruatlogresort.co.ke/)"
+
+  utter_FindAccommodationCostSaabRoyaleResort:
+  - text: "The accommodation details, activities, cuisine and much more on Saab Royale Resort can be found here:(https://saabroyaleresort.com/)"
+
+  utter_FindAccommodationCostEnchipaiCampsiteandCottages:
+  - text: "The accommodation details, activities, cuisine and much more on Enchipai Campsite and Cottages can be found here:(https://www.tripadvisor.com/Hotel_Review-g7753813-d14767147-Reviews-Enchipai_Campsite_And_Cottages-Kajiado_Rift_Valley_Province.html)"
+
+  utter_FindAccommodationCostMaasaiLodge:
+  - text: "The accommodation details, activities, cuisine and much more on Maasai Lodge can be found here:(https://maasailodge.com/)"
+
+  utter_FindAccommodationCostOldonyoOrokCamp:
+  - text: "The accommodation details, activities, cuisine and much more on Oldonyo Orok Camp can be found here:(https://oldonyoorok.wixsite.com/oldonyoorokcamp)"
+
+  utter_FindAccommodationCostSarovaWoodlands:
+  - text: "The accommodation details, activities, cuisine and much more on Sarova Woodlands Hotel & Spa can be found here:(https://www.sarovahotels.com/woodlands-nakuru/)"
+
+  utter_FindAccommodationCostLakeNakuruLodge:
+  - text: "The accommodation details, activities, cuisine and much more on Lake Nakuru Lodge can be found here:(https://lakenakurulodge.com/)"
+
+  utter_FindAccommodationCostZiwaBushLodge:
+  - text: "The accommodation details, activities, cuisine and much more on Ziwa Bush Lodge can be found here:(https://www.ziwalodge.com/home)"
+
+  utter_FindAccommodationCostKivuResortNakuru:
+  - text: "The accommodation details, activities, cuisine and much more on Kivu Resort Nakuru can be found here:(https://kivuresort.co.ke/)"
+
+  utter_FindAccommodationCostTopCliffLodge:
+  - text: "The accommodation details, activities, cuisine and much more on Top Cliff Lodge can be found here:(https://www.topclifflodge.co.ke/)"
+
+  utter_FindAccommodationCostAcaciaPremierHotel:
+  - text: "The accommodation details, activities, cuisine and much more on Acacia Premier Hotel can be found here:(https://acaciapremier.com/)"
+
+  utter_FindAccommodationCostCialaResort:
+  - text: "The accommodation details, activities, cuisine and much more on Ciala Resort can be found here:(https://www.cialaresort.com/)"
+
+  utter_FindAccommodationCostSovereignHotelKisumu:
+  - text: "The accommodation details, activities, cuisine and much more on Sovereign Hotel Kisumu can be found here:(https://sovereignhotel.co.ke/#/)"
+
+  utter_FindAccommodationCostTheGrandRoyalSwissHotel:
+  - text: "The accommodation details, activities, cuisine and much more on The Grand Royal Swiss Hotel can be found here:(https://grandroyalswisshotel.com/)"
+
+  utter_FindAccommodationCostSunsetHotelKisumu:
+  - text: "The accommodation details, activities, cuisine and much more on Sunset Hotel Kisumu can be found here:(https://sunsethotel.co.ke/)"
 
   utter_typical_weather:
     - text: "During July, August, and December, Kenya generally has warm and dry weather. July and August are considered to be part of Kenya's dry season,particularly in many of the popular safari destinations like Maasai Mara, Amboseli, and Samburu.Days are typically sunny with clear skies, making it an excellent time for wildlife viewing.While in December, it marks the start of Kenya's short rainy season, especially in central and western regions.Coastal areas, like Mombasa, experience warm and humid weather during this time with occasional rain showers.In Nairobi and the highlands, you can expect some rainfall, but it's often short and sporadic."
