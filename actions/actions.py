@@ -25,3 +25,20 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+# actions.py
+# from rasa_sdk import Action
+# from rasa_sdk.events import SlotSet
+# from rasa.core.policies.fallback import FallbackPolicy
+#
+#
+# class FallbackAction(Action):
+#     def name(self):
+#         return "action_default_fallback"
+#
+#     def run(self, dispatcher, tracker, domain):
+#         # Your fallback message
+#         fallback_response = "'I appreciate your question, but it seems I'm currently stumped.😬😅. I'll be sure to add this to my bot head 😉. Is there anything else you'd like to ask, or can I assist you with something else?"
+#
+#         dispatcher.utter_message(fallback_response)
+#
+#         return [SlotSet("fallback_triggered", True)]
