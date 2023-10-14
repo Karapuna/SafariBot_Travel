@@ -38,6 +38,16 @@ stories:
   - action: utter_provide_interesting_facts_about_destinations
   - intent: affirm
   - action: utter_ask_for_location_of_interest
+
+- story: Places to visit in Kirinyaga
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: where_to_visit_Kirinyaga
+  - action: utter_where_to_visit_Kirinyaga
+  - action: utter_provide_interesting_facts_about_Kirinyaga
+  - intent: affirm
+  - action: utter_ask_for_location_of_interest
   
 - story: facts about Amboseli
   steps:
@@ -54,7 +64,7 @@ stories:
   - intent: facts_abt_Nairobi
   - action: utter_facts_abt_Nairobi
   
-- story: facts about Mt. Kenya
+- story: facts about Mt. KenyaNP
   steps:
   - intent: facts_abt_MtKenya_National_Park
   - action: utter_facts_abt_MtKenya_National_Park
@@ -71,7 +81,22 @@ stories:
   steps:
   - intent: facts_abt_Samburu_National_Reserve
   - action: utter_facts_abt_Samburu_National_Reserve
-  
+
+- story: facts about Ndaraca
+  steps:
+  - intent: facts_abt_Ndaraca_ya_Ngai
+  - action: utter_facts_abt_Ndaraca_ya_Ngai
+
+- story: facts about Outdoorsman Cabin
+  steps:
+  - intent: facts_abt_Outdoorsman_Cabin
+  - action: utter_facts_abt_Outdoorsman_Cabin
+
+- story: facts about Castle Lodge
+  steps:
+  - intent: facts_abt_The_Castle_Lodge
+  - action: utter_facts_abt_The_Castle_Lodge
+
   
 - story: facts about Malindi
   steps:
@@ -98,13 +123,130 @@ stories:
   - intent: facts_abt_The_Great_Rift_Valley
   - action: utter_facts_abt_The_Great_Rift_Valley
 
+- story: facts about great Jamia Mosque
+  steps:
+  - intent: facts_abt_Jamia_Mosque
+  - action: utter_facts_abt_Jamia_Mosque
+
+- story: facts about Uhuru Gardens
+  steps:
+  - intent: facts_abt_Uhuru_Gardens
+  - action: utter_facts_abt_Uhuru_Gardens
+
+- story: facts about Lamu Island
+  steps:
+  - intent: facts_abt_Lamu_Island
+  - action: utter_facts_abt_Lamu_Island
+
+- story: facts about Rusinga Island
+  steps:
+  - intent: facts_abt_Rusinga_Island
+  - action: utter_facts_abt_Rusinga_Island
+
+- story: facts about Wasini Island
+  steps:
+  - intent: facts_abt_Wasini_Island
+  - action: utter_facts_abt_Wasini_Island
+
+- story: facts about Mt Elgon
+  steps:
+  - intent: facts_abt_Mt_Elgon
+  - action: utter_facts_abt_Mt_Elgon
+
+- story: facts about David Sheldrick Wildlife Trust
+  steps:
+  - intent: facts_abt_David_Sheldrick_Wildlife_Trust
+  - action: utter_facts_abt_David_Sheldrick_Wildlife_Trust
+
+- story: facts about Fourteen Falls
+  steps:
+  - intent: facts_abt_Fourteen_Falls
+  - action: utter_facts_abt_Fourteen_Falls
+
+- story: facts about Kisite Mpunguti
+  steps:
+  - intent: facts_abt_Kisite_Mpunguti
+  - action: utter_facts_abt_Kisite_Mpunguti
+
+- story: facts about Crying Stone
+  steps:
+  - intent: facts_abt_Crying_Stone
+  - action: utter_facts_abt_Crying_Stone
+
+- story: facts about Kiboko Bay
+  steps:
+  - intent: facts_abt_Kiboko_Bay
+  - action: utter_facts_abt_Kiboko_Bay
+
+- story: facts about Haller Park
+  steps:
+  - intent: facts_abt_Haller_Park
+  - action: utter_facts_abt_Haller_Park
+
+- story: facts about Giraffe Manor
+  steps:
+  - intent: facts_abt_Giraffe_Manor
+  - action: utter_facts_abt_Giraffe_Manor
+
+- story: facts about Mt Kenya
+  steps:
+  - intent: facts_abt_mtKenya
+  - action: utter_facts_abt_mtKenya
+
+- story: facts about Mt Kenya forest
+  steps:
+  - intent: facts_abt_MtKenya_Forest
+  - action: utter_facts_abt_MtKenya_Forest
+
+- story: facts about Sagana
+  steps:
+  - intent: facts_abt_Sagana_Canyons
+  - action: utter_facts_abt_Sagana_Canyons
+
+- story: facts about Jangwani
+  steps:
+  - intent: facts_abt_Jangwani_Camp
+  - action: utter_facts_abt_Jangwani_Camp
+
+- story: facts about Savage Wilderness
+  steps:
+  - intent: facts_abt_Savage_Wilderness
+  - action: utter_facts_abt_Savage_Wilderness
+
+- story: facts about Rapid Camp
+  steps:
+  - intent: facts_abt_Rapid_Camp
+  - action: utter_facts_abt_Rapid_Camp
+
+- story: facts about Thingira Cultural Village
+  steps:
+  - intent: facts_abt_Thingira_Cultural_Village
+  - action: utter_facts_abt_Thingira_Cultural_Village
+
+- story: facts about Mwea Irrigation Scheme
+  steps:
+  - intent: facts_abt_Mwea_Irrigation_Scheme
+  - action: utter_facts_abt_Mwea_Irrigation_Scheme
+
+
+- story: facts about Rwamuthambi Falls
+  steps:
+  - intent: facts_abt_Rwamuthambi_Falls
+  - action: utter_facts_abt_Rwamuthambi_Falls
+
+
+- story: facts about Castle Falls
+  steps:
+  - intent: facts_abt_Castle_Falls
+  - action: utter_facts_abt_Castle_Falls
+
 
 - story: facts about Ol Pejeta
   steps:
   - intent: facts_abt_Ol_pejeta
   - action: utter_facts_abt_Ol_pejeta
 
- - story: facts about Nanyuki
+- story: facts about Nanyuki
   steps:
   - intent: facts_abt_Nanyuki
   - action: utter_facts_abt_Nanyuki
@@ -119,37 +261,37 @@ stories:
   - intent: facts_abt_Watamu
   - action: utter_facts_abt_Watamu
 
- - story: facts about Equator Marker
+- story: facts about Equator Marker
   steps:
   - intent: facts_abt_Equator_Marker
   - action: utter_facts_abt_Equator_Marker
   
- - story: facts about Equator Marker
+- story: facts about Equator Marker
   steps:
   - intent: facts_abt_Ol_Jogi_Wildlife_Conservancy
   - action: utter_facts_abt_Ol_Jogi_Wildlife_Conservancy
   
- - story: facts about Thomsons Falls
+- story: facts about Thomsons Falls
   steps:
   - intent: facts_abt_Thomsons_Falls
   - action: utter_facts_abt_Thomsons_Falls
   
- - story: facts about Mount Kenya Wildlife Conservancy
+- story: facts about Mount Kenya Wildlife Conservancy
   steps:
   - intent: facts_abt_Mount_Kenya_Wildlife_Conservancy
   - action: utter_facts_abt_Mount_Kenya_Wildlife_Conservancy
 
- - story: facts about Solio Ranch Conservancy
+- story: facts about Solio Ranch Conservancy
   steps:
   - intent: facts_abt_Solio_Ranch_Conservancy
   - action: utter_facts_abt_Solio_Ranch_Conservancy
 
- - story: facts about Sosian Lodge
+- story: facts about Sosian Lodge
   steps:
   - intent: facts_abt_Sosian_Lodge
   - action: utter_facts_abt_Sosian_Lodge
 
- - story: facts about Jangwani Camp Sagana
+- story: facts about Jangwani Camp Sagana
   steps:
   - intent: facts_abt_Jangwani_Camp_Sagana
   - action: utter_facts_abt_Jangwani_Camp_Sagana
@@ -994,12 +1136,15 @@ stories:
     - intent: Safety_Tips_for_Hiking_in_Kenyan_Mountains
     - action: utter_Safety_Tips_for_Hiking_in_Kenyan_Mountains
 
-- story: Directions Anghiti
+#- story: Directions Anghiti
+#  steps:
+#    - intent: greet
+#    - action: utter_greet
+#    - intent: Get_Directions_Anghiti
+#    - action: utter_Get_Directions_Anghiti
+
+- story: User provides unrecognized input (fallback)
   steps:
-    - intent: greet
-    - action: utter_greet
-    - intent: Get_Directions_Anghiti
-    - action: utter_Get_Directions_Anghiti
-
-
+  - intent: fallback
+  - action: action_default_fallback
 

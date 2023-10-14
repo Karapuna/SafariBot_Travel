@@ -54,6 +54,12 @@ nlu:
     - don't like that
     - no way
     - not really
+#- intent: fallback
+#  examples: |
+#    - I don't understand.
+#    - Can you explain that differently?
+#    - I'm not sure what you mean.
+
 - intent: where_to_visit_Ke
   examples: |
     - I want to tour the country Kenya, suggest places to visit
@@ -95,7 +101,7 @@ nlu:
     - Why is Lake Victoria renowned, and what sets it apart from other lakes?
     - Share with me some lesser-known facts about Lake Victoria in Africa.
 
-- intent: facts_abt_ Nairobi
+- intent: facts_abt_Nairobi
   examples: |
     - Nairobi
     - Tell me more about Nairobi city
@@ -167,7 +173,7 @@ nlu:
     - What's the history and significance of Diani Beach as a tourist destination?
     - What are the top things I should know about Diani Beach before planning a trip?
 
- - intent: facts_abt_Manda_Bay
+- intent: facts_abt_Manda_Bay
   examples: |
     - Manda Bay
     - I'm interested in Manda Bay
@@ -180,7 +186,7 @@ nlu:
     - What's the history and significance of Manda Bay as a tourist destination?
     - What are the top things I should know about Manda Bay before planning a trip?
 
- - intent: facts_abt_The_Great_Rift_Valley
+- intent: facts_abt_The_Great_Rift_Valley
   examples: |
     - The Great Rift Valley
     - I'm interested in The Great Rift Valley
@@ -193,7 +199,7 @@ nlu:
     - What's the history and significance of The Great Rift Valley as a tourist destination?
     - What are the top things I should know about The Great Rift Valley before planning a trip?
 
- - intent: facts_abt_Ol_pejeta
+- intent: facts_abt_Ol_pejeta
   examples: |
     - Ol pejeta
     - I'm interested in Ol pejeta
@@ -219,7 +225,7 @@ nlu:
     - What's the history and significance of Nanyuki as a tourist destination?
     - What are the top things I should know about Nanyuki before planning a trip?
 
-  
+
 - intent: facts_abt_Kilifi
   examples: |
     - Kilifi
@@ -233,99 +239,453 @@ nlu:
     - What's the history and significance of Kilifi as a tourist destination?
     - What are the top things I should know about Kilifi before planning a trip?
 
- - intent: facts_abt_Watamu
-   examples: |
-      - Watamu
-      - I'm interested in Watamu
-      - Tell me more about Watamu
-      - I'd like to know more about the unique aspects of Watamu. Can you share some facts?
-      - What makes Watamu a special destination? Can you provide some details?
-      - Give me some insights into the attractions and features of Watamu.
-      - Why should I consider visiting Watamu What sets it apart?
-      - Share some intriguing information about the wildlife and scenery in Watamu.
-      - What's the history and significance of Watamu as a tourist destination?
-      - What are the top things I should know about Watamu before planning a trip?
-  
-  - intent: facts_abt_Equator_Marker
-    examples: |
-      - Equator Marker
-      - I'm interested in the Equator Marker
-      - Tell me more about Equator Marker
-      - I'd like to know more about the unique aspects of Equator Marker. Can you share some facts?
-      - What makes Equator Marker a special destination? Can you provide some details?
-      - Give me some insights into the attractions and features of Equator Marker.
-      - Why should I consider visiting Equator Marker What sets it apart?
-      - Share some intriguing information about the wildlife and scenery in Equator Marker.
-      - What's the history and significance of Equator Marker as a tourist destination?
-      - What are the top things I should know about Equator Marker before planning a trip?
+- intent: facts_abt_Jamia_Mosque
+  examples: |
+    - Jamia Mosque
+    - I'm interested in Jamia Mosque
+    - Tell me more about Jamia Mosque
+    - I'd like to know more about the unique aspects of Jamia Mosque. Can you share some facts?
+    - What makes Jamia Mosque a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Jamia Mosque.
+    - Why should I consider visiting Jamia Mosque What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Jamia Mosque.
+    - What's the history and significance of Jamia Mosque as a tourist destination?
+    - What are the top things I should know about Jamia Mosque before planning a trip?
 
-  - intent: facts_abt_Ol_Jogi_Wildlife_Conservancy
-    examples: |
-      - Ol Jogi Wildlife Conservancy
-      - I'm interested in the Ol Jogi Wildlife Conservancy
-      - Tell me more about Ol Jogi Wildlife Conservancy
-      - I'd like to know more about the unique aspects of Ol Jogi Wildlife Conservancy. Can you share some facts?
-      - What makes Ol Jogi Wildlife Conservancy a special destination? Can you provide some details?
-      - Give me some insights into the attractions and features of Ol Jogi Wildlife Conservancy.
-      - Why should I consider visiting Ol Jogi Wildlife Conservancy What sets it apart?
-      - Share some intriguing information about the wildlife and scenery in Ol Jogi Wildlife Conservancy.
-      - What's the history and significance of Ol Jogi Wildlife Conservancy as a tourist destination?
-      - What are the top things I should know about Ol Jogi Wildlife Conservancy before planning a trip?
+- intent: facts_abt_Uhuru_Gardens
+  examples: |
+    - Uhuru Gardens
+    - I'm interested in Uhuru Gardens
+    - Tell me more about Uhuru Gardens
+    - I'd like to know more about the unique aspects of Uhuru Gardens. Can you share some facts?
+    - What makes Uhuru Gardens a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Uhuru Gardens.
+    - Why should I consider visiting Uhuru Gardens What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Uhuru Gardens.
+    - What's the history and significance of Uhuru Gardens as a tourist destination?
+    - What are the top things I should know about Uhuru Gardens before planning a trip?
 
-  - intent: facts_abt_Thomsons_Falls
-    examples: |
-      - Thomsons Falls
-      - I'm interested in the Thomsons Falls
-      - Tell me more about Thomsons Falls
-      - I'd like to know more about the unique aspects of Thomsons Falls. Can you share some facts?
-      - What makes Thomsons Falls a special destination? Can you provide some details?
-      - Give me some insights into the attractions and features of Thomsons Falls.
-      - Why should I consider visiting Thomsons Falls What sets it apart?
-      - Share some intriguing information about the wildlife and scenery in Thomsons Falls.
-      - What's the history and significance of Thomsons Falls as a tourist destination?
-      - What are the top things I should know about Thomsons Falls before planning a trip?
+- intent: facts_abt_Lamu_Island
+  examples: |
+    - Lamu Island
+    - I'm interested in Lamu Island
+    - Tell me more about Lamu Island
+    - I'd like to know more about the unique aspects of Lamu Island. Can you share some facts?
+    - What makes Lamu Island a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Lamu Island.
+    - Why should I consider visiting Lamu Island What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Lamu Island.
+    - What's the history and significance of Lamu Island as a tourist destination?
+    - What are the top things I should know about Lamu Island before planning a trip?
 
-  - intent: facts_abt_Mount_Kenya_Wildlife_Conservancy
-    examples: |
-      - Mount Kenya Wildlife Conservancy
-      - I'm interested in the Mount Kenya Wildlife Conservancy
-      - Tell me more about Mount Kenya Wildlife Conservancy
-      - I'd like to know more about the unique aspects of Mount Kenya Wildlife Conservancy. Can you share some facts?
-      - What makes Mount Kenya Wildlife Conservancy a special destination? Can you provide some details?
-      - Give me some insights into the attractions and features of Mount Kenya Wildlife Conservancy.
-      - Why should I consider visiting Mount Kenya Wildlife Conservancy What sets it apart?
-      - Share some intriguing information about the wildlife and scenery in Mount Kenya Wildlife Conservancy.
-      - What's the history and significance of Mount Kenya Wildlife Conservancy as a tourist destination?
-      - What are the top things I should know about Mount Kenya Wildlife Conservancy before planning a trip?
- 
- - intent: facts_abt_Solio_Ranch_Conservancy
-    examples: |
-      - Solio Ranch Conservancy
-      - I'm interested in the Solio Ranch Conservancy
-      - Tell me more about Solio Ranch Conservancy
-      - I'd like to know more about the unique aspects of Solio Ranch Conservancy. Can you share some facts?
-      - What makes Solio Ranch Conservancy a special destination? Can you provide some details?
-      - Give me some insights into the attractions and features of Solio Ranch Conservancy.
-      - Why should I consider visiting Solio Ranch Conservancy What sets it apart?
-      - Share some intriguing information about the wildlife and scenery in Solio Ranch Conservancy.
-      - What's the history and significance of Solio Ranch Conservancy as a tourist destination?
-      - What are the top things I should know about Solio Ranch Conservancy before planning a trip?
- 
- - intent: facts_abt_Sosian_Lodge
-    examples: |
-      - Sosian Lodge
-      - I'm interested in the Sosian Lodge
-      - Tell me more about Sosian Lodge
-      - I'd like to know more about the unique aspects of Sosian Lodge. Can you share some facts?
-      - What makes Sosian Lodge a special destination? Can you provide some details?
-      - Give me some insights into the attractions and features of Sosian Lodge.
-      - Why should I consider visiting Sosian Lodge What sets it apart?
-      - Share some intriguing information about the wildlife and scenery in Sosian Lodge.
-      - What's the history and significance of Sosian Lodge as a tourist destination?
-      - What are the top things I should know about Sosian Lodge before planning a trip?
+- intent: facts_abt_Rusinga_Island
+  examples: |
+    - Rusinga Island
+    - I'm interested in Rusinga Island
+    - Tell me more about Rusinga Island
+    - I'd like to know more about the unique aspects of Rusinga Island. Can you share some facts?
+    - What makes Rusinga Island a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Rusinga Island.
+    - Why should I consider visiting Rusinga Island What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Rusinga Island.
+    - What's the history and significance of Rusinga Island as a tourist destination?
+    - What are the top things I should know about Rusinga Island before planning a trip?
 
-  - intent: facts_abt_Jangwani_Camp_Sagana
-    examples: |
+- intent: facts_abt_Wasini_Island
+  examples: |
+    - Wasini Island
+    - I'm interested in Wasini Island
+    - Tell me more about Wasini Island
+    - I'd like to know more about the unique aspects of Wasini Island. Can you share some facts?
+    - What makes Wasini Island a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Wasini Island.
+    - Why should I consider visiting Wasini Island What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Wasini Island.
+    - What's the history and significance of Wasini Island as a tourist destination?
+    - What are the top things I should know about Wasini Island before planning a trip?
+
+- intent: facts_abt_Mt_Elgon
+  examples: |
+    - Mt Elgon
+    - I'm interested in Mt Elgon
+    - Tell me more about Mt Elgon
+    - I'd like to know more about the unique aspects of Mt Elgon. Can you share some facts?
+    - What makes Mt Elgon a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Mt Elgon.
+    - Why should I consider visiting Mt Elgon What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Mt Elgon.
+    - What's the history and significance of Mt Elgon as a tourist destination?
+    - What are the top things I should know about Mt Elgon before planning a trip?
+
+- intent: facts_abt_David_Sheldrick_Wildlife_Trust
+  examples: |
+    - David Sheldrick Wildlife Trust
+    - I'm interested in David Sheldrick Wildlife Trust
+    - Tell me more about David Sheldrick Wildlife Trust
+    - I'd like to know more about the unique aspects of David Sheldrick Wildlife Trust. Can you share some facts?
+    - What makes David Sheldrick Wildlife Trust a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of David Sheldrick Wildlife Trust.
+    - Why should I consider visiting David Sheldrick Wildlife Trust What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in David Sheldrick Wildlife Trust.
+    - What's the history and significance of David Sheldrick Wildlife Trust as a tourist destination?
+    - What are the top things I should know about David Sheldrick Wildlife Trust before planning a trip?
+
+- intent: facts_abt_Fourteen_Falls
+  examples: |
+    - Fourteen falls
+    - I'm interested in Fourteen falls
+    - Tell me more about Fourteen falls
+    - I'd like to know more about the unique aspects of Fourteen falls. Can you share some facts?
+    - What makes Fourteen falls a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Fourteen falls.
+    - Why should I consider visiting Fourteen falls What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Fourteen falls.
+    - What's the history and significance of Fourteen falls as a tourist destination?
+    - What are the top things I should know about Fourteen falls before planning a trip?
+
+- intent: facts_abt_Kisite_Mpunguti
+  examples: |
+    - Kisite Mpunguti
+    - I'm interested in Kisite Mpunguti
+    - Tell me more about Kisite Mpunguti
+    - I'd like to know more about the unique aspects of Kisite Mpunguti. Can you share some facts?
+    - What makes Kisite Mpunguti a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Kisite Mpunguti.
+    - Why should I consider visiting Kisite Mpunguti What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Kisite Mpunguti.
+    - What's the history and significance of Kisite Mpunguti as a tourist destination?
+    - What are the top things I should know about Kisite Mpunguti before planning a trip?
+
+- intent: facts_abt_Crying_Stone
+  examples: |
+    - Crying Stone
+    - I'm interested in Crying Stone
+    - Tell me more about Luanda Magere
+    - I'd like to know more about the unique aspects of Crying Stone. Can you share some facts?
+    - What makes Crying Stone a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Crying Stone.
+    - Why should I consider visiting Crying Stone What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Crying Stone.
+    - What's the history and significance of Crying Stone as a tourist destination?
+    - What are the top things I should know about Crying Stone before planning a trip?
+
+- intent: facts_abt_Kiboko_Bay
+  examples: |
+    - Kiboko Bay
+    - I'm interested in Kiboko Bay
+    - Tell me more about Kiboko Bay
+    - I'd like to know more about the unique aspects of Kiboko Bay. Can you share some facts?
+    - What makes Kiboko Bay a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Kiboko Bay.
+    - Why should I consider visiting Kiboko Bay What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Kiboko Bay.
+    - What's the history and significance of Kiboko Bay as a tourist destination?
+    - What are the top things I should know about Kiboko Bay before planning a trip?
+
+- intent: facts_abt_Haller_Park
+  examples: |
+    - Haller Park
+    - I'm interested in Haller Park
+    - Tell me more about Haller Park
+    - I'd like to know more about the unique aspects of Haller Park. Can you share some facts?
+    - What makes Haller Park a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Haller Park.
+    - Why should I consider visiting Haller Park What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Haller Park.
+    - What's the history and significance of Haller Park as a tourist destination?
+    - What are the top things I should know about Haller Park before planning a trip?
+
+- intent: facts_abt_Giraffe_Manor
+  examples: |
+    - Giraffe Manor
+    - I'm interested in Giraffe Manor
+    - Tell me more about Giraffe Manor
+    - I'd like to know more about the unique aspects of Giraffe Manor. Can you share some facts?
+    - What makes Giraffe Manor a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Giraffe Manor.
+    - Why should I consider visiting Giraffe Manor What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Giraffe Manor.
+    - What's the history and significance of Giraffe Manor as a tourist destination?
+    - What are the top things I should know about Giraffe Manor before planning a trip?
+
+
+- intent: facts_abt_mtKenya
+  examples: |
+    - Mt. Kenya
+    - I'm interested in Mt. Kenya
+    - Tell me more about Mt. Kenya
+    - I'd like to know more about the unique aspects of Mt. Kenya. Can you share some facts?
+    - What makes Mt. Kenya a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Mt. Kenya.
+    - Why should I consider visiting Mt. Kenya What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Mt. Kenya.
+    - What's the history and significance of Mt. Kenya as a tourist destination?
+    - What are the top things I should know about Mt. Kenya before planning a trip?
+
+- intent: where_to_visit_Kirinyaga
+  examples: |
+    - I want to tour the Kirinyaga, suggest places to visit
+    - I'm planning to go on vacation in Kirinyaga can you suggest the best vacation spots
+    - Where can I visit in Kirinyaga
+    - Kirinyaga is huge and I don't know where to start my adventure please suggest some places to visit
+    - I'm thinking about taking a trip to Kirinyaga, can you recommend some places I should definitely visit?
+    - If I were to tour Kirinyaga, where would you suggest I go for a memorable experience?
+    - What are the must-see destinations in Kirinyaga if I plan to travel there?
+    - Could you give me some ideas for places to explore during a visit to Kirinyaga?
+    - I'm considering a trip to Kirinyaga, so can you provide some recommendations on the best places to include in my itinerary?
+    - If I were to go on a tour of Kirinyaga, which spots should I put on my travel list?
+    - I'm looking for travel suggestions for a trip to Kirinyaga. What places do you recommend exploring?
+
+
+- intent: facts_abt_Ndaraca_ya_Ngai
+  examples: |
+    - Ndaraca ya Ngai (God's Bridge)
+    - I'm interested in Ndaraca ya Ngai (God's Bridge)
+    - Tell me more about Ndaraca ya Ngai (God's Bridge)
+    - I'd like to know more about the unique aspects of Ndaraca ya Ngai (God's Bridge). Can you share some facts?
+    - What makes Ndaraca ya Ngai (God's Bridge) a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Ndaraca ya Ngai (God's Bridge).
+    - Why should I consider visiting Ndaraca ya Ngai (God's Bridge) What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Ndaraca ya Ngai (God's Bridge).
+    - What's the history and significance of Ndaraca ya Ngai (God's Bridge) as a tourist destination?
+    - What are the top things I should know about Ndaraca ya Ngai (God's Bridge) before planning a trip?
+
+- intent: facts_abt_Outdoorsman_Cabin
+  examples: |
+    - Outdoorsman Cabin
+    - I'm interested in Outdoorsman Cabin
+    - Tell me more about Outdoorsman Cabin
+    - I'd like to know more about the unique aspects of Outdoorsman Cabin. Can you share some facts?
+    - What makes Outdoorsman Cabin a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Outdoorsman Cabin.
+    - Why should I consider visiting Outdoorsman Cabin What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Outdoorsman Cabin.
+    - What's the history and significance of Outdoorsman Cabin as a tourist destination?
+    - What are the top things I should know about Outdoorsman Cabin before planning a trip?
+
+- intent: facts_abt_The_Castle_Lodge
+  examples: |
+    - The Castle Lodge
+    - I'm interested in The Castle Lodge
+    - Tell me more about The Castle Lodge
+    - I'd like to know more about the unique aspects of The Castle Lodge. Can you share some facts?
+    - What makes The Castle Lodge a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of The Castle Lodge.
+    - Why should I consider visiting The Castle Lodge What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in The Castle Lodge.
+    - What's the history and significance of The Castle Lodge as a tourist destination?
+    - What are the top things I should know about The Castle Lodge before planning a trip?
+
+- intent: facts_abt_MtKenya_Forest
+  examples: |
+    - Mt. Kenya Forest
+    - I'm interested in Mt. Kenya Forest
+    - Tell me more about Mt. Kenya Forest
+    - I'd like to know more about the unique aspects of Mt. Kenya Forest. Can you share some facts?
+    - What makes Mt. Kenya Forest a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Mt. Kenya Forest.
+    - Why should I consider visiting Mt. Kenya Forest What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Mt. Kenya Forest.
+    - What's the history and significance of Mt. Kenya Forest as a tourist destination?
+    - What are the top things I should know about Mt. Kenya Forest before planning a trip?
+
+- intent: facts_abt_Sagana_Canyons
+  examples: |
+    - Sagana Canyons
+    - I'm interested in Sagana Canyons
+    - Tell me more about Sagana Canyons
+    - I'd like to know more about the unique aspects of Sagana Canyons. Can you share some facts?
+    - What makes Sagana Canyons a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Sagana Canyons.
+    - Why should I consider visiting Sagana Canyons What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Sagana Canyons.
+    - What's the history and significance of Sagana Canyons as a tourist destination?
+    - What are the top things I should know about Sagana Canyons before planning a trip?
+
+- intent: facts_abt_Jangwani_Camp
+  examples: |
+    - Jangwani Camp
+    - I'm interested in Jangwani Camp
+    - Tell me more about Jangwani Camp
+    - I'd like to know more about the unique aspects of Jangwani Camp. Can you share some facts?
+    - What makes Jangwani Camp a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Jangwani Camp.
+    - Why should I consider visiting Jangwani Camp What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Jangwani Camp.
+    - What's the history and significance of Jangwani Camp as a tourist destination?
+    - What are the top things I should know about Jangwani Camp before planning a trip?
+
+- intent: facts_abt_Savage_Wilderness
+  examples: |
+    - Savage Wilderness
+    - I'm interested in Savage Wilderness
+    - Tell me more about Savage Wilderness
+    - I'd like to know more about the unique aspects of Savage Wilderness. Can you share some facts?
+    - What makes Savage Wilderness a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Savage Wilderness.
+    - Why should I consider visiting Savage Wilderness What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Savage Wilderness.
+    - What's the history and significance of Savage Wilderness as a tourist destination?
+    - What are the top things I should know about Savage Wilderness before planning a trip?
+
+- intent: facts_abt_Rapid_Camp
+  examples: |
+    - Rapid Camp
+    - I'm interested in Rapid Camp
+    - Tell me more about Rapid Camp
+    - I'd like to know more about the unique aspects of Rapid Camp. Can you share some facts?
+    - What makes Rapid Camp a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Rapid Camp.
+    - Why should I consider visiting Rapid Camp What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Rapid Camp.
+    - What's the history and significance of Rapid Camp as a tourist destination?
+    - What are the top things I should know about Rapid Camp before planning a trip?
+
+- intent: facts_abt_Thingira_Cultural_Village
+  examples: |
+    - Thingira Cultural Village
+    - I'm interested in Thingira Cultural Village
+    - Tell me more about Thingira Cultural Village
+    - I'd like to know more about the unique aspects of Thingira Cultural Village. Can you share some facts?
+    - What makes Thingira Cultural Village a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Thingira Cultural Village.
+    - Why should I consider visiting Thingira Cultural Village What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Thingira Cultural Village.
+    - What's the history and significance of Thingira Cultural Village as a tourist destination?
+    - What are the top things I should know about Thingira Cultural Village before planning a trip?
+
+- intent: facts_abt_Mwea_Irrigation_Scheme
+  examples: |
+    - Mwea Irrigation Scheme
+    - I'm interested in Mwea Irrigation Scheme
+    - Tell me more about Mwea Irrigation Scheme
+    - I'd like to know more about the unique aspects of Mwea Irrigation Scheme. Can you share some facts?
+    - What makes Mwea Irrigation Scheme a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Mwea Irrigation Scheme.
+    - Why should I consider visiting Mwea Irrigation Scheme What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Mwea Irrigation Scheme.
+    - What's the history and significance of Mwea Irrigation Scheme as a tourist destination?
+    - What are the top things I should know about Mwea Irrigation Scheme before planning a trip?
+
+- intent: facts_abt_Rwamuthambi_Falls
+  examples: |
+    - Rwamuthambi Falls
+    - I'm interested in Rwamuthambi Falls
+    - Tell me more about Rwamuthambi Falls
+    - I'd like to know more about the unique aspects of Rwamuthambi Falls. Can you share some facts?
+    - What makes Rwamuthambi Falls a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Rwamuthambi Falls.
+    - Why should I consider visiting Rwamuthambi Falls What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Rwamuthambi Falls.
+    - What's the history and significance of Rwamuthambi Falls as a tourist destination?
+    - What are the top things I should know about Rwamuthambi Falls before planning a trip?
+
+- intent: facts_abt_Castle_Falls
+  examples: |
+    - Castle Falls
+    - I'm interested in Castle Falls
+    - Tell me more about Castle Falls
+    - I'd like to know more about the unique aspects of Castle Falls. Can you share some facts?
+    - What makes Castle Falls a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Castle Falls.
+    - Why should I consider visiting Castle Falls What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Castle Falls.
+    - What's the history and significance of Castle Falls as a tourist destination?
+    - What are the top things I should know about Castle Falls before planning a trip?
+
+- intent: facts_abt_Watamu
+  examples: |
+    - Watamu
+    - I'm interested in Watamu
+    - Tell me more about Watamu
+    - I'd like to know more about the unique aspects of Watamu. Can you share some facts?
+    - What makes Watamu a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Watamu.
+    - Why should I consider visiting Watamu What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Watamu.
+    - What's the history and significance of Watamu as a tourist destination?
+    - What are the top things I should know about Watamu before planning a trip?
+
+
+- intent: facts_abt_Equator_Marker
+  examples: |
+    - Equator Marker
+    - I'm interested in the Equator Marker
+    - Tell me more about Equator Marker
+    - I'd like to know more about the unique aspects of Equator Marker. Can you share some facts?
+    - What makes Equator Marker a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Equator Marker.
+    - Why should I consider visiting Equator Marker What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Equator Marker.
+    - What's the history and significance of Equator Marker as a tourist destination?
+    - What are the top things I should know about Equator Marker before planning a trip?
+
+- intent: facts_abt_Ol_Jogi_Wildlife_Conservancy
+  examples: |
+    - Ol Jogi Wildlife Conservancy
+    - I'm interested in the Ol Jogi Wildlife Conservancy
+    - Tell me more about Ol Jogi Wildlife Conservancy
+    - I'd like to know more about the unique aspects of Ol Jogi Wildlife Conservancy. Can you share some facts?
+    - What makes Ol Jogi Wildlife Conservancy a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Ol Jogi Wildlife Conservancy.
+    - Why should I consider visiting Ol Jogi Wildlife Conservancy What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Ol Jogi Wildlife Conservancy.
+    - What's the history and significance of Ol Jogi Wildlife Conservancy as a tourist destination?
+    - What are the top things I should know about Ol Jogi Wildlife Conservancy before planning a trip?
+
+- intent: facts_abt_Thomsons_Falls
+  examples: |
+    - Thomsons Falls
+    - I'm interested in the Thomsons Falls
+    - Tell me more about Thomsons Falls
+    - I'd like to know more about the unique aspects of Thomsons Falls. Can you share some facts?
+    - What makes Thomsons Falls a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Thomsons Falls.
+    - Why should I consider visiting Thomsons Falls What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Thomsons Falls.
+    - What's the history and significance of Thomsons Falls as a tourist destination?
+    - What are the top things I should know about Thomsons Falls before planning a trip?
+
+- intent: facts_abt_Mount_Kenya_Wildlife_Conservancy
+  examples: |
+    - Mount Kenya Wildlife Conservancy
+    - I'm interested in the Mount Kenya Wildlife Conservancy
+    - Tell me more about Mount Kenya Wildlife Conservancy
+    - I'd like to know more about the unique aspects of Mount Kenya Wildlife Conservancy. Can you share some facts?
+    - What makes Mount Kenya Wildlife Conservancy a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Mount Kenya Wildlife Conservancy.
+    - Why should I consider visiting Mount Kenya Wildlife Conservancy What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Mount Kenya Wildlife Conservancy.
+    - What's the history and significance of Mount Kenya Wildlife Conservancy as a tourist destination?
+    - What are the top things I should know about Mount Kenya Wildlife Conservancy before planning a trip?
+
+- intent: facts_abt_Solio_Ranch_Conservancy
+  examples: |
+    - Solio Ranch Conservancy
+    - I'm interested in the Solio Ranch Conservancy
+    - Tell me more about Solio Ranch Conservancy
+    - I'd like to know more about the unique aspects of Solio Ranch Conservancy. Can you share some facts?
+    - What makes Solio Ranch Conservancy a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Solio Ranch Conservancy.
+    - Why should I consider visiting Solio Ranch Conservancy What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Solio Ranch Conservancy.
+    - What's the history and significance of Solio Ranch Conservancy as a tourist destination?
+    - What are the top things I should know about Solio Ranch Conservancy before planning a trip?
+- intent: facts_abt_Sosian_Lodge
+  examples: |
+    - Sosian Lodge
+    - I'm interested in the Sosian Lodge
+    - Tell me more about Sosian Lodge
+    - I'd like to know more about the unique aspects of Sosian Lodge. Can you share some facts?
+    - What makes Sosian Lodge a special destination? Can you provide some details?
+    - Give me some insights into the attractions and features of Sosian Lodge.
+    - Why should I consider visiting Sosian Lodge What sets it apart?
+    - Share some intriguing information about the wildlife and scenery in Sosian Lodge.
+    - What's the history and significance of Sosian Lodge as a tourist destination?
+    - What are the top things I should know about Sosian Lodge before planning a trip?
+
+- intent: facts_abt_Jangwani_Camp_Sagana
+  examples: |
       - Jangwani Camp Sagana
       - I'm interested in the Jangwani Camp Sagana
       - Tell me more about Jangwani Camp Sagana
@@ -336,7 +696,7 @@ nlu:
       - Share some intriguing information about the scenery in Jangwani Camp Sagana.
       - What's the history and significance of Jangwani Camp Sagana as a tourist destination?
       - What are the top things I should know about Jangwani Camp Sagana before planning a trip?
-          
+
 - intent: find_national_park
   examples: |
     - which is the best national park to visit in Kenya

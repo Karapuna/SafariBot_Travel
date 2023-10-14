@@ -11,7 +11,7 @@ intents:
   - where_to_visit_Ke
   - facts_abt_Amboseli_National_Park
   - facts_abt_lake_victoria
-  - facts_abt_ Nairobi
+  - facts_abt_Nairobi
   - facts_abt_MtKenya_National_Park
   - facts_abt_Mombasa
   - facts_abt_Malindi
@@ -19,6 +19,33 @@ intents:
   - facts_abt_Diani_Beach
   - facts_abt_Manda_Bay
   - facts_abt_The_Great_Rift_Valley
+  - facts_abt_Jamia_Mosque
+  - facts_abt_Uhuru_Gardens
+  - facts_abt_Lamu_Island
+  - facts_abt_Rusinga_Island
+  - facts_abt_Wasini_Island
+  - facts_abt_Mt_Elgon
+  - facts_abt_David_Sheldrick_Wildlife_Trust
+  - facts_abt_Fourteen_Falls
+  - facts_abt_Kisite_Mpunguti
+  - facts_abt_Crying_Stone
+  - facts_abt_Kiboko_Bay
+  - facts_abt_Haller_Park
+  - facts_abt_Giraffe_Manor
+  - facts_abt_mtKenya
+  - where_to_visit_Kirinyaga
+  - facts_abt_Ndaraca_ya_Ngai
+  - facts_abt_Outdoorsman_Cabin
+  - facts_abt_The_Castle_Lodge
+  - facts_abt_MtKenya_Forest
+  - facts_abt_Sagana_Canyons
+  - facts_abt_Jangwani_Camp
+  - facts_abt_Savage_Wilderness
+  - facts_abt_Rapid_Camp
+  - facts_abt_Thingira_Cultural_Village
+  - facts_abt_Mwea_Irrigation_Scheme
+  - facts_abt_Rwamuthambi_Falls
+  - facts_abt_Castle_Falls
   - facts_abt_Ol_pejeta
   - facts_abt_Nanyuki
   - facts_abt_Kilifi
@@ -171,6 +198,8 @@ intents:
   - ask_top_tourist_attractions_Kisumu
   - ask_nationalparks_Mombasa
 
+#actions:
+#  - action_default_fallback
 
 
 responses:
@@ -236,7 +265,7 @@ responses:
       Lake Victoria is a true gem in East Africa! 🌍 Here are some fascinating facts that will pique any traveler's interest: Lake Victoria is the largest tropical lake in the world, often called the "Heart of Africa" due to its central location in the continent, shared by Kenya, Tanzania, and Uganda
       Here, you'll discover intriguing facts about the lake, including its rich biodiversity and unique cultural encounters. On the Kenyan side, pristine landscapes offer tranquil retreats, ideal for those seeking peaceful getaways. Anglers can rejoice in fishing adventures while birdwatchers revel in spotting endemic and migratory species. Immerse yourself in the rich traditions of the Luo and Luhya communities, visit historical sites on islands like Rusinga, and relax amidst ancient rock art on Mfangano. This eco-friendly haven supports local conservation and boasts various water sports for adventure seekers. Budget-friendly options and diverse accommodations ensure a memorable stay. Lake Victoria in Kenya harmoniously weaves nature, culture, and adventure into an unforgettable tapestry, beckoning you to explore its unique charm. 🌴🌅🎣
 
-  utter_facts_abt_ Nairobi:
+  utter_facts_abt_Nairobi:
   - text: |
       Nairobi, the captivating capital and the largest city of Kenya, beckons with its rich blend of history, culture, and natural wonders. 🏙️ Immerse yourself in its legendary colonial past, explore the sprawling infrastructure, and savor the aroma of the flourishing tea and coffee industry. Nairobi boasts a unique charm where you can witness the vibrant culture and dynamic contemporary art scene that define modern Kenya. But that's not all; the city's wildlife parks, like Nairobi National Park and Hell's Gate National Park, offer a remarkable opportunity to get up close with Kenya's stunning wildlife. 🌆🦓🎨
 
@@ -278,11 +307,135 @@ responses:
   utter_facts_abt_The_Great_Rift_Valley:
   - text: |
       The Great Rift Valley in Kenya is a natural wonder that promises an extraordinary journey. Stretching across the landscape, it offers breathtaking vistas and diverse ecosystems. 🌄 Home to an array of wildlife, including flamingos at Lake Nakuru, it's a paradise for nature enthusiasts. The geothermal activity here gives rise to fascinating hot springs and geysers in places like Hell's Gate National Park. Additionally, the valley is a window into the cultures and traditions of the indigenous tribes. If you're an adventure seeker, the Great Rift Valley offers hiking, rock climbing, and the chance to marvel at one of Earth's most remarkable geological features. It's a destination where nature, wildlife, culture, and adventure converge, making it an unmissable experience for any traveler exploring Kenya. 🦓🏞️🚵‍♀️📸
-  
+
   utter_facts_abt_Kilifi:
   - text: |
       Kilifi, a coastal gem along Kenya's Indian Ocean, beckons tourists with its serene beaches, azure waters, and vibrant culture. 🏖️ This charming town is known for its pristine coastline, providing an ideal backdrop for relaxation, water sports, and stunning sunsets. Explore the Kilifi Creek, where you can kayak, sail, and marvel at the mangrove forests. For culture enthusiasts, Kilifi offers a glimpse into Swahili traditions and delectable coastal cuisine. Whether you're in search of laid-back beachfront living, thrilling water adventures, or cultural immersion, Kilifi welcomes you with open arms. It's the perfect place to unwind, explore, and create cherished coastal memories in Kenya. 🌅🌊🍤
   
+  utter_facts_abt_Jamia_Mosque:
+  - text: |
+      Jamia Mosque, nestled in the heart of Nairobi, offers a captivating blend of Islamic architecture and Kenyan culture. 🕌 This iconic mosque is not only a place of worship but a symbol of religious harmony in Kenya, showcasing the peaceful coexistence of different faiths. As a tourist, exploring Jamia Mosque allows you to delve into the architectural beauty, serene ambiance, and spiritual significance it holds. It's a window into the cultural tapestry of Kenya and an opportunity to witness firsthand the nation's commitment to tolerance and diversity. A visit here is an enlightening experience, offering insights into both faith and unity in this vibrant country. 🇰🇪🕌🌟
+  utter_facts_abt_Uhuru_Gardens:
+  - text: |
+      Uhuru Gardens, located in Nairobi, isn't just a park; it's a living testament to Kenya's history and a symbol of the nation's independence. 🏞️ This picturesque park was established to honor Kenya's liberation from British colonial rule in 1963, and it exudes a profound sense of freedom and unity. Tourists exploring Uhuru Gardens can immerse themselves in its lush greenery, monuments, and serene atmosphere while commemorating the country's hard-fought journey to sovereignty. It's not just a park; it's an opportunity to feel the spirit of Kenya's freedom and to reflect on its rich history. A visit to Uhuru Gardens is a tranquil and educational experience that connects you to Kenya's past and present. 🇰🇪🌳📜
+
+  utter_facts_abt_Lamu_Island:
+  - text: |
+      Lamu Island, a hidden gem along Kenya's coast, is an enchanting destination that promises to transport you back in time. 🏝️ This UNESCO World Heritage site is steeped in Swahili culture and boasts winding alleyways, well-preserved Swahili architecture, and pristine beaches. Tourists exploring Lamu Island can stroll through the narrow streets, absorbing the timeless ambiance, visit the Lamu Museum, and relish the delicious local cuisine. It's a place where traditions thrive and relaxation reigns, offering a unique blend of cultural immersion and coastal beauty. Discover why Lamu Island is a traveler's dream, where history and paradise merge seamlessly. 🌍🏰🍛
+        
+  utter_facts_abt_Rusinga_Island:
+  - text: |
+      Rusinga Island, nestled in the turquoise waters of Lake Victoria, is a tranquil oasis that's waiting to captivate you. 🌴 This serene island is not only known for its stunning landscapes and calming waters but is also an archaeological treasure trove, where prehistoric fish fossils have been uncovered. Tourists exploring Rusinga Island can unwind on its pristine beaches, indulge in birdwatching, or venture to the nearby Takawiri Island. It's a place where time seems to stand still, making it an ideal retreat for relaxation and exploration. A visit to Rusinga Island promises a unique blend of nature and history, offering a peaceful escape and a glimpse into Kenya's diverse and fascinating past. 🏝️🦜🦕
+  utter_facts_abt_Wasini_Island:
+  - text: |
+      Wasini Island, a coastal jewel off Kenya's shores, beckons with its unique blend of marine wonders and Swahili traditions. 🌊 Tourists exploring Wasini Island can embark on thrilling snorkeling adventures in the coral-rich waters, often spotting playful dolphins. To make your visit even more memorable, enjoy a traditional Swahili meal, offering a delicious taste of local cuisine. This island is a paradise for nature lovers and culture enthusiasts, providing a serene escape with underwater delights and vibrant coastal traditions. It's the perfect place to soak in the beauty of Kenya's coastline while savoring its authentic flavors. 🏝️🍽️🐬
+
+  utter_facts_abt_Mt_Elgon:
+  - text: |
+      Mount Elgon, a captivating volcanic mountain on Kenya's western border, invites adventurous tourists to explore its lush forests, towering peaks, and intriguing caves. 🏞️ This dormant volcano boasts one of the world's largest intact calderas, offering a unique hiking experience with diverse flora and fauna, including elephants and buffaloes. Tourists can trek through the caldera, discover enchanting caves like Kitum, and revel in the breathtaking Sipi Falls. Mount Elgon's rich natural beauty and geological marvels make it a hidden gem for hikers, adventure seekers, and nature lovers. Exploring this picturesque mountain is a rewarding journey into Kenya's unspoiled wilderness, making it a must-visit destination for those seeking both serenity and adventure. 🏔️🌿🌋
+        
+  utter_facts_abt_David_Sheldrick_Wildlife_Trust:
+  - text: |
+      The David Sheldrick Wildlife Trust in Nairobi is a heartwarming destination that will leave you in awe of Kenya's conservation efforts. 🐘 As a haven for orphaned elephants and rhinos, it offers a remarkable opportunity to get up close with baby elephants, learn about their stories, and witness the incredible work being done to protect these gentle giants. Tourists exploring the David Sheldrick Wildlife Trust not only contribute to conservation but also have a chance to adopt an elephant and be a part of their journey to rehabilitation and eventual release back into the wild. It's a place where your visit directly supports wildlife preservation, offering an unforgettable and meaningful experience for animal lovers and conservation enthusiasts. 🐾🌍🐘
+
+  utter_facts_abt_Fourteen_Falls:
+  - text: |
+      Fourteen Falls, nestled near Thika in Kenya, is a mesmerizing cascade of waterfalls that promises a day of natural wonder and relaxation. 🏞️ This enchanting site is a favorite among locals and tourists alike, offering a perfect backdrop for picnics, swimming, and even boat rides. The name "Fourteen Falls" doesn't refer to just 14 waterfalls but rather the 14 distinct falls and rapids that come together in a breathtaking display of nature's power and beauty. For tourists exploring Kenya, a visit to Fourteen Falls is a refreshing escape from the city, where you can bask in the serene atmosphere and immerse yourself in the natural beauty that makes Kenya so special. It's an excellent choice for those seeking a tranquil day trip amid captivating landscapes. 🌿🌊🚣‍♂️
+        
+  utter_facts_abt_Kisite_Mpunguti:
+  - text: |
+      Kisite Mpunguti, a marine national park and reserve in Kenya, is a hidden underwater treasure waiting to be explored. 🏝️ This breathtaking marine sanctuary, with its crystal-clear waters and vibrant coral reefs, offers an underwater haven for snorkelers and divers. You'll be enchanted by the diverse marine life, including dolphins, turtles, and colorful fish, in this pristine paradise. For tourists, exploring Kisite Mpunguti is a chance to witness the magic of Kenya's coastal waters, to swim alongside gentle giants of the sea, and to immerse in the beauty of marine ecosystems. It's the perfect destination for water enthusiasts and nature lovers, offering a glimpse into Kenya's underwater world like no other. 🐬🏊‍♀️🌊
+  
+  utter_facts_abt_Crying_Stone:
+  - text: |
+      The Crying Stone, also known as Luanda Magere, is a mystical natural wonder in western Kenya, and it beckons curious tourists with its intriguing tale. 🗿 According to local folklore, Luanda Magere was a legendary warrior who turned into stone to protect his people from invaders. The stone seems to shed "tears" when it rains, adding to its mystique. Exploring the Crying Stone offers an opportunity to connect with Kenya's rich oral traditions, to witness the melding of myth and reality, and to marvel at the enigmatic natural phenomena. It's an experience that promises a deeper understanding of the cultural fabric and spiritual beliefs of the region, making it a captivating journey for history and folklore enthusiasts. 🌦️🤔🏞️
+
+  utter_facts_abt_Kiboko_Bay:
+  - text: |
+      Kiboko Bay, nestled along the shores of Lake Victoria in Kenya, offers a serene and picturesque escape for tourists seeking lakeside tranquility and nature's wonders. 🌅 This idyllic setting is renowned for its fishing and birdwatching opportunities. Tourists can unwind by the lake, casting lines for Nile perch or tilapia, or simply relishing the sight of diverse bird species. Kiboko Bay's charm lies in its laid-back atmosphere and the chance to experience lakeside living. For those in search of serenity, it's the perfect place to rejuvenate while soaking in Kenya's natural beauty. 🎣🦜🏞️
+
+  utter_facts_abt_Haller_Park:
+  - text: |
+      Haller Park in Mombasa is a remarkable conservation success story that awaits exploration by tourists. 🌿 This vibrant wildlife sanctuary was transformed from a barren limestone quarry into a thriving ecosystem. Tourists visiting Haller Park can feed friendly giraffes, watch crocodiles bask in the sun, and encounter a range of animal species, including hippos and antelopes. It's an excellent opportunity to witness the positive impact of conservation efforts and gain a deeper appreciation for Kenya's rich biodiversity. Exploring Haller Park is not only an educational experience but also a chance to support responsible wildlife preservation, making it an engaging and meaningful stop for nature enthusiasts and animal lovers. 🦒🐊🐾
+        
+  utter_facts_abt_Giraffe_Manor:
+  - text: |
+      Giraffe Manor, a charming boutique hotel in Nairobi, offers a truly enchanting experience for tourists. 🏡 What sets it apart is the delightful presence of resident Rothschild giraffes, who often join you for breakfast through open windows. Interacting with these elegant giants in such an intimate setting is a once-in-a-lifetime opportunity. As you dine, you can hand-feed them and even capture incredible photos that will make your friends envious. Giraffe Manor is not just a hotel; it's a unique encounter with Kenya's wildlife that promises unforgettable memories and a connection with these graceful creatures. Staying here is an immersion into the heart of Nairobi's wildlife, making it a must-visit destination for animal lovers and those seeking a one-of-a-kind adventure. 🦒🥐📸
+
+  utter_facts_abt_mtKenya:
+    - text: |
+        Mount Kenya, often referred to as the "Place of Light," is Kenya's highest peak and a UNESCO World Heritage Site. 🏔️ Its breathtaking landscapes boast stunning peaks, equatorial snow, and unique alpine vegetation. Hiking enthusiasts can tackle challenging treks, while nature lovers can spot rare wildlife like hyrax and diverse bird species. The mountain offers not just adventure but also rich cultural experiences, as it's sacred to local communities. You can embark on epic treks, enjoy mountain climbing, birdwatching, and even savor the thrill of rock climbing. For those who seek an epic trek, a touch of snow near the equator, and a deep connection to Kenya's heritage, exploring Mount Kenya is an unmissable journey that leaves a lasting mark. 🗻🌍🦅🧗‍♂️
+
+  utter_where_to_visit_Kirinyaga:
+    - text: |
+       Kirinyaga is an enchanting realm, where nature's wonders and cultural treasures weave a tapestry of discovery. 🌍 Here's a list of places you can visit
+          ✅ Ndaraca ya Ngai (God's Bridge)
+          ✅ Outdoorsman Cabin
+          ✅ The Castle Lodge
+          ✅ Mt. Kenya Forest
+          ✅ Sagana Canyons
+          ✅ Jangwani Camp
+          ✅ Savage Wilderness
+          ✅ Rapid Camp
+          ✅ Thingira Cultural Village
+          ✅ Mwea Irrigation Scheme
+          ✅ Rwamuthambi Falls
+          ✅ Castle Falls
+  
+  utter_provide_interesting_facts_about_Kirinyaga:
+  - text: |
+      Here's the scoop 🌟 – the selection of locations I've just introduced is merely a glimpse of the extraordinary destinations waiting to be uncovered in Kirinyaga County. Every one of these sites holds its own captivating and distinctive characteristics that can amplify your adventure. So, I'm eager to know, would you fancy delving deeper into these remarkable locales 🤔?
+
+  utter_facts_abt_Ndaraca_ya_Ngai:
+  - text: |
+      Ndaraca ya Ngai, the ethereal "God's Bridge" in Kirinyaga County, is nature's masterpiece that beckons explorers with its enchanting allure. 🌉 This remarkable geological formation, believed to be divinely crafted, connects two worlds, much like the bridge between your dreams and reality. As you stand in awe of this natural wonder, you'll be entranced by the tranquil surroundings and the profound sense of spirituality that it exudes.
+
+      For the adventurous traveler, the surroundings offer a chance to explore the nearby landscapes through hikes and guided nature walks. Birdwatching enthusiasts will be delighted by the variety of avian species in the area. Additionally, the serene ambiance provides an ideal spot for quiet contemplation and relaxation, making it perfect for picnics and meditation. This is not just a site to see; it's an experience to feel and cherish. Discovering Ndaraca ya Ngai is an invitation to connect with nature and the divine, an opportunity that promises to leave you with a deeper sense of wonder and appreciation for Kenya's extraordinary beauty. 🌌🙏🏞️🚶‍♂️🦜
+
+  utter_facts_abt_Outdoorsman_Cabin:
+  - text: |
+      The Outdoorsman Cabin in Kirinyaga County is where the call of the wild meets the comforts of home. 🏡🌿 Nestled in nature's embrace, this rustic cabin offers a serene escape for those seeking adventure and relaxation. Surrounded by the pristine beauty of Kirinyaga, the cabin lets you experience the outdoors like never before. You can hike through lush trails, fish in nearby rivers, enjoy bonfires under starlit skies, and savor the simple joy of waking up to the sounds of the wilderness. It's a unique haven for nature lovers and adventure seekers, an ideal place to reconnect with the great outdoors while enjoying cozy, rustic comfort. Whether you're an angler, hiker, stargazer, or simply in need of tranquility, the Outdoorsman Cabin welcomes you to experience the best of Kirinyaga's wild beauty. 🌄🎣🏞️🔥
+
+  utter_facts_abt_The_Castle_Lodge:
+  - text: |
+      The Castle Lodge, nestled in the heart of Kirinyaga County, is your royal gateway to an enchanting African adventure. 🏰✨ With its striking architecture and captivating landscapes, this lodge offers a unique blend of comfort and wilderness. While staying here, you can embrace Kirinyaga's regal beauty with activities like guided nature walks, birdwatching, and traditional storytelling by a bonfire. Imagine waking up to the majestic views of Kirinyaga and the promise of a day filled with hiking through pristine forests, taking in the panoramic vistas, and discovering the local culture. This castle-like haven is an invitation to experience the best of Kirinyaga, where every day is a new chapter in an unforgettable story. It's the perfect place for those seeking the majesty of nature and the charm of a castle, all in one remarkable setting. 🏞️🏰🚶‍♂️🔥
+
+  utter_facts_abt_MtKenya_Forest:
+  - text: |
+      The legendary Mt. Kenya Forest, cradling the majestic peak of the same name, is a realm where nature's beauty knows no bounds. 🌲🗻 Home to diverse wildlife, including elephants and enchanting bird species, it's a place where your every step is met with whispers of ancient trees. Here, you can embark on thrilling hikes and treks, birdwatching escapades, and even catch a glimpse of the elusive bongo antelope. The forest isn't just a destination; it's a journey that leads you deep into the heart of Kenya's biodiversity, where adventure and tranquility coexist in perfect harmony. Exploring the Mt. Kenya Forest promises not just an encounter with nature's grandeur but an opportunity to embrace its serene and captivating embrace. 🌄🦋🚶‍♀️
+
+  utter_facts_abt_Sagana_Canyons:
+  - text: |
+      Prepare for a heart-pounding adventure at Sagana Canyons in Kenya. 🏞️ Nature has sculpted this thrilling playground, where you can conquer the rapids of the Tana River through white-water rafting or kayaking, surrounded by dramatic canyons. For those who prefer to keep their feet on solid ground, there's rock climbing to challenge your limits. The canyons also offer a serene escape for nature enthusiasts, with ample opportunities for birdwatching and picnics. Discovering Sagana Canyons means experiencing the exhilaration of the wild river and the serenity of the surrounding landscapes, all in one breathtaking destination. It's an open invitation to seize the moment and create unforgettable memories in Kenya's untamed beauty. 🌊🚣‍♂️🌄🪢
+
+  utter_facts_abt_Jangwani_Camp:
+  - text: |
+      Savage Wilderness, nestled in Kenya's wild heart, is the ultimate playground for thrill-seekers. 🌄 This adventure haven offers activities like white-water rafting, bungee jumping, rock climbing, and even a tree-top zip line. For nature lovers, the serene surroundings are a great spot for birdwatching and nature walks. But what truly sets Savage Wilderness apart is the heart-pounding exhilaration of conquering the rapids of the Tana River and the unmatched thrill of bungee jumping amidst Kenya's untamed beauty. Whether you're seeking an adrenaline rush or a serene escape, this destination welcomes you to experience the wild side of Kenya in the most unforgettable way. 🚣‍♂️🪢🏞️🪂
+
+  utter_facts_abt_Savage_Wilderness:
+  - text: |
+          Savage Wilderness, nestled in Kenya's wild heart, is the ultimate playground for thrill-seekers. 🌄 This adventure haven offers activities like white-water rafting, bungee jumping, rock climbing, and even a tree-top zip line. For nature lovers, the serene surroundings are a great spot for birdwatching and nature walks. But what truly sets Savage Wilderness apart is the heart-pounding exhilaration of conquering the rapids of the Tana River and the unmatched thrill of bungee jumping amidst Kenya's untamed beauty. Whether you're seeking an adrenaline rush or a serene escape, this destination welcomes you to experience the wild side of Kenya in the most unforgettable way. 🚣‍♂️🪢🏞️🪂
+
+  utter_facts_abt_Rapid_Camp:
+  - text: |
+      Rapid Camp in Kenya is an idyllic riverside retreat where adventure and tranquility harmonize perfectly. 🌅 Tucked along the banks of the scenic Tana River, it's a paradise for outdoor enthusiasts. Here, you can engage in thrilling white-water rafting, fish in the river's clear waters, and embark on nature walks through the lush surroundings. Picture yourself by a crackling bonfire under the starlit African sky. Whether you seek the rush of the rapids, the thrill of fishing, or a serene riverside escape, Rapid Camp promises an unforgettable experience, where you can create cherished memories amidst the unspoiled beauty of Kenya. It's an open invitation to make the most of the great outdoors. 🌊🎣🚶‍♂️🔥
+
+  utter_facts_abt_Thingira_Cultural_Village:
+  - text: |
+      Thingira Cultural Village is a captivating journey into the heart of Kirinyaga's rich cultural tapestry. 🏠 Immerse yourself in traditional music, dance, and storytelling, and savor the flavors of authentic Kenyan cuisine. Engage with the local community, where you can learn about ancient customs, artistry, and the unique way of life. Take part in arts and crafts workshops, and even try your hand at traditional cooking. Exploring Thingira Cultural Village is an opportunity to not only witness, but actively participate in Kenya's living heritage. It's a place where you can create connections, share smiles, and experience the vibrant culture of Kirinyaga in the most immersive way. 🎶🎨🍲🪢
+
+  utter_facts_abt_Mwea_Irrigation_Scheme:
+  - text: |
+      The Mwea Irrigation Scheme in Kenya is an emblem of human innovation amidst natural beauty. 🌾 This marvel of engineering showcases the meticulous system of irrigation canals and paddy fields that sustain lush rice paddies in Kirinyaga County. Exploring this site is a chance to witness human endeavor and the harmonious coexistence of agriculture and the environment. You can take educational tours to understand the irrigation techniques, delve into the fascinating process of rice cultivation, and even participate in the rice planting and harvesting, gaining a deeper appreciation for the region's agriculture. For travelers seeking an off-the-beaten-path experience, the Mwea Irrigation Scheme offers an insightful and hands-on connection with the agricultural heritage of Kenya. 🌱🌿🌾🌞
+
+  utter_facts_abt_Rwamuthambi_Falls:
+  - text: |
+      Rwamuthambi Falls, hidden away in the heart of Kirinyaga County, is a mesmerizing natural wonder waiting to be discovered. 🌊 This waterfall cascades gracefully through lush surroundings, creating an oasis of serenity. It's an ideal spot for picnics, where you can savor a meal while being serenaded by the gentle roar of the falls. Nature enthusiasts can explore the beautiful surroundings, taking in the vibrant birdlife and flora. For the adventurous, there are opportunities for hiking, swimming, and even capturing the falls' beauty through photography. This hidden gem invites you to unwind, recharge, and immerse yourself in the tranquil embrace of nature. Whether you're seeking adventure or a peaceful retreat, Rwamuthambi Falls promises a memorable experience amidst Kirinyaga's unspoiled beauty. 🌄🏞️🍃📸
+
+  utter_facts_abt_Castle_Falls:
+  - text: |
+      Castle Falls, nestled in the heart of Kirinyaga County, is a hidden gem that nature lovers and adventure seekers should not miss. 🌄 This enchanting waterfall tumbles gracefully through a serene landscape, inviting you to embark on a journey of discovery. You can bask in the refreshing spray of the falls, enjoy a picnic with the melodious backdrop of nature, and explore the lush surroundings. For those who crave adventure, hiking and birdwatching are a must. Castle Falls is a realm of untamed beauty, a place where you can immerse yourself in the wonders of Kirinyaga and create cherished memories amidst the splendor of the outdoors. Whether you're in search of tranquility or an adrenaline rush, this captivating destination has something for every traveler. 🏞️🚶‍♂️🍃
+
   utter_facts_abt_Equator_Marker:
   - text: |
       The Equator Marker in Kenya offers a unique opportunity to stand with one foot in the Northern Hemisphere and the other in the Southern Hemisphere. 🌍👣 It's not just a geographical point; it's a fun and fascinating experience. You can balance an egg on a nail, and it won't fall, thanks to the Earth's rotation! Visiting the Equator Marker allows you to witness a remarkable scientific phenomenon and take home a fantastic story of defying gravity. Plus, who wouldn't want to say they've straddled two hemispheres in one unforgettable moment? It's an interactive and Instagram-worthy adventure that adds an exciting twist to your Kenyan journey! 🥚🤩 #EquatorExplorer
@@ -310,7 +463,7 @@ responses:
   utter_facts_abt_Jangwani_Camp_Sagana:
   - text: |
       Jangwani Camp Sagana is where adventure and nature converge in Kenya. 🏕️ Nestled amidst the scenic beauty of Sagana, this camp offers thrilling activities like white-water rafting, kayaking, and rock climbing along the iconic Tana River. But it's not just adrenaline; the camp is also a serene retreat with the soothing sound of the river as your backdrop. You can immerse in Kenya's natural beauty, spot diverse bird species, and unwind by the campfire under the starry African sky. It's the perfect escape for adventure seekers, nature lovers, and anyone looking to experience Kenya's wilderness in a truly interactive and unforgettable way. 🌅🚣‍♂️🌿
-  
+
   utter_find_national_park:
   - text: "Kenya offers a wealth of breathtaking tourist attractions. Some of the top places to visit include the Maasai Mara National Reserve, Amboseli National Park, Nairobi National Park, Tsavo East and West National Parks, and the Great Rift Valley."
 
@@ -345,16 +498,16 @@ responses:
   utter_facts_abt_Ol_pejeta:
   - text: |
       Ol Pejeta Conservancy in Kenya is a wildlife wonderland where your safari dreams come true. 🌍 This remarkable conservation area is home to the last two northern white rhinos on Earth and offers sanctuary to an abundance of other species. Tourists can embark on thrilling game drives to spot the Big Five, including rare black rhinos, or visit the Chimpanzee Sanctuary to connect with our closest relatives. What makes Ol Pejeta truly special is its commitment to conservation and community development, making it a responsible choice for eco-conscious travelers. Exploring Ol Pejeta is an opportunity to witness the beauty of Kenya's wildlife, participate in meaningful conservation, and support local communities. It's an extraordinary adventure that leaves an impact far beyond your visit. 🦏🐆🐵
-  
+
   utter_facts_abt_Nanyuki:
   - text: |
       Nanyuki, often referred to as the gateway to Mount Kenya, is a charming town that holds the keys to unforgettable adventures in Kenya. 🌄 Surrounded by stunning landscapes, Nanyuki offers a unique blend of nature, culture, and adrenaline-packed activities. Tourists can explore the rugged terrain of Mount Kenya on treks, visit wildlife sanctuaries, and even enjoy a thrilling air safari. It's also a hub for unique cultural experiences, allowing you to interact with local communities and savor traditional dishes. Nanyuki is the perfect base for exploring Mount Kenya National Park, offering a chance to conquer this iconic peak or simply revel in its majesty. If you're seeking a blend of nature, culture, and adventure, Nanyuki is your gateway to it all. 🏞️🏔️🌍
- 
+
   utter_facts_abt_Watamu:
   - text: |
       Watamu, a coastal paradise along Kenya's shores, is an aquatic wonderland that beckons tourists with its vibrant coral reefs and dazzling marine life. 🏝️ This charming town is celebrated for its exquisite beaches, making it a prime destination for sun-seekers and water enthusiasts. Snorkeling and diving in the Watamu Marine National Park offer an enchanting underwater spectacle, with the chance to spot dolphins, turtles, and an array of colorful fish. Watamu is also a gateway to deep-sea fishing, thrilling water sports, and unique air safaris that reveal Kenya's breathtaking landscapes from above. For those in search of coastal beauty and marine adventures, Watamu is the perfect destination. It promises unforgettable experiences in the heart of Kenya's tropical paradise. 🌞🐬🌊
   
-      
+
   utter_enjoy_beach:
   - text: "Enjoy every sun-kissed moment, every gentle wave, and the endless beauty of the beach. May your beach experience be filled with relaxation, joy, and unforgettable memories 🌴🌞"
 
@@ -376,7 +529,6 @@ responses:
       7. Capture a shot at the iconic 🦷 Mombasa Tusks – a symbol of the city's rich history and a must-visit photo spot.
       8. Meet the ancient past at 🏛️ Jumba La Mtwana, where ruins of Swahili buildings transport you back in time.
       9. Seek the sun and sand at Nyali Beach 🏝️, where water sports and beachfront resorts are your gateway to fun and relaxation.
-
 
 
   utter_enjoy_Mombasa:
@@ -404,47 +556,46 @@ responses:
 
   utter_ask_nationalparks_Mombasa:
   - text: |
-       Mombasa, your gateway to Kenya's wild treasures! 🦁🌿
+      Mombasa, your gateway to Kenya's wild treasures! 🦁🌿
 
-      1. Tsavo East National Park: Discover diverse wildlife, including the famous red elephants of Tsavo, on a 3-4 hour drive from Mombasa.
-      2. Tsavo West National Park: Adjacent to Tsavo East, it offers stunning landscapes, Mzima Springs, and more wildlife wonders, just a 3-4 hour drive away.
-      3. Shimba Hills National Reserve: A 45-minute drive from Mombasa, it's a coastal rainforest teeming with unique flora and fauna, including the rare Sable antelope. 🦌🌳
-      4. Arabuko Sokoke Forest Reserve: This haven for bird species, butterflies, and the golden-rumped elephant shrew awaits just a few hours' drive from Mombasa. 🐦🦋🌲
-      5. Haller Park: While not a national park, it's a nature park in Mombasa itself. Here, you can meet giraffes, hippos, reptiles, and more. A perfect spot for a family adventure! 🦒🐊🏞️
+          1. Tsavo East National Park: Discover diverse wildlife, including the famous red elephants of Tsavo, on a 3-4 hour drive from Mombasa.
+          2. Tsavo West National Park: Adjacent to Tsavo East, it offers stunning landscapes, Mzima Springs, and more wildlife wonders, just a 3-4 hour drive away.
+          3. Shimba Hills National Reserve: A 45-minute drive from Mombasa, it's a coastal rainforest teeming with unique flora and fauna, including the rare Sable antelope. 🦌🌳
+          4. Arabuko Sokoke Forest Reserve: This haven for bird species, butterflies, and the golden-rumped elephant shrew awaits just a few hours' drive from Mombasa. 🐦🦋🌲
+          5. Haller Park: While not a national park, it's a nature park in Mombasa itself. Here, you can meet giraffes, hippos, reptiles, and more. A perfect spot for a family adventure! 🦒🐊🏞️
 
-      These reserves and parks near Mombasa promise a thrilling safari adventure and a chance to immerse in Kenya's remarkable natural beauty. 🇰🇪🚗🐾
- 
+        These reserves and parks near Mombasa promise a thrilling safari adventure and a chance to immerse in Kenya's remarkable natural beauty. 🇰🇪🚗🐾
+
   utter_FindFoodNairobi:
-  - text: |
-      Nairobi offers a vibrant culinary scene with a wide range of dining options. Here are some recommendations:
-
-     1. Carnivore Restaurant: Known for its 'Beast of a Feast' featuring a variety of grilled meats.
-     2. Talisman Restaurant: Offers a diverse menu with international and Kenyan dishes.
-     3. Nyama Mama: A great place for modern Kenyan cuisine with a twist.
-     4. K'osewe Ranalo Foods: Famous for traditional Kenyan dishes like sukuma wiki and ugali.
-     5. Hero: Ideal for seafood lovers with a range of fresh seafood dishes.
-     6. Inti: Experience the flavors of Peru at Inti with their delicious ceviche and other Peruvian specialties.
-     7. Ankole Grill: For an upscale dining experience, visit Ankole Grill, known for its juicy steaks and extensive wine list.
-     8. Fogo Gaucho: Enjoy a Brazilian barbecue experience at Fogo Gaucho, where you can savor a variety of grilled meats.
-     9. 5Senses: If you're looking for a diverse menu with global influences, 5Senses offers a wide range of options to satisfy your taste buds.
-    10. Shamba Cafe: For a taste of local Kenyan cuisine, Shamba Cafe serves traditional dishes in a relaxed and welcoming atmosphere.
-
-      Nairobi's street food scene is bustling as well, with options lik 'mutura' and 'smokie pasua.' Vegetarian restaurants such as 'Swad Indian Restaurant' and 'Artcaffe' offer delicious meat-free dishes.
-
-      Please let me know if you'd like more details about any of these options or if you have specific preferences!
+    - text: |
+        Nairobi offers a vibrant culinary scene with a wide range of dining options. Here are some recommendations:
+        
+             1. Carnivore Restaurant: Known for its 'Beast of a Feast' featuring a variety of grilled meats.
+             2. Talisman Restaurant: Offers a diverse menu with international and Kenyan dishes.
+             3. Nyama Mama: A great place for modern Kenyan cuisine with a twist.
+             4. K'osewe Ranalo Foods: Famous for traditional Kenyan dishes like sukuma wiki and ugali.
+             5. Hero: Ideal for seafood lovers with a range of fresh seafood dishes.
+             6. Inti: Experience the flavors of Peru at Inti with their delicious ceviche and other Peruvian specialties.
+             7. Ankole Grill: For an upscale dining experience, visit Ankole Grill, known for its juicy steaks and extensive wine list.
+             8. Fogo Gaucho: Enjoy a Brazilian barbecue experience at Fogo Gaucho, where you can savor a variety of grilled meats.
+             9. 5Senses: If you're looking for a diverse menu with global influences, 5Senses offers a wide range of options to satisfy your taste buds.
+            10. Shamba Cafe: For a taste of local Kenyan cuisine, Shamba Cafe serves traditional dishes in a relaxed and welcoming atmosphere.
+        
+              Nairobi's street food scene is bustling as well, with options lik 'mutura' and 'smokie pasua.' Vegetarian restaurants such as 'Swad Indian Restaurant' and 'Artcaffe' offer delicious meat-free dishes.
+        
+              Please let me know if you'd like more details about any of these options or if you have specific preferences!
 
   utter_FindFineDiningRestaurantsNairobi:
   - text: |
       Nairobi boasts a selection of fine dining establishments where you can experience an upscale culinary journey. Here are some recommendations:
 
-     1. Talisman Restaurant: Known for its fusion of international and Kenyan flavors, offering a refined dining experience.
-     2. Sankara Nairobi: The rooftop restaurant at Sankara Nairobi provides stunning views and a luxurious dining atmosphere.
-     3. Hemmingways Nairobi: Offers a blend of fine dining and a classic brasserie, known for its seafood and grill options.
-     4. Lord Erroll Gourmet Restaurant: Nestled in a serene setting, this restaurant serves gourmet cuisine in an elegant ambiance.
-     5. Tamarind Restaurant: Famous for its seafood and waterfront dining, providing a romantic and upscale experience.
-     6. Seven Seafood & Grill: Offers a range of seafood dishes with a focus on freshness and quality.
-
-   Whether you're celebrating a special occasion or simply want to indulge in a high-end dining experience, these restaurants in Nairobi are sure to impress.
+         1. Talisman Restaurant: Known for its fusion of international and Kenyan flavors, offering a refined dining experience.
+         2. Sankara Nairobi: The rooftop restaurant at Sankara Nairobi provides stunning views and a luxurious dining atmosphere.
+         3. Hemmingways Nairobi: Offers a blend of fine dining and a classic brasserie, known for its seafood and grill options.
+         4. Lord Erroll Gourmet Restaurant: Nestled in a serene setting, this restaurant serves gourmet cuisine in an elegant ambiance.
+         5. Tamarind Restaurant: Famous for its seafood and waterfront dining, providing a romantic and upscale experience.
+         6. Seven Seafood & Grill: Offers a range of seafood dishes with a focus on freshness and quality.
+          Whether you're celebrating a special occasion or simply want to indulge in a high-end dining experience, these restaurants in Nairobi are sure to impress.
   
   utter_FindFoodMombasa:
   - text: |
@@ -567,27 +718,27 @@ responses:
 
        Be sure to check recent reviews and ask locals for their recommendations to discover more hidden culinary treasures in Kenya. Enjoy your gastronomic journey!"
 
-    utter_FindFarmToTableRestaurants:
-   - text: |
+  utter_FindFarmToTableRestaurants:
+  - text: |
        Farm-to-Table dining is a sustainable and eco-friendly way to enjoy fresh and locally sourced food in Kenya. Here are some Farm-to-Table restaurants:
 
-    **Nairobi:**
-    1. Tin Roof Café: A cozy spot known for using fresh ingredients from local farms.
-    2. About Thyme: Offers a farm-to-table dining experience in a beautiful garden setting.
-    3. J's Fresh Bar and Kitchen: Committed to serving organic and locally sourced dishes.
-    4. Cultiva Restaurant: A renowned restaurant dedicated to farm-to-table cuisine.
-    5. Harvest Restaurant: Known for its sustainable and locally sourced ingredients.
-
-    **Mombasa:**
-    1. Bahari Dhow Restaurant: Offers seafood dishes with locally caught seafood.
-    2. The Tamarind Restaurant: Known for its sustainable seafood choices.
-    3. Aniello's Pizza: Uses locally sourced ingredients in their pizzas.
-
-    **Naivasha:**
-    1. Sovereign Suites: Offers farm-fresh produce and locally sourced ingredients.
-    2. Malewa Wildlife Lodge: Committed to sustainable and organic dining.
-
-    Enjoy a guilt-free and sustainable dining experience at these Farm-to-Table restaurants in Kenya!
+        Nairobi 🤪:
+        1. Tin Roof Café: A cozy spot known for using fresh ingredients from local farms.
+        2. About Thyme: Offers a farm-to-table dining experience in a beautiful garden setting.
+        3. J's Fresh Bar and Kitchen: Committed to serving organic and locally sourced dishes.
+        4. Cultiva Restaurant: A renowned restaurant dedicated to farm-to-table cuisine.
+        5. Harvest Restaurant: Known for its sustainable and locally sourced ingredients.
+    
+        Mombasa 🤪:
+        1. Bahari Dhow Restaurant: Offers seafood dishes with locally caught seafood.
+        2. The Tamarind Restaurant: Known for its sustainable seafood choices.
+        3. Aniello's Pizza: Uses locally sourced ingredients in their pizzas.
+    
+        Naivasha 🤪:
+        1. Sovereign Suites: Offers farm-fresh produce and locally sourced ingredients.
+        2. Malewa Wildlife Lodge: Committed to sustainable and organic dining.
+    
+        Enjoy a guilt-free and sustainable dining experience at these Farm-to-Table restaurants in Kenya!💃🏻
   
   utter_FindCostCarnivoreRestaurant:
   - text: "The cost of dining at Carnivore Restaurant can vary depending on your menu choices. On average, a meal at Carnivore Restaurant may range from Ksh. 2,500 - Ksh. 6,000. Keep in mind that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing."
@@ -635,113 +786,113 @@ responses:
   utter_FindAccommodationCoastalRegion:
   - text: "The Kenyan coastal region offers a wide range of accommodation options, from luxurious beachfront resorts to cozy lodges. Here are some recommendations for your stay:
 
-   **Lamu Island:**
-   1. **Peponi Hotel:** A charming beachfront hotel known for its relaxed atmosphere.
-   2. **Majlis Resort:** Offers private villas and a stunning view of the Indian Ocean.
+   Lamu Island:
+   1. Peponi Hotel: A charming beachfront hotel known for its relaxed atmosphere.
+   2. Majlis Resort: Offers private villas and a stunning view of the Indian Ocean.
 
-   **Kilifi:**
-   1. **Baobab Sea Lodge:** A beachfront resort with a range of amenities for a comfortable stay.
-   2. **Mnarani Club:** Known for its sailing and water sports activities.
+   Kilifi
+   1. Baobab Sea Lodge: A beachfront resort with a range of amenities for a comfortable stay.
+   2. Mnarani Club: Known for its sailing and water sports activities.
 
-   **Mombasa:**
-   1. **Sarova Whitesands Beach Resort & Spa:** A popular resort with an expansive beachfront.
-   2. **Voyager Beach Resort:** Offers an all-inclusive experience.
-   3. **PrideInn Beach Resort & Spa:** Known for its comfortable accommodations and beach access.
-   4. **Travelers Beach Hotel & Club:** Offers a variety of amenities and entertainment options.
-   5. **Bamburi Beach Hotel:** Offers a delightful beachfront experience.
+   Mombasa:
+   1. Sarova Whitesands Beach Resort & Spa: A popular resort with an expansive beachfront.
+   2. Voyager Beach Resort: Offers an all-inclusive experience.
+   3. PrideInn Beach Resort & Spa: Known for its comfortable accommodations and beach access.
+   4. Travelers Beach Hotel & Club: Offers a variety of amenities and entertainment options.
+   5. Bamburi Beach Hotel: Offers a delightful beachfront experience.
    
-   **Watamu:**
-   1. **Turtle Bay Beach Club:** A beachfront resort with an eco-friendly focus.
-   2. **Medina Palms:** Known for its luxurious accommodations and serene environment.
-   3. **Hemingways Watamu:** A luxurious boutique hotel with top-notch service.
+   Watamu:
+   1. Turtle Bay Beach Club: A beachfront resort with an eco-friendly focus.
+   2. Medina Palms: Known for its luxurious accommodations and serene environment.
+   3. Hemingways Watamu: A luxurious boutique hotel with top-notch service.
 
-   **Diani:**
-   1. **Diani Reef Beach Resort & Spa:** Offers a range of amenities and water sports activities.
-   2. **Leopard Beach Resort & Spa:** Known for its breathtaking views and comfortable rooms.
+   Diani:
+   1. Diani Reef Beach Resort & Spa: Offers a range of amenities and water sports activities.
+   2. Leopard Beach Resort & Spa: Known for its breathtaking views and comfortable rooms.
    
    Whether you're looking for a romantic getaway, family-friendly options, or water sports adventures, the Kenyan coast has something for everyone. Let me know if you need more information about any of these accommodations."
 
   utter_FindAccommodationNairobi:
   - text: "Nairobi, the capital city of Kenya, offers a wide range of accommodation options to suit different preferences and budgets. Here are some recommendations for your stay in Nairobi:
 
-  **Luxury Hotels:**
-  1. **Villa Rosa Kempinski:** A luxurious hotel offering world-class amenities and fine dining.
-  2. **Hemingways Nairobi:** Known for its elegance and personalized service.
-  3. **Nairobi Serena Hotel:** A city center hotel with stunning views and excellent service.
-  4. **Radisson Blu Hotel, Nairobi:** Offers luxury accommodations and top-notch facilities.
-  5. **Emara Ole Sereni:** A 5-star hotel with picturesque views of the Nairobi National Park.
+  Luxury Hotels:
+  1. Villa Rosa Kempinski: A luxurious hotel offering world-class amenities and fine dining.
+  2. Hemingways Nairobi: Known for its elegance and personalized service.
+  3. Nairobi Serena Hotel: A city center hotel with stunning views and excellent service.
+  4. Radisson Blu Hotel, Nairobi: Offers luxury accommodations and top-notch facilities.
+  5. Emara Ole Sereni: A 5-star hotel with picturesque views of the Nairobi National Park.
   
-  **Mid-Range Hotels:**
-  1. **Ibis Styles:** A modern, warm hotel for solo, family or business travelers.
-  2. **Eka Hotel:** Offers comfortable accommodations and modern amenities.
-  3. **Tribe Hotel:** A boutique hotel with a unique design and ambiance.
-  4. **Small World Country Club:** A Swahili inspired getaway with views over the Kapiti Plains. 
+  Mid-Range Hotels:
+  1.Ibis Styles: A modern, warm hotel for solo, family or business travelers.
+  2. Eka Hotel: Offers comfortable accommodations and modern amenities.
+  3. Tribe Hotel: A boutique hotel with a unique design and ambiance.
+  4. Small World Country Club: A Swahili inspired getaway with views over the Kapiti Plains. 
 
-  **Budget Accommodations:**
-  1. **PrideInn Hotel:** Provides affordable rooms and a convenient location.
-  2. **The Boma Nairobi:** A contemporary hotel designed for luxury and comfort.
-  3. **Best Western Plus:** Offers enhanced style and creative dining experiences.
+  Budget Accommodations:
+  1. PrideInn Hotel: Provides affordable rooms and a convenient location.
+  2. The Boma Nairobi: A contemporary hotel designed for luxury and comfort.
+  3. Best Western Plus: Offers enhanced style and creative dining experiences.
 
-  **Boutique Hotels:**
-  1. **The Bedelle:** A boutique hotel with a chic and stylish design.
-  2. **Palacina The Residence & Suites:** Offers a peaceful retreat with spacious suites.
-  3. **Macushla House:** Known for its charming garden setting.
+  Boutique Hotels:
+  1. The Bedelle: A boutique hotel with a chic and stylish design.
+  2. Palacina The Residence & Suites: Offers a peaceful retreat with spacious suites.
+  3. Macushla House: Known for its charming garden setting.
 
   Whether you're in Nairobi for business, leisure, or a stopover, there are accommodation options to cater to your needs. Let me know if you need more information about any of these accommodations or if you have specific preferences."
 
   utter_FindAccommodationNaivasha:
   - text: "Naivasha offers a range of accommodations for your stay. Here are some options:
 
-    **Hotels:**
-    1. **Enashipai Resort & Spa:** A luxury hotel with beautiful views of Lake Naivasha.
-    2. **Lake Naivasha Country Club:** Known for its tranquil setting and excellent services.
-    3. **Sawela Lodges:** Offers cozy rooms and a peaceful atmosphere.
+    Hotels:
+    1. Enashipai Resort & Spa: A luxury hotel with beautiful views of Lake Naivasha.
+    2. Lake Naivasha Country Club: Known for its tranquil setting and excellent services.
+    3. Sawela Lodges: Offers cozy rooms and a peaceful atmosphere.
 
-    **Lodges:**
-    1. **Fisherman's Camp:** A rustic lodge with stunning lakeside views.
-    2. **Naivasha Kongoni Lodge:** A lodge set in a private conservancy.
-    3. **Crater Lake Tented Camp:** Offers unique accommodation near a volcanic crater.
+    Lodges:
+    1. Fisherman's Camp: A rustic lodge with stunning lakeside views.
+    2. Naivasha Kongoni Lodge: A lodge set in a private conservancy.
+    3. Crater Lake Tented Camp: Offers unique accommodation near a volcanic crater.
 
-    **Resorts:**
-    1. **Great Rift Valley Lodge & Golf Resort:** A resort with a golf course and panoramic views.
-    2. **Olerai House:** Known for its serene surroundings and beautiful gardens.
-    3. **Kiangazi House:** A secluded resort in a picturesque location.
+    Resorts:
+    1. Great Rift Valley Lodge & Golf Resort: A resort with a golf course and panoramic views.
+    2. Olerai House: Known for its serene surroundings and beautiful gardens.
+    3. Kiangazi House: A secluded resort in a picturesque location.
 
     Enjoy your stay in Naivasha! If you'd like more information about any of these options, feel free to ask."
 
   utter_FindAccommodationKajiado:
   - text: "Kajiado offers a range of accommodations, from hotels to lodges, to make your stay comfortable. Here are some options:
     
-    **Kajiado Accommodation:**
-    1. **Lerruat Log Resort:** A popular choice for serene and nature-filled lodging.
-    2. **Saab Royale Resort:** Offers a scenic, relaxed atmosphere for rejuvenation.
-    3. **Enchipai Campsite and Cottages:** This latest resort offers a striking view of the greater Rift Valley.
-    4. **Maasai Lodge:** Offers a unique Maasai cultural experience and comfortable stays.
-    5. **Oldonyo Orok Camp:** An eco-lodge where you can interact with the wildlife at the camp.
+    Kajiado Accommodation:
+    1. Lerruat Log Resort: A popular choice for serene and nature-filled lodging.
+    2. Saab Royale Resort: Offers a scenic, relaxed atmosphere for rejuvenation.
+    3. Enchipai Campsite and Cottages: This latest resort offers a striking view of the greater Rift Valley.
+    4. Maasai Lodge: Offers a unique Maasai cultural experience and comfortable stays.
+    5. Oldonyo Orok Camp: An eco-lodge where you can interact with the wildlife at the camp.
 
     These accommodations offer various amenities and beautiful surroundings. Enjoy your stay in Kajiado!"
 
   utter_FindAccommodationNakuru:
   - text: "Nakuru offers a variety of accommodations for your stay. Here are some options:
     
-    **Nakuru Accommodation:**
-    1. **Sarova Woodlands Hotel & Spa:** A luxurious option with great amenities.
-    2. **Lake Nakuru Lodge:** Located near Lake Nakuru National Park for a wildlife experience.
-    3. **Ziwa Bush Lodge:** It brings the magic of coexistence with nature.
-    4. **Kivu Resort Nakuru:** Offers an affordable and adventurous stay.
-    5. **Top Cliff Lodge:** Where natural beauty meets human art.
+    Nakuru Accommodation:
+    1. Sarova Woodlands Hotel & Spa: A luxurious option with great amenities.
+    2. Lake Nakuru Lodge: Located near Lake Nakuru National Park for a wildlife experience.
+    3. Ziwa Bush Lodge: It brings the magic of coexistence with nature.
+    4. Kivu Resort Nakuru: Offers an affordable and adventurous stay.
+    5. Top Cliff Lodge: Where natural beauty meets human art.
 
     Whether you're looking for luxury or a comfortable stay, Nakuru has options to suit your preferences. Enjoy your visit!"
 
   utter_FindAccommodationKisumu:
   - text: "Kisumu offers a range of accommodations to make your stay comfortable. Here are some options:
 
-    **Kisumu Accommodations:**
-    1. **Acacia Premier Hotel:** A luxury hotel with great amenities and lake views.
-    2. **Ciala Resort:** A luxurious resort over the beautiful hills..
-    3. **Sovereign Hotel Kisumu:** Known for its comfortable rooms and proximity to the city center.
-    4. **The Grand Royal Swiss Hotel:** Offers a blend of comfort and convenience.
-    5. **Sunset Hotel Kisumu:** A budget-friendly choice with good services.
+    Kisumu Accommodations:
+    1. Acacia Premier Hotel: A luxury hotel with great amenities and lake views.
+    2. Ciala Resort: A luxurious resort over the beautiful hills..
+    3. Sovereign Hotel Kisumu: Known for its comfortable rooms and proximity to the city center.
+    4. The Grand Royal Swiss Hotel: Offers a blend of comfort and convenience.
+    5. Sunset Hotel Kisumu: A budget-friendly choice with good services.
 
     Whether you prefer luxury or a cozy stay, Kisumu has options to cater to your needs. Enjoy your visit to Kisumu!"
 
