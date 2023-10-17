@@ -54,14 +54,7 @@ Here are some sample interactions:
 
 ## Data Understanding
 
-Safaribot's recommendations are powered by a rich dataset of 200 records, categorizing questions into various travel-related topics, including directions, safety, local cuisine, and more. For a detailed overview of the dataset and data acquisition, please check the [Data Understanding section](data-understanding.md).
+Safaribot's recommendations are powered by a rich dataset of 200 records, categorizing questions into various travel-related topics, including directions, safety, local cuisine, and more. For a detailed overview of the dataset and data acquisition, please check the [Data Understanding section]((https://docs.google.com/document/d/1o8mpQj0QPzvSnP3XJQv95mNeJQKRHO8dL2nZ1QgNJVM/edit)https://docs.google.com/document/d/1o8mpQj0QPzvSnP3XJQv95mNeJQKRHO8dL2nZ1QgNJVM/edit).
 
-## Contributing
-
-We welcome contributions from the community to make Safaribot even better. If you have ideas, bug fixes, or new features to propose, please see our [Contribution Guidelines](CONTRIBUTING.md).
-
-## License
-
-Safaribot is released under the [MIT License](LICENSE).
 
 </details>
