@@ -54,11 +54,13 @@ nlu:
     - don't like that
     - no way
     - not really
-#- intent: fallback
-#  examples: |
-#    - I don't understand.
-#    - Can you explain that differently?
-#    - I'm not sure what you mean.
+
+- intent: fallback
+  examples: |
+    - I don't understand
+    - Can you explain that?
+    - I'm not sure
+    - What do you mean?
 
 - intent: where_to_visit_Ke
   examples: |

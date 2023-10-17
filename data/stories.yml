@@ -1143,8 +1143,11 @@ stories:
 #    - intent: Get_Directions_Anghiti
 #    - action: utter_Get_Directions_Anghiti
 
-- story: User provides unrecognized input (fallback)
+- story: Fallback
   steps:
   - intent: fallback
-  - action: action_default_fallback
+  - action: action_custom_fallback
+
+
+
 
