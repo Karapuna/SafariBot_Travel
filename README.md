@@ -2,7 +2,7 @@
 <h1 align="center">Safaribot - Your Ultimate Kenyan Travel Companion</h1>
 
 <p align="center">
-  <img src="safaribot_logo.png" alt="Safaribot Logo">
+  <img src="robot.jpg" alt="Safaribot Logo">
 </p>
 
 <p align="center">
@@ -15,8 +15,6 @@
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Data Understanding](#data-understanding)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About Safaribot
 
